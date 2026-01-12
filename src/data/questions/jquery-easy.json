@@ -1,0 +1,86 @@
+{
+  "skill": "jquery",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": "jquery-easy-001",
+      "text": "What is jQuery?",
+      "options": ["JavaScript library", "CSS framework", "HTML preprocessor", "Database tool"],
+      "correctAnswer": 0,
+      "topic": "jQuery Basics",
+      "explanation": "jQuery is a JavaScript library that simplifies HTML document manipulation and event handling."
+    },
+    {
+      "id": "jquery-easy-002",
+      "text": "How do you select all paragraphs in jQuery?",
+      "options": ["$('p')", "$('.p')", "$('#p')", "$('paragraph')"],
+      "correctAnswer": 0,
+      "topic": "jQuery Selectors",
+      "explanation": "Use $('p') to select all paragraph elements in jQuery."
+    },
+    {
+      "id": "jquery-easy-003",
+      "text": "What does $(document).ready() do?",
+      "options": ["Loads the page", "Executes when DOM is ready", "Loads jQuery", "Initializes variables"],
+      "correctAnswer": 1,
+      "topic": "jQuery Events",
+      "explanation": "$(document).ready() executes code when the DOM is fully loaded but before all images are loaded."
+    },
+    {
+      "id": "jquery-easy-004",
+      "text": "How do you hide an element in jQuery?",
+      "options": ["hide()", "remove()", "invisible()", "gone()"],
+      "correctAnswer": 0,
+      "topic": "jQuery DOM Manipulation",
+      "explanation": "The hide() method hides selected elements in jQuery."
+    },
+    {
+      "id": "jquery-easy-005",
+      "text": "Which symbol is used to represent jQuery?",
+      "options": ["$", "#", "@", "&"],
+      "correctAnswer": 0,
+      "topic": "jQuery Basics",
+      "explanation": "The $ symbol is an alias for the jQuery function."
+    },
+    {
+      "id": "jquery-easy-006",
+      "text": "How do you select an element with id 'myDiv'?",
+      "options": ["$('#myDiv')", "$('.myDiv')", "$('myDiv')", "$(*myDiv)"],
+      "correctAnswer": 0,
+      "topic": "jQuery Selectors",
+      "explanation": "Use $('#myDiv') to select an element with id 'myDiv' in jQuery."
+    },
+    {
+      "id": "jquery-easy-007",
+      "text": "How do you select elements with class 'highlight'?",
+      "options": ["$('.highlight')", "$('#highlight')", "$('highlight')", "$(*highlight)"],
+      "correctAnswer": 0,
+      "topic": "jQuery Selectors",
+      "explanation": "Use $('.highlight') to select elements with class 'highlight' in jQuery."
+    },
+    {
+      "id": "jquery-easy-008",
+      "text": "What does the show() method do?",
+      "options": ["Shows hidden elements", "Creates new elements", "Highlights elements", "Moves elements"],
+      "correctAnswer": 0,
+      "topic": "jQuery DOM Manipulation",
+      "explanation": "The show() method displays hidden elements in jQuery."
+    },
+    {
+      "id": "jquery-easy-009",
+      "text": "How do you add a click event to a button?",
+      "options": ["$('button').click()", "$('button').onclick()", "$('button').event()", "$('button').bind()"],
+      "correctAnswer": 0,
+      "topic": "jQuery Events",
+      "explanation": "Use $('button').click() to add a click event handler to buttons in jQuery."
+    },
+    {
+      "id": "jquery-easy-010",
+      "text": "What does the text() method do?",
+      "options": ["Gets or sets text content", "Creates text elements", "Formats text", "Validates text"],
+      "correctAnswer": 0,
+      "topic": "jQuery DOM Manipulation",
+      "explanation": "The text() method gets or sets the text content of selected elements."
+    }
+  ]
+}

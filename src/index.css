@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Import Glassmorphism Design System */
+@import './styles/glassmorphism.css';
+@import './styles/animations.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-gradient-to-br from-orange-50 via-peach-100 to-orange-100 text-foreground;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
+}
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+
+  @keyframes pulse-glow {
+    0%, 100% {
+      box-shadow: 0 0 20px 5px rgba(99, 102, 241, 0.7);
+    }
+    50% {
+      box-shadow: 0 0 30px 10px rgba(99, 102, 241, 0.7);
+    }
+  }
+
+  .animate-pulse-glow {
+    animation: pulse-glow 3s infinite ease-in-out;
+  }
+
+  .ai-gradient-text {
+    background: linear-gradient(135deg, hsl(262 83% 58%), hsl(271 91% 65%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+/* AI Course Mentor Design System - Modern, engaging, AI-focused */
+
+@layer base {
+  :root {
+    /* Project brand palette */
+    /* Background stays subtle light; text is off-black */
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%; /* Off-black */
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    /* Primary: Navy/Dark Blue #0F172A */
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 0 0% 98%;
+    --primary-glow: 222.2 47.4% 20%;
+
+    /* Secondary: Light Blue/Gray #E5E7EB */
+    --secondary: 220 14% 96%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 220 14% 96%;
+    --muted-foreground: 215 16% 34%;
+
+    /* Accent: Orange #F97316 */
+    --accent: 21.7 90.5% 50.6%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 5% 20%;
+    --input: 240 5% 20%;
+    --ring: 222.2 47.4% 11.2%;
+
+    --radius: 1rem;
+
+    /* AI-specific design tokens */
+    --ai-gradient-primary: linear-gradient(135deg, hsl(222.2 47.4% 11.2%), hsl(220 14% 20%));
+    --ai-gradient-secondary: linear-gradient(135deg, hsl(220 14% 96%), hsl(222.2 47.4% 11.2%));
+    --ai-gradient-background: linear-gradient(180deg, hsl(0 0% 100%), hsl(220 14% 97%));
+    --ai-glow: 0 0 40px hsl(21.7 90.5% 50.6% / 0.35);
+    --ai-shadow-elegant: 0 10px 30px -10px hsl(222.2 47.4% 11.2% / 0.25);
+    
+    /* Success states for learning progress */
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 98%;
+
+    /* Warning for attention areas */
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 0%;
+
+    /* Chat bubble colors */
+    --chat-user: 21.7 90.5% 50.6%;
+    --chat-ai: 220 14% 96%;
+    --chat-user-foreground: 0 0% 100%;
+    --chat-ai-foreground: 222.2 47.4% 11.2%;
+
+    /* Animation timings */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-spring: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .light {
+    /* Clean, bright educational theme inspired by modern coding platforms */
+    --background: 0 0% 100%; /* Pure white background */
+    --foreground: 220 13% 18%; /* Dark charcoal text */
+
+    /* Cards with subtle shadows */
+    --card: 0 0% 100%; /* White cards */
+    --card-foreground: 220 13% 18%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 13% 18%;
+
+    /* Primary: Professional blue */
+    --primary: 217 91% 60%; /* Bright blue #3B82F6 */
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary: Light gray backgrounds */
+    --secondary: 220 14% 96%; /* Very light gray #F8FAFC */
+    --secondary-foreground: 220 13% 18%;
+
+    --muted: 220 14% 96%; /* Light gray for muted elements */
+    --muted-foreground: 220 9% 46%; /* Medium gray text */
+
+    /* Accent: Orange for highlights */
+    --accent: 25 95% 53%; /* Orange #FF6B35 */
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Subtle borders */
+    --border: 220 13% 91%; /* Light gray borders */
+    --input: 220 13% 91%;
+    --ring: 217 91% 60%; /* Blue focus ring */
+
+    /* Success and warning colors */
+    --success: 142 71% 45%; /* Green #22C55E */
+    --success-foreground: 0 0% 100%;
+
+    --warning: 38 92% 50%; /* Amber #F59E0B */
+    --warning-foreground: 0 0% 0%;
+
+    /* Chat colors for educational content */
+    --chat-user: 217 91% 60%; /* Blue for user */
+    --chat-ai: 220 14% 96%; /* Light gray for AI */
+    --chat-user-foreground: 0 0% 100%;
+    --chat-ai-foreground: 220 13% 18%;
+
+    /* Sidebar for clean navigation */
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 220 13% 18%;
+    --sidebar-primary: 217 91% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 14% 96%;
+    --sidebar-accent-foreground: 220 13% 18%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217 91% 60%;
+
+    /* Educational platform specific variables */
+    --course-card-bg: 0 0% 100%;
+    --course-card-border: 220 13% 91%;
+    --course-card-shadow: 220 13% 18% / 0.1;
+    --feature-bg: 220 14% 98%;
+    --testimonial-bg: 217 91% 97%;
+    --pricing-popular: 25 95% 53%;
+  }
+
+  .dark {
+    /* Dark mode with pure black background and light text */
+    --background: 0 0% 0%; /* Pure black background */
+    --foreground: 0 0% 90%; /* Light gray text for readability */
+
+    /* Cards with dark backgrounds */
+    --card: 0 0% 5%; /* Very dark gray cards */
+    --card-foreground: 0 0% 90%; /* Light text on cards */
+
+    --popover: 0 0% 5%;
+    --popover-foreground: 0 0% 90%;
+
+    /* Primary: Bright blue for dark mode */
+    --primary: 217 91% 60%; /* Bright blue */
+    --primary-foreground: 0 0% 100%; /* White text */
+
+    /* Secondary: Dark backgrounds with light text */
+    --secondary: 0 0% 10%; /* Dark gray backgrounds */
+    --secondary-foreground: 0 0% 85%; /* Light gray text */
+
+    --muted: 0 0% 8%; /* Very dark for muted elements */
+    --muted-foreground: 0 0% 65%; /* Medium light gray text */
+
+    /* Accent: Orange for highlights */
+    --accent: 25 95% 53%; /* Orange */
+    --accent-foreground: 0 0% 100%; /* White text */
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Dark borders */
+    --border: 0 0% 15%; /* Dark gray borders */
+    --input: 0 0% 15%;
+    --ring: 217 91% 60%; /* Blue focus ring */
+
+    /* Success and warning colors */
+    --success: 142 71% 45%; /* Green */
+    --success-foreground: 0 0% 100%;
+
+    --warning: 38 92% 50%; /* Amber */
+    --warning-foreground: 0 0% 0%;
+
+    /* Chat colors for dark mode */
+    --chat-user: 217 91% 60%; /* Blue for user */
+    --chat-ai: 0 0% 10%; /* Dark gray for AI */
+    --chat-user-foreground: 0 0% 100%;
+    --chat-ai-foreground: 0 0% 90%;
+
+    /* Sidebar for dark mode */
+    --sidebar-background: 0 0% 5%;
+    --sidebar-foreground: 0 0% 90%;
+    --sidebar-primary: 217 91% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 0 0% 10%;
+    --sidebar-accent-foreground: 0 0% 85%;
+    --sidebar-border: 0 0% 15%;
+    --sidebar-ring: 217 91% 60%;
+
+    /* Dark mode specific variables */
+    --course-card-bg: 0 0% 5%;
+    --course-card-border: 0 0% 15%;
+    --course-card-shadow: 0 0% 0% / 0.5;
+    --feature-bg: 0 0% 8%;
+    --testimonial-bg: 0 0% 8%;
+    --pricing-popular: 25 95% 53%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+  }
+
+  /* Light mode specific styling */
+  .light {
+    background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+  }
+
+  /* Dark mode with pure black background */
+  .dark {
+    background: linear-gradient(135deg, #000000 0%, #000000 100%);
+  }
+}
+
+@layer components {
+  /* Glassmorphism Base Classes */
+  .glass {
+    @apply backdrop-blur-xl bg-opacity-70 border border-white/10;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  }
+
+  .glass-card {
+    @apply backdrop-blur-xl bg-opacity-70 border border-white/10 rounded-2xl;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  }
+
+  .glass-light {
+    @apply backdrop-blur-lg bg-opacity-50 border border-white/5;
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  .glass-strong {
+    @apply backdrop-blur-2xl bg-opacity-80 border border-white/20;
+    background: rgba(0, 0, 0, 0.9);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+  }
+
+  /* Chat Interface Components with Glassmorphism */
+  .chat-bubble-user {
+    @apply rounded-3xl rounded-br-lg px-6 py-4 max-w-xs ml-auto 
+           shadow-lg transform transition-all duration-300 hover:scale-105
+           backdrop-blur-xl border border-white/10;
+    background: linear-gradient(135deg, rgba(247, 115, 22, 0.8), rgba(249, 115, 22, 0.9));
+    box-shadow: 0 8px 32px 0 rgba(247, 115, 22, 0.3);
+  }
+
+  .chat-bubble-ai {
+    @apply rounded-3xl rounded-bl-lg px-6 py-4 max-w-md mr-auto 
+           shadow-lg backdrop-blur-xl border border-white/10;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  }
+
+  /* Course Card Styling with Glassmorphism */
+  .course-card {
+    @apply rounded-2xl p-6 
+           transition-all duration-300 hover:shadow-2xl hover:-translate-y-2
+           backdrop-blur-xl border border-white/10;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  }
+
+  .course-card:hover {
+    background: rgba(0, 0, 0, 0.9);
+    box-shadow: 0 8px 32px 0 rgba(247, 115, 22, 0.2), 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border-color: rgba(247, 115, 22, 0.3);
+  }
+
+  /* AI Glow Effects */
+  .ai-glow {
+    box-shadow: var(--ai-glow);
+  }
+
+  .ai-gradient-text {
+    background: var(--ai-gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Typing Animation */
+  .typing-indicator::after {
+    content: '●●●';
+    animation: typing 1.4s infinite;
+    color: hsl(var(--primary));
+  }
+
+  @keyframes typing {
+    0%, 60% { opacity: 0.3; }
+    30% { opacity: 1; }
+  }
+
+  /* Progress Bar Animation */
+  .progress-fill {
+    background: var(--ai-gradient-primary);
+    transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  /* Roadmap Timeline */
+  .roadmap-line {
+    background: var(--ai-gradient-primary);
+    position: relative;
+  }
+
+  .roadmap-line::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: var(--ai-gradient-primary);
+    filter: blur(4px);
+    opacity: 0.6;
+  }
+
+  /* Text Hierarchy for Dark Mode (Opacity-based) */
+  .text-high-emphasis {
+    @apply text-foreground;
+    opacity: 0.87;
+  }
+
+  .text-medium-emphasis {
+    @apply text-foreground;
+    opacity: 0.60;
+  }
+
+  .text-disabled {
+    @apply text-foreground;
+    opacity: 0.38;
+  }
+
+  /* Image optimization for dark mode */
+  .dark img:not(.no-filter) {
+    filter: brightness(0.8) contrast(1.2);
+  }
+
+  /* Glass panels with different blur strengths */
+  .glass-panel-sm {
+    @apply backdrop-blur-sm border border-white/5;
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  .glass-panel-md {
+    @apply backdrop-blur-md border border-white/10;
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  .glass-panel-lg {
+    @apply backdrop-blur-lg border border-white/15;
+    background: rgba(0, 0, 0, 0.85);
+  }
+
+  .glass-panel-xl {
+    @apply backdrop-blur-xl border border-white/20;
+    background: rgba(0, 0, 0, 0.9);
+  }
+
+  /* Rose gradient for login page */
+  .rose-gradient {
+    background: linear-gradient(135deg, #fef3f2 0%, #ffe4e6 50%, #fce7f3 100%);
+  }
+
+  .dark .rose-gradient {
+    background: linear-gradient(135deg, #1a1625 0%, #1e1b2e 50%, #1a1a2e 100%);
+  }
+
+  /* Radial gradient utility */
+  .bg-gradient-radial {
+    background: radial-gradient(ellipse at center, var(--tw-gradient-stops));
+  }
+
+  /* Enhanced shimmer effect */
+  .shimmer {
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.1),
+      transparent
+    );
+    animation: shimmer 2s infinite;
+  }
+
+  @keyframes shimmer {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+
+  /* Floating animation */
+  .float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  /* Glow effect */
+  .glow {
+    box-shadow: 0 0 20px rgba(236, 72, 153, 0.3);
+  }
+
+  .glow:hover {
+    box-shadow: 0 0 30px rgba(236, 72, 153, 0.5);
+  }
+}
+

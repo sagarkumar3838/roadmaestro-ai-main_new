@@ -1,0 +1,156 @@
+{
+  "metadata": {
+    "skill": "javascript",
+    "difficulty": "easy",
+    "totalQuestions": 10,
+    "version": "1.0",
+    "lastUpdated": "2025-12-05"
+  },
+  "questions": [
+    {
+      "id": "js-easy-001",
+      "skill": "javascript",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "text": "Which keyword is used to declare a variable in JavaScript?",
+      "options": [
+        "var",
+        "variable",
+        "v",
+        "declare"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The 'var' keyword (along with 'let' and 'const') is used to declare variables."
+    },
+    {
+      "id": "js-easy-002",
+      "skill": "javascript",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "text": "How do you write a comment in JavaScript?",
+      "options": [
+        "// This is a comment",
+        "<!-- This is a comment -->",
+        "# This is a comment",
+        "/* This is a comment"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Single-line comments in JavaScript start with //"
+    },
+    {
+      "id": "js-easy-003",
+      "skill": "javascript",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "text": "Which method is used to print to the console?",
+      "options": [
+        "console.log()",
+        "print()",
+        "log()",
+        "console.print()"
+      ],
+      "correctAnswer": 0,
+      "explanation": "console.log() is used to output messages to the console."
+    },
+    {
+      "id": "js-easy-004",
+      "skill": "javascript",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "text": "What is the correct way to create a function?",
+      "options": [
+        "function myFunction() {}",
+        "create myFunction() {}",
+        "function:myFunction() {}",
+        "def myFunction() {}"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Functions are declared using the 'function' keyword."
+    },
+    {
+      "id": "js-easy-005",
+      "skill": "javascript",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "text": "Which operator is used for equality comparison?",
+      "options": [
+        "==",
+        "=",
+        "===",
+        "equals"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The == operator checks for equality (=== checks for strict equality)."
+    },
+    {
+      "id": "js-easy-006",
+      "skill": "javascript",
+      "difficulty": "easy",
+      "type": "fill-blanks",
+      "text": "The _____ statement is used to exit a loop.",
+      "blanks": ["break"],
+      "correctAnswer": "break",
+      "explanation": "The 'break' statement exits a loop immediately."
+    },
+    {
+      "id": "js-easy-007",
+      "skill": "javascript",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "text": "What does 'typeof' operator return?",
+      "options": [
+        "The data type of a variable",
+        "The value of a variable",
+        "The name of a variable",
+        "The size of a variable"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The 'typeof' operator returns the data type of a variable."
+    },
+    {
+      "id": "js-easy-008",
+      "skill": "javascript",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "text": "Which method adds an element to the end of an array?",
+      "options": [
+        "push()",
+        "add()",
+        "append()",
+        "insert()"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The push() method adds elements to the end of an array."
+    },
+    {
+      "id": "js-easy-009",
+      "skill": "javascript",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "text": "What is the correct way to write an if statement?",
+      "options": [
+        "if (condition) {}",
+        "if condition {}",
+        "if (condition) then {}",
+        "if condition: {}"
+      ],
+      "correctAnswer": 0,
+      "explanation": "If statements use parentheses for the condition and curly braces for the code block."
+    },
+    {
+      "id": "js-easy-010",
+      "skill": "javascript",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "text": "Which symbol is used for string concatenation?",
+      "options": [
+        "+",
+        "&",
+        ".",
+        "*"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The + operator is used to concatenate strings in JavaScript."
+    }
+  ]
+}

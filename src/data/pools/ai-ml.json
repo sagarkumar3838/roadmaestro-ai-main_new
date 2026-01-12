@@ -1,0 +1,21 @@
+[
+  {
+    "id": "ai-seed-1",
+    "text": "What does an activation function introduce to a neural network?",
+    "type": "multiple-choice",
+    "options": ["Non-linearity", "Speed", "More parameters", "Less data"],
+    "correctAnswer": 0,
+    "category": "AI/Machine Learning",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "ai-seed-2",
+    "text": "Which architecture excels at image processing?",
+    "type": "multiple-choice",
+    "options": ["RNN", "CNN", "Transformer", "GAN"],
+    "correctAnswer": 1,
+    "category": "AI/Machine Learning",
+    "difficulty": "intermediate"
+  }
+]
+

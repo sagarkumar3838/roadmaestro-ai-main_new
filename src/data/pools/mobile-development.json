@@ -1,0 +1,7030 @@
+[
+    {
+      "id": "mobile-seed-1",
+      "text": "What is React Native primarily used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Web apps",
+        "Cross-platform mobile apps",
+        "Desktop apps",
+        "Backends"
+      ],
+      "correctAnswer": 1,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-2",
+      "text": "Which language is recommended for modern Android apps?",
+      "type": "multiple-choice",
+      "options": [
+        "Java",
+        "Kotlin",
+        "Objective-C",
+        "Dart"
+      ],
+      "correctAnswer": 1,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-3",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-4",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-5",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-6",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-7",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-8",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-9",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-10",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-11",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-12",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-13",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-14",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-15",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-16",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-17",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-18",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-19",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-20",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-21",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-22",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-23",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-24",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-25",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-26",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-27",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-28",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-29",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-30",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-31",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-32",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-33",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-34",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-35",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-36",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-37",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-38",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-39",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-40",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-41",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-42",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-43",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-44",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-45",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-46",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-47",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-48",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-49",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-50",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-51",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-52",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-53",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-54",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-55",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-56",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-57",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-58",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-59",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-60",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-61",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-62",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-63",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-64",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-65",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-66",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-67",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-68",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-69",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-70",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-71",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-72",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-73",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-74",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-75",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-76",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-77",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-78",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-79",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-80",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-81",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-82",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-83",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-84",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-85",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-86",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-87",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-88",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-89",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-90",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-91",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-92",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-93",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-94",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-95",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-96",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-97",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-98",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-99",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-100",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-101",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-102",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-103",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-104",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-105",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-106",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-107",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-108",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-109",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-110",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-111",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-112",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-113",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-114",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-115",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-116",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-117",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-118",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-119",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-120",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-121",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-122",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-123",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-124",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-125",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-126",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-127",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-128",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-129",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-130",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-131",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-132",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-133",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-134",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-135",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-136",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-137",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-138",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-139",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-140",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-141",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-142",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-143",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-144",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-145",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-146",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-147",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-148",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-149",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-150",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-151",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-152",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-153",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-154",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-155",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-156",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-157",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-158",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-159",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-160",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-161",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-162",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-163",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-164",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-165",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-166",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-167",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-168",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-169",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-170",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-171",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-172",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-173",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-174",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-175",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-176",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-177",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-178",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-179",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-180",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-181",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-182",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-183",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-184",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-185",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-186",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-187",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-188",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-189",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-190",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-191",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-192",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-193",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-194",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-195",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-196",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-197",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-198",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-199",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-200",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-201",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-202",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-203",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-204",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-205",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-206",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-207",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-208",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-209",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-210",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-211",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-212",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-213",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-214",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-215",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-216",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-217",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-218",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-219",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-220",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-221",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-222",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-223",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-224",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-225",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-226",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-227",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-228",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-229",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-230",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-231",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-232",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-233",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-234",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-235",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-236",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-237",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-238",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-239",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-240",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-241",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-242",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-243",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-244",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-245",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-246",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-247",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-248",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-249",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-250",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-251",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-252",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-253",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-254",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-255",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-256",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-257",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-258",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-259",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-260",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-261",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-262",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-263",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-264",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-265",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-266",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-267",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-268",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-269",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-270",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-271",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-272",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-273",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-274",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-275",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-276",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-277",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-278",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-279",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-280",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-281",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-282",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-283",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-284",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-285",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-286",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-287",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-288",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-289",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-290",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-291",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-292",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-293",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-294",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-295",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-296",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-297",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-298",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-299",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-300",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-301",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-302",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-303",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-304",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-305",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-306",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-307",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-308",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-309",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-310",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-311",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-312",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-313",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-314",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-315",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-316",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-317",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-318",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-319",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-320",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-321",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-322",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-323",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-324",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-325",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-326",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-327",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-328",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-329",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-330",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-331",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-332",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-333",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-334",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-335",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-336",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-337",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-338",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-339",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-340",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-341",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-342",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-343",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-344",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-345",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-346",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-347",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-348",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-349",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-350",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-351",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-352",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-353",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-354",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-355",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-356",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-357",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-358",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-359",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-360",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-361",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-362",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-363",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-364",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-365",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-366",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-367",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-368",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-369",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-370",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-371",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-372",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-373",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-374",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-375",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-376",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-377",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-378",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-379",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-380",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-381",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-382",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-383",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-384",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-385",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-386",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-387",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-388",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-389",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-390",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-391",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-392",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-393",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-394",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-395",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-396",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-397",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-398",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-399",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-400",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-401",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-402",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-403",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-404",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-405",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-406",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-407",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-408",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-409",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-410",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-411",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-412",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-413",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-414",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-415",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-416",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-417",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-418",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-419",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-420",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-421",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-422",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-423",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-424",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-425",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-426",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-427",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-428",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-429",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-430",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-431",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-432",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-433",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-434",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-435",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-436",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-437",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-438",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-439",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-440",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-441",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-442",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-443",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-444",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-445",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-446",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-447",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-448",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-449",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-450",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-451",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-452",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-453",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-454",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-455",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-456",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-457",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-458",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-459",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-460",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-461",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-462",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-463",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-464",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-465",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-466",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-467",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-468",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-469",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-470",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-471",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-472",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-473",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-474",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-475",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-476",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-477",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-478",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-479",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-480",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-481",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-482",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-483",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-484",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-485",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "Mobile Development",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-486",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-487",
+      "text": "Which library is commonly used for form validation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "formik",
+        "redux",
+        "axios",
+        "moment"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-488",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-489",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-490",
+      "text": "What is the purpose of AsyncTask in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Perform background operations",
+        "Style UI elements",
+        "Manage permissions",
+        "Handle database"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-491",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-492",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-493",
+      "text": "How do you handle navigation in React Native?",
+      "type": "multiple-choice",
+      "options": [
+        "Using react-navigation",
+        "Using Redux",
+        "Using Node.js",
+        "Using Axios"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-494",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-495",
+      "text": "Which component is responsible for the UI in Flutter?",
+      "type": "multiple-choice",
+      "options": [
+        "Widget",
+        "Bloc",
+        "Controller",
+        "Provider"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-496",
+      "text": "What is the use of intents in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "Communicate between components",
+        "Style the application",
+        "Encrypt data",
+        "Render graphics"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-497",
+      "text": "What is an Activity in Android?",
+      "type": "multiple-choice",
+      "options": [
+        "A single screen with a user interface",
+        "A background service",
+        "A database file",
+        "A styling component"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-498",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mobile-seed-499",
+      "text": "What is the main advantage of using Jetpack Compose?",
+      "type": "multiple-choice",
+      "options": [
+        "Declarative UI approach",
+        "Better server-side logic",
+        "Faster database access",
+        "Improved SEO"
+      ],
+      "correctAnswer": 0,
+      "category": "iOS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-500",
+      "text": "Which command is used to create a new Flutter project?",
+      "type": "multiple-choice",
+      "options": [
+        "flutter create project_name",
+        "flutter start project_name",
+        "flutter init project_name",
+        "flutter new project_name"
+      ],
+      "correctAnswer": 0,
+      "category": "Flutter",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mobile-seed-501",
+      "text": "What architecture pattern is recommended for Android?",
+      "type": "multiple-choice",
+      "options": [
+        "MVVM",
+        "MVC",
+        "MVP",
+        "Flux"
+      ],
+      "correctAnswer": 0,
+      "category": "Android",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mobile-seed-502",
+      "text": "What is the default programming language for iOS development?",
+      "type": "multiple-choice",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python"
+      ],
+      "correctAnswer": 0,
+      "category": "React Native",
+      "difficulty": "beginner"
+    }
+  ]

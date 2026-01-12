@@ -1,0 +1,102 @@
+{
+  "skill": "javascript",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": "js-easy-001",
+      "text": "Which keyword is used to declare a variable in JavaScript?",
+      "options": ["var", "variable", "v", "declare"],
+      "correctAnswer": 0,
+      "topic": "JavaScript Variables",
+      "explanation": "The 'var' keyword (along with 'let' and 'const') is used to declare variables."
+    },
+    {
+      "id": "js-easy-002",
+      "text": "How do you write a comment in JavaScript?",
+      "options": ["// This is a comment", "<!-- This is a comment -->", "# This is a comment", "/* This is a comment"],
+      "correctAnswer": 0,
+      "topic": "JavaScript Comments",
+      "explanation": "Single-line comments in JavaScript start with //"
+    },
+    {
+      "id": "js-easy-003",
+      "text": "Which method is used to print to the console?",
+      "options": ["console.log()", "print()", "log()", "console.print()"],
+      "correctAnswer": 0,
+      "topic": "JavaScript Console",
+      "explanation": "console.log() is used to output messages to the console."
+    },
+    {
+      "id": "js-easy-004",
+      "text": "What is the correct way to create a function?",
+      "options": ["function myFunction() {}", "create myFunction() {}", "function:myFunction() {}", "def myFunction() {}"],
+      "correctAnswer": 0,
+      "topic": "JavaScript Functions",
+      "explanation": "Functions are declared using the 'function' keyword."
+    },
+    {
+      "id": "js-easy-005",
+      "text": "Which operator is used for equality comparison?",
+      "options": ["==", "=", "===", "equals"],
+      "correctAnswer": 0,
+      "topic": "JavaScript Operators",
+      "explanation": "The == operator checks for equality (=== checks for strict equality)."
+    },
+    {
+      "id": "js-easy-006",
+      "text": "What does 'typeof' operator return?",
+      "options": ["The data type of a variable", "The value of a variable", "The name of a variable", "The size of a variable"],
+      "correctAnswer": 0,
+      "topic": "JavaScript Operators",
+      "explanation": "The 'typeof' operator returns the data type of a variable."
+    },
+    {
+      "id": "js-easy-007",
+      "text": "Which method adds an element to the end of an array?",
+      "options": ["push()", "add()", "append()", "insert()"],
+      "correctAnswer": 0,
+      "topic": "JavaScript Arrays",
+      "explanation": "The push() method adds elements to the end of an array."
+    },
+    {
+      "id": "js-easy-008",
+      "text": "What is the correct way to write an if statement?",
+      "options": ["if (condition) {}", "if condition {}", "if (condition) then {}", "if condition: {}"],
+      "correctAnswer": 0,
+      "topic": "JavaScript Conditionals",
+      "explanation": "If statements use parentheses for the condition and curly braces for the code block."
+    },
+    {
+      "id": "js-easy-009",
+      "text": "Which symbol is used for string concatenation?",
+      "options": ["+", "&", ".", "*"],
+      "correctAnswer": 0,
+      "topic": "JavaScript Strings",
+      "explanation": "The + operator is used to concatenate strings in JavaScript."
+    },
+    {
+      "id": "js-easy-010",
+      "text": "How do you create an array in JavaScript?",
+      "options": ["var arr = []", "var arr = {}", "var arr = ()", "var arr = <>"],
+      "correctAnswer": 0,
+      "topic": "JavaScript Arrays",
+      "explanation": "Arrays are created using square brackets []."
+    },
+    {
+      "id": "js-easy-011",
+      "text": "What is the correct way to write a for loop?",
+      "options": ["for (i = 0; i < 5; i++)", "for i = 0 to 5", "for (i in 5)", "for i < 5"],
+      "correctAnswer": 0,
+      "topic": "JavaScript Loops",
+      "explanation": "For loops use the syntax: for (initialization; condition; increment)"
+    },
+    {
+      "id": "js-easy-012",
+      "text": "Which keyword is used to exit a loop?",
+      "options": ["break", "exit", "stop", "end"],
+      "correctAnswer": 0,
+      "topic": "JavaScript Loops",
+      "explanation": "The 'break' statement exits a loop immediately."
+    }
+  ]
+}

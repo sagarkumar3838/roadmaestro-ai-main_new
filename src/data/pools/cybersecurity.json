@@ -1,0 +1,21 @@
+[
+  {
+    "id": "cyber-seed-1",
+    "text": "What does XSS stand for?",
+    "type": "multiple-choice",
+    "options": ["Cross-Site Scripting", "Extra Secure System", "XML Safe Storage", "Cross-Site Security"],
+    "correctAnswer": 0,
+    "category": "Cybersecurity",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "cyber-seed-2",
+    "text": "Which is best to prevent SQL injection?",
+    "type": "multiple-choice",
+    "options": ["String concatenation", "Parameterized queries", "Disabling logs", "Base64 encoding"],
+    "correctAnswer": 1,
+    "category": "Cybersecurity",
+    "difficulty": "intermediate"
+  }
+]
+

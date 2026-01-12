@@ -1,0 +1,102 @@
+{
+  "skill": "css",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": "css-easy-001",
+      "text": "What does CSS stand for?",
+      "options": ["Cascading Style Sheets", "Creative Style Sheets", "Computer Style Sheets", "Colorful Style Sheets"],
+      "correctAnswer": 0,
+      "topic": "CSS Basics",
+      "explanation": "CSS stands for Cascading Style Sheets, used for styling web pages."
+    },
+    {
+      "id": "css-easy-002",
+      "text": "Which CSS property changes text color?",
+      "options": ["color", "font-color", "text-color", "fgcolor"],
+      "correctAnswer": 0,
+      "topic": "CSS Text Properties",
+      "explanation": "The 'color' property is used to change text color in CSS."
+    },
+    {
+      "id": "css-easy-003",
+      "text": "How do you select an element with id 'header'?",
+      "options": ["#header", ".header", "header", "*header"],
+      "correctAnswer": 0,
+      "topic": "CSS Selectors",
+      "explanation": "Use # followed by the id name to select an element by id."
+    },
+    {
+      "id": "css-easy-004",
+      "text": "Which property is used to change the background color?",
+      "options": ["background-color", "bgcolor", "color", "background"],
+      "correctAnswer": 0,
+      "topic": "CSS Background Properties",
+      "explanation": "The 'background-color' property sets the background color of an element."
+    },
+    {
+      "id": "css-easy-005",
+      "text": "How do you make text bold in CSS?",
+      "options": ["font-weight: bold", "text-style: bold", "font: bold", "text-weight: bold"],
+      "correctAnswer": 0,
+      "topic": "CSS Font Properties",
+      "explanation": "Use 'font-weight: bold' to make text bold in CSS."
+    },
+    {
+      "id": "css-easy-006",
+      "text": "Which property adds space inside an element's border?",
+      "options": ["padding", "margin", "spacing", "border-spacing"],
+      "correctAnswer": 0,
+      "topic": "CSS Box Model",
+      "explanation": "Padding adds space inside an element's border, between the border and content."
+    },
+    {
+      "id": "css-easy-007",
+      "text": "How do you select all <p> elements?",
+      "options": ["p", ".p", "#p", "*p"],
+      "correctAnswer": 0,
+      "topic": "CSS Selectors",
+      "explanation": "Use the element name directly to select all elements of that type."
+    },
+    {
+      "id": "css-easy-008",
+      "text": "Which property is used to change text alignment?",
+      "options": ["text-align", "align", "text-position", "alignment"],
+      "correctAnswer": 0,
+      "topic": "CSS Text Properties",
+      "explanation": "The 'text-align' property controls horizontal text alignment."
+    },
+    {
+      "id": "css-easy-009",
+      "text": "What is the correct CSS syntax?",
+      "options": ["selector { property: value; }", "selector: property = value;", "{selector} property: value;", "selector = property: value;"],
+      "correctAnswer": 0,
+      "topic": "CSS Syntax",
+      "explanation": "CSS syntax is: selector { property: value; }"
+    },
+    {
+      "id": "css-easy-010",
+      "text": "Which property controls the font size?",
+      "options": ["font-size", "text-size", "size", "font-height"],
+      "correctAnswer": 0,
+      "topic": "CSS Font Properties",
+      "explanation": "The 'font-size' property controls the size of text."
+    },
+    {
+      "id": "css-easy-011",
+      "text": "How do you select elements with class 'menu'?",
+      "options": [".menu", "#menu", "menu", "class=menu"],
+      "correctAnswer": 0,
+      "topic": "CSS Selectors",
+      "explanation": "Use a dot (.) followed by the class name to select elements by class."
+    },
+    {
+      "id": "css-easy-012",
+      "text": "Which property adds space outside an element's border?",
+      "options": ["margin", "padding", "spacing", "border-spacing"],
+      "correctAnswer": 0,
+      "topic": "CSS Box Model",
+      "explanation": "Margin adds space outside an element's border, between elements."
+    }
+  ]
+}

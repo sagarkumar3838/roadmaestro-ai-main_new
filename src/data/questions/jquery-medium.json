@@ -1,0 +1,1566 @@
+{
+  "skill": "jquery",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": "jquery-medium-001",
+      "text": "Delegate click from #list to 'li' (including future items):",
+      "options": [
+        "$('#list').live('click', handler)",
+        "$('#list li').on('click', handler)",
+        "$('#list').delegate('li','click', handler)",
+        "$('#list').on('click', 'li', handler)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Event Delegation",
+      "explanation": ".on(event, selector, handler) delegates via a static ancestor."
+    },
+    {
+      "id": "jquery-medium-002",
+      "text": "Delegate change from #list to 'li' (including future items):",
+      "options": [
+        "$('#list').on('change', 'li', handler)",
+        "$('#list li').on('change', handler)",
+        "$('#list').delegate('li','change', handler)",
+        "$('#list').live('change', handler)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Event Delegation",
+      "explanation": ".on(event, selector, handler) delegates via a static ancestor."
+    },
+    {
+      "id": "jquery-medium-003",
+      "text": "Delegate input from #list to 'li' (including future items):",
+      "options": [
+        "$('#list').delegate('li','input', handler)",
+        "$('#list').on('input', 'li', handler)",
+        "$('#list li').on('input', handler)",
+        "$('#list').live('input', handler)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Event Delegation",
+      "explanation": ".on(event, selector, handler) delegates via a static ancestor."
+    },
+    {
+      "id": "jquery-medium-004",
+      "text": "Delegate submit from #list to 'li' (including future items):",
+      "options": [
+        "$('#list').delegate('li','submit', handler)",
+        "$('#list').live('submit', handler)",
+        "$('#list').on('submit', 'li', handler)",
+        "$('#list li').on('submit', handler)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Event Delegation",
+      "explanation": ".on(event, selector, handler) delegates via a static ancestor."
+    },
+    {
+      "id": "jquery-medium-005",
+      "text": "Delegate keydown from #list to 'li' (including future items):",
+      "options": [
+        "$('#list').delegate('li','keydown', handler)",
+        "$('#list').on('keydown', 'li', handler)",
+        "$('#list li').on('keydown', handler)",
+        "$('#list').live('keydown', handler)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Event Delegation",
+      "explanation": ".on(event, selector, handler) delegates via a static ancestor."
+    },
+    {
+      "id": "jquery-medium-006",
+      "text": "Delegate keyup from #list to 'li' (including future items):",
+      "options": [
+        "$('#list').on('keyup', 'li', handler)",
+        "$('#list').live('keyup', handler)",
+        "$('#list').delegate('li','keyup', handler)",
+        "$('#list li').on('keyup', handler)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Event Delegation",
+      "explanation": ".on(event, selector, handler) delegates via a static ancestor."
+    },
+    {
+      "id": "jquery-medium-007",
+      "text": "Delegate mouseenter from #list to 'li' (including future items):",
+      "options": [
+        "$('#list').live('mouseenter', handler)",
+        "$('#list').delegate('li','mouseenter', handler)",
+        "$('#list li').on('mouseenter', handler)",
+        "$('#list').on('mouseenter', 'li', handler)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Event Delegation",
+      "explanation": ".on(event, selector, handler) delegates via a static ancestor."
+    },
+    {
+      "id": "jquery-medium-008",
+      "text": "Delegate mouseleave from #list to 'li' (including future items):",
+      "options": [
+        "$('#list').on('mouseleave', 'li', handler)",
+        "$('#list li').on('mouseleave', handler)",
+        "$('#list').live('mouseleave', handler)",
+        "$('#list').delegate('li','mouseleave', handler)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Event Delegation",
+      "explanation": ".on(event, selector, handler) delegates via a static ancestor."
+    },
+    {
+      "id": "jquery-medium-009",
+      "text": "Read a checkbox's current state:",
+      "options": [
+        "attr('checked')",
+        "prop('checked')",
+        "val('checked')",
+        "data('checked')"
+      ],
+      "correctAnswer": 1,
+      "topic": "Attributes vs Properties",
+      "explanation": ".prop reads a live boolean property; attr reads the initial attribute."
+    },
+    {
+      "id": "jquery-medium-010",
+      "text": "closest('form') returns:",
+      "options": [
+        "all siblings",
+        "all descendants",
+        "all children",
+        "nearest form ancestor"
+      ],
+      "correctAnswer": 3,
+      "topic": "Traversing",
+      "explanation": "closest('form') returns nearest form ancestor."
+    },
+    {
+      "id": "jquery-medium-011",
+      "text": "parents('div') returns:",
+      "options": [
+        "all matching ancestors",
+        "all siblings",
+        "all children",
+        "all descendants"
+      ],
+      "correctAnswer": 0,
+      "topic": "Traversing",
+      "explanation": "parents('div') returns all matching ancestors."
+    },
+    {
+      "id": "jquery-medium-012",
+      "text": "find('.item') returns:",
+      "options": [
+        "all children",
+        "descendants matching .item",
+        "all siblings",
+        "all descendants"
+      ],
+      "correctAnswer": 1,
+      "topic": "Traversing",
+      "explanation": "find('.item') returns descendants matching .item."
+    },
+    {
+      "id": "jquery-medium-013",
+      "text": "nextAll() returns:",
+      "options": [
+        "all descendants",
+        "all following siblings",
+        "all siblings",
+        "all children"
+      ],
+      "correctAnswer": 1,
+      "topic": "Traversing",
+      "explanation": "nextAll() returns all following siblings."
+    },
+    {
+      "id": "jquery-medium-014",
+      "text": "$('<span>').appendTo('#box') does:",
+      "options": [
+        "clone target",
+        "wrap target",
+        "replace target",
+        "#box end"
+      ],
+      "correctAnswer": 3,
+      "topic": "DOM Insertion",
+      "explanation": "appendTo inserts relative to target."
+    },
+    {
+      "id": "jquery-medium-015",
+      "text": "$('<span>').prependTo('#box') does:",
+      "options": [
+        "wrap target",
+        "#box beginning",
+        "replace target",
+        "clone target"
+      ],
+      "correctAnswer": 1,
+      "topic": "DOM Insertion",
+      "explanation": "prependTo inserts relative to target."
+    },
+    {
+      "id": "jquery-medium-016",
+      "text": "$('<span>').insertBefore('#box') does:",
+      "options": [
+        "clone target",
+        "#box before",
+        "wrap target",
+        "replace target"
+      ],
+      "correctAnswer": 1,
+      "topic": "DOM Insertion",
+      "explanation": "insertBefore inserts relative to target."
+    },
+    {
+      "id": "jquery-medium-017",
+      "text": "$('<span>').insertAfter('#box') does:",
+      "options": [
+        "replace target",
+        "clone target",
+        "wrap target",
+        "#box after"
+      ],
+      "correctAnswer": 3,
+      "topic": "DOM Insertion",
+      "explanation": "insertAfter inserts relative to target."
+    },
+    {
+      "id": "jquery-medium-018",
+      "text": "Remove elements but keep data/events for reinsertion:",
+      "options": [
+        "discard()",
+        "remove()",
+        "empty()",
+        "detach()"
+      ],
+      "correctAnswer": 3,
+      "topic": "DOM Manipulation",
+      "explanation": ".detach() preserves data and events; remove() discards; empty() removes children."
+    },
+    {
+      "id": "jquery-medium-019",
+      "text": "width() returns:",
+      "options": [
+        "content width",
+        "content height",
+        "document width",
+        "viewport width"
+      ],
+      "correctAnswer": 0,
+      "topic": "Dimensions",
+      "explanation": "width() returns content width."
+    },
+    {
+      "id": "jquery-medium-020",
+      "text": "innerWidth() returns:",
+      "options": [
+        "content height",
+        "viewport width",
+        "document width",
+        "content + padding"
+      ],
+      "correctAnswer": 3,
+      "topic": "Dimensions",
+      "explanation": "innerWidth() returns content + padding."
+    },
+    {
+      "id": "jquery-medium-021",
+      "text": "outerWidth() returns:",
+      "options": [
+        "viewport width",
+        "document width",
+        "content height",
+        "content + padding + border"
+      ],
+      "correctAnswer": 3,
+      "topic": "Dimensions",
+      "explanation": "outerWidth() returns content + padding + border."
+    },
+    {
+      "id": "jquery-medium-022",
+      "text": "outerWidth(true) returns:",
+      "options": [
+        "content + padding + border + margin",
+        "content height",
+        "document width",
+        "viewport width"
+      ],
+      "correctAnswer": 0,
+      "topic": "Dimensions",
+      "explanation": "outerWidth(true) returns content + padding + border + margin."
+    },
+    {
+      "id": "jquery-medium-023",
+      "text": "offset() returns:",
+      "options": [
+        "coordinates relative to offset parent",
+        "page scroll offsets",
+        "coordinates relative to document",
+        "viewport size"
+      ],
+      "correctAnswer": 2,
+      "topic": "Positioning",
+      "explanation": "offset() gives document-relative coords."
+    },
+    {
+      "id": "jquery-medium-024",
+      "text": "position() returns:",
+      "options": [
+        "coordinates relative to offset parent",
+        "coordinates relative to document",
+        "page scroll offsets",
+        "viewport size"
+      ],
+      "correctAnswer": 0,
+      "topic": "Positioning",
+      "explanation": "position() gives offset-parent-relative coords."
+    },
+    {
+      "id": "jquery-medium-025",
+      "text": "$.ajax option for expected response type:",
+      "options": [
+        "type",
+        "dataType",
+        "contentType",
+        "processData"
+      ],
+      "correctAnswer": 1,
+      "topic": "AJAX",
+      "explanation": "e.g., 'json','html','xml'."
+    },
+    {
+      "id": "jquery-medium-026",
+      "text": "$.ajax option for HTTP method:",
+      "options": [
+        "type",
+        "mode",
+        "methodType",
+        "httpMethod"
+      ],
+      "correctAnswer": 0,
+      "topic": "AJAX",
+      "explanation": "GET, POST, etc."
+    },
+    {
+      "id": "jquery-medium-027",
+      "text": "$.ajax option for MIME type you send:",
+      "options": [
+        "contentType",
+        "accepts",
+        "mimeType",
+        "dataType"
+      ],
+      "correctAnswer": 0,
+      "topic": "AJAX",
+      "explanation": "Defaults to x-www-form-urlencoded."
+    },
+    {
+      "id": "jquery-medium-028",
+      "text": "Disable automatic data processing in $.ajax:",
+      "options": [
+        "traditional: true",
+        "processData: false",
+        "contentType: false",
+        "cache: false"
+      ],
+      "correctAnswer": 1,
+      "topic": "AJAX",
+      "explanation": "Needed for FormData/raw payloads."
+    },
+    {
+      "id": "jquery-medium-029",
+      "text": "What does $.get()/$.ajax() return?",
+      "options": [
+        "void",
+        "XMLHttpRequest",
+        "jqXHR (Promise-like)",
+        "raw Promise"
+      ],
+      "correctAnswer": 2,
+      "topic": "AJAX",
+      "explanation": "jqXHR implements promise-style methods."
+    },
+    {
+      "id": "jquery-medium-030",
+      "text": "Register a success handler on jqXHR:",
+      "options": [
+        "done()",
+        "success()",
+        "then()",
+        "ok()"
+      ],
+      "correctAnswer": 0,
+      "topic": "AJAX",
+      "explanation": "Use .done/.fail/.always."
+    },
+    {
+      "id": "jquery-medium-031",
+      "text": "Serialize a form to a query string:",
+      "options": [
+        "toQuery()",
+        "formData()",
+        "serializeArray()",
+        "serialize()"
+      ],
+      "correctAnswer": 3,
+      "topic": "Forms",
+      "explanation": "Encodes form as key=value string."
+    },
+    {
+      "id": "jquery-medium-032",
+      "text": "Serialize a form to name/value pairs:",
+      "options": [
+        "serialize()",
+        "toJSON()",
+        "params()",
+        "serializeArray()"
+      ],
+      "correctAnswer": 3,
+      "topic": "Forms",
+      "explanation": "Returns [{name,value}, ...]."
+    },
+    {
+      "id": "jquery-medium-033",
+      "text": "Store/read arbitrary data on elements:",
+      "options": [
+        "data()",
+        "store()",
+        "prop('data')",
+        "attr('data')"
+      ],
+      "correctAnswer": 0,
+      "topic": "Data API",
+      "explanation": ".data(key, value) and .data(key)."
+    },
+    {
+      "id": "jquery-medium-034",
+      "text": "Stop current animation:",
+      "options": [
+        "stop()",
+        "pause()",
+        "halt()",
+        "cancel()"
+      ],
+      "correctAnswer": 0,
+      "topic": "Effects",
+      "explanation": "stop() halts the animation queue."
+    },
+    {
+      "id": "jquery-medium-035",
+      "text": "Complete current animation immediately:",
+      "options": [
+        "complete()",
+        "stop(true, true)",
+        "finish()",
+        "end()"
+      ],
+      "correctAnswer": 2,
+      "topic": "Effects",
+      "explanation": "finish() clears queue and completes current animation."
+    },
+    {
+      "id": "jquery-medium-036",
+      "text": "Filter array by predicate:",
+      "options": [
+        "$.where()",
+        "$.filter()",
+        "$.grep()",
+        "$.select()"
+      ],
+      "correctAnswer": 2,
+      "topic": "Utilities",
+      "explanation": "$.grep(arr, fn)."
+    },
+    {
+      "id": "jquery-medium-037",
+      "text": "Transform array items:",
+      "options": [
+        "$.map()",
+        "$.convert()",
+        "$.collect()",
+        "$.each()"
+      ],
+      "correctAnswer": 0,
+      "topic": "Utilities",
+      "explanation": "$.map(arr, fn)."
+    },
+    {
+      "id": "jquery-medium-038",
+      "text": "Most jQuery methods return:",
+      "options": [
+        "a DOM element",
+        "undefined",
+        "the jQuery object",
+        "a Promise"
+      ],
+      "correctAnswer": 2,
+      "topic": "Chaining",
+      "explanation": "Enables chaining."
+    },
+    {
+      "id": "jquery-medium-039",
+      "text": "One-time handler for keyup:",
+      "options": [
+        "$('input').once('keyup', handler)",
+        "$('input').one('keyup', handler)",
+        "$('input').ononce('keyup', handler)",
+        "$('input').bindOnce('keyup', handler)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-040",
+      "text": "One-time handler for click:",
+      "options": [
+        "$('input').once('click', handler)",
+        "$('input').one('click', handler)",
+        "$('input').ononce('click', handler)",
+        "$('input').bindOnce('click', handler)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-041",
+      "text": "One-time handler for click:",
+      "options": [
+        "$('input').ononce('click', handler)",
+        "$('input').bindOnce('click', handler)",
+        "$('input').once('click', handler)",
+        "$('input').one('click', handler)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-042",
+      "text": "One-time handler for click:",
+      "options": [
+        "$('input').ononce('click', handler)",
+        "$('input').bindOnce('click', handler)",
+        "$('input').once('click', handler)",
+        "$('input').one('click', handler)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-043",
+      "text": "One-time handler for click:",
+      "options": [
+        "$('input').ononce('click', handler)",
+        "$('input').bindOnce('click', handler)",
+        "$('input').one('click', handler)",
+        "$('input').once('click', handler)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-044",
+      "text": "One-time handler for keydown:",
+      "options": [
+        "$('input').one('keydown', handler)",
+        "$('input').ononce('keydown', handler)",
+        "$('input').bindOnce('keydown', handler)",
+        "$('input').once('keydown', handler)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-045",
+      "text": "One-time handler for click:",
+      "options": [
+        "$('input').once('click', handler)",
+        "$('input').bindOnce('click', handler)",
+        "$('input').one('click', handler)",
+        "$('input').ononce('click', handler)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-046",
+      "text": "One-time handler for keyup:",
+      "options": [
+        "$('input').ononce('keyup', handler)",
+        "$('input').bindOnce('keyup', handler)",
+        "$('input').once('keyup', handler)",
+        "$('input').one('keyup', handler)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-047",
+      "text": "One-time handler for keydown:",
+      "options": [
+        "$('input').once('keydown', handler)",
+        "$('input').ononce('keydown', handler)",
+        "$('input').bindOnce('keydown', handler)",
+        "$('input').one('keydown', handler)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-048",
+      "text": "One-time handler for change:",
+      "options": [
+        "$('input').ononce('change', handler)",
+        "$('input').bindOnce('change', handler)",
+        "$('input').once('change', handler)",
+        "$('input').one('change', handler)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-049",
+      "text": "One-time handler for click:",
+      "options": [
+        "$('input').one('click', handler)",
+        "$('input').bindOnce('click', handler)",
+        "$('input').ononce('click', handler)",
+        "$('input').once('click', handler)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-050",
+      "text": "One-time handler for click:",
+      "options": [
+        "$('input').once('click', handler)",
+        "$('input').ononce('click', handler)",
+        "$('input').one('click', handler)",
+        "$('input').bindOnce('click', handler)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-051",
+      "text": "One-time handler for keyup:",
+      "options": [
+        "$('input').ononce('keyup', handler)",
+        "$('input').once('keyup', handler)",
+        "$('input').bindOnce('keyup', handler)",
+        "$('input').one('keyup', handler)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-052",
+      "text": "One-time handler for click:",
+      "options": [
+        "$('input').once('click', handler)",
+        "$('input').one('click', handler)",
+        "$('input').ononce('click', handler)",
+        "$('input').bindOnce('click', handler)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-053",
+      "text": "One-time handler for keydown:",
+      "options": [
+        "$('input').one('keydown', handler)",
+        "$('input').once('keydown', handler)",
+        "$('input').bindOnce('keydown', handler)",
+        "$('input').ononce('keydown', handler)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-054",
+      "text": "One-time handler for keyup:",
+      "options": [
+        "$('input').ononce('keyup', handler)",
+        "$('input').once('keyup', handler)",
+        "$('input').one('keyup', handler)",
+        "$('input').bindOnce('keyup', handler)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-055",
+      "text": "One-time handler for click:",
+      "options": [
+        "$('input').once('click', handler)",
+        "$('input').ononce('click', handler)",
+        "$('input').bindOnce('click', handler)",
+        "$('input').one('click', handler)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-056",
+      "text": "One-time handler for keydown:",
+      "options": [
+        "$('input').ononce('keydown', handler)",
+        "$('input').one('keydown', handler)",
+        "$('input').bindOnce('keydown', handler)",
+        "$('input').once('keydown', handler)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-057",
+      "text": "One-time handler for keydown:",
+      "options": [
+        "$('input').bindOnce('keydown', handler)",
+        "$('input').once('keydown', handler)",
+        "$('input').one('keydown', handler)",
+        "$('input').ononce('keydown', handler)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-058",
+      "text": "One-time handler for keydown:",
+      "options": [
+        "$('input').bindOnce('keydown', handler)",
+        "$('input').one('keydown', handler)",
+        "$('input').ononce('keydown', handler)",
+        "$('input').once('keydown', handler)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-059",
+      "text": "One-time handler for click:",
+      "options": [
+        "$('input').one('click', handler)",
+        "$('input').bindOnce('click', handler)",
+        "$('input').ononce('click', handler)",
+        "$('input').once('click', handler)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-060",
+      "text": "One-time handler for click:",
+      "options": [
+        "$('input').once('click', handler)",
+        "$('input').ononce('click', handler)",
+        "$('input').bindOnce('click', handler)",
+        "$('input').one('click', handler)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-061",
+      "text": "One-time handler for keyup:",
+      "options": [
+        "$('input').once('keyup', handler)",
+        "$('input').one('keyup', handler)",
+        "$('input').ononce('keyup', handler)",
+        "$('input').bindOnce('keyup', handler)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-062",
+      "text": "One-time handler for click:",
+      "options": [
+        "$('input').once('click', handler)",
+        "$('input').ononce('click', handler)",
+        "$('input').one('click', handler)",
+        "$('input').bindOnce('click', handler)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-063",
+      "text": "One-time handler for keydown:",
+      "options": [
+        "$('input').ononce('keydown', handler)",
+        "$('input').bindOnce('keydown', handler)",
+        "$('input').one('keydown', handler)",
+        "$('input').once('keydown', handler)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-064",
+      "text": "One-time handler for click:",
+      "options": [
+        "$('input').bindOnce('click', handler)",
+        "$('input').one('click', handler)",
+        "$('input').ononce('click', handler)",
+        "$('input').once('click', handler)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-065",
+      "text": "One-time handler for change:",
+      "options": [
+        "$('input').ononce('change', handler)",
+        "$('input').one('change', handler)",
+        "$('input').bindOnce('change', handler)",
+        "$('input').once('change', handler)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-066",
+      "text": "One-time handler for click:",
+      "options": [
+        "$('input').once('click', handler)",
+        "$('input').one('click', handler)",
+        "$('input').ononce('click', handler)",
+        "$('input').bindOnce('click', handler)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-067",
+      "text": "One-time handler for change:",
+      "options": [
+        "$('input').once('change', handler)",
+        "$('input').ononce('change', handler)",
+        "$('input').one('change', handler)",
+        "$('input').bindOnce('change', handler)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-068",
+      "text": "One-time handler for click:",
+      "options": [
+        "$('input').bindOnce('click', handler)",
+        "$('input').ononce('click', handler)",
+        "$('input').once('click', handler)",
+        "$('input').one('click', handler)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-069",
+      "text": "One-time handler for keydown:",
+      "options": [
+        "$('input').ononce('keydown', handler)",
+        "$('input').once('keydown', handler)",
+        "$('input').one('keydown', handler)",
+        "$('input').bindOnce('keydown', handler)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-070",
+      "text": "One-time handler for keydown:",
+      "options": [
+        "$('input').bindOnce('keydown', handler)",
+        "$('input').once('keydown', handler)",
+        "$('input').one('keydown', handler)",
+        "$('input').ononce('keydown', handler)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-071",
+      "text": "One-time handler for change:",
+      "options": [
+        "$('input').once('change', handler)",
+        "$('input').one('change', handler)",
+        "$('input').ononce('change', handler)",
+        "$('input').bindOnce('change', handler)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-072",
+      "text": "One-time handler for keydown:",
+      "options": [
+        "$('input').once('keydown', handler)",
+        "$('input').one('keydown', handler)",
+        "$('input').bindOnce('keydown', handler)",
+        "$('input').ononce('keydown', handler)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-073",
+      "text": "One-time handler for change:",
+      "options": [
+        "$('input').bindOnce('change', handler)",
+        "$('input').once('change', handler)",
+        "$('input').ononce('change', handler)",
+        "$('input').one('change', handler)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-074",
+      "text": "One-time handler for click:",
+      "options": [
+        "$('input').bindOnce('click', handler)",
+        "$('input').one('click', handler)",
+        "$('input').ononce('click', handler)",
+        "$('input').once('click', handler)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-075",
+      "text": "One-time handler for keydown:",
+      "options": [
+        "$('input').one('keydown', handler)",
+        "$('input').once('keydown', handler)",
+        "$('input').ononce('keydown', handler)",
+        "$('input').bindOnce('keydown', handler)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-076",
+      "text": "One-time handler for keyup:",
+      "options": [
+        "$('input').bindOnce('keyup', handler)",
+        "$('input').once('keyup', handler)",
+        "$('input').one('keyup', handler)",
+        "$('input').ononce('keyup', handler)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-077",
+      "text": "One-time handler for keyup:",
+      "options": [
+        "$('input').once('keyup', handler)",
+        "$('input').bindOnce('keyup', handler)",
+        "$('input').one('keyup', handler)",
+        "$('input').ononce('keyup', handler)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-078",
+      "text": "One-time handler for click:",
+      "options": [
+        "$('input').bindOnce('click', handler)",
+        "$('input').one('click', handler)",
+        "$('input').ononce('click', handler)",
+        "$('input').once('click', handler)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-079",
+      "text": "One-time handler for keyup:",
+      "options": [
+        "$('input').one('keyup', handler)",
+        "$('input').once('keyup', handler)",
+        "$('input').bindOnce('keyup', handler)",
+        "$('input').ononce('keyup', handler)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-080",
+      "text": "One-time handler for keyup:",
+      "options": [
+        "$('input').once('keyup', handler)",
+        "$('input').bindOnce('keyup', handler)",
+        "$('input').one('keyup', handler)",
+        "$('input').ononce('keyup', handler)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-081",
+      "text": "One-time handler for keydown:",
+      "options": [
+        "$('input').once('keydown', handler)",
+        "$('input').ononce('keydown', handler)",
+        "$('input').one('keydown', handler)",
+        "$('input').bindOnce('keydown', handler)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-082",
+      "text": "One-time handler for keydown:",
+      "options": [
+        "$('input').once('keydown', handler)",
+        "$('input').ononce('keydown', handler)",
+        "$('input').one('keydown', handler)",
+        "$('input').bindOnce('keydown', handler)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-083",
+      "text": "One-time handler for keyup:",
+      "options": [
+        "$('input').one('keyup', handler)",
+        "$('input').once('keyup', handler)",
+        "$('input').ononce('keyup', handler)",
+        "$('input').bindOnce('keyup', handler)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-084",
+      "text": "One-time handler for keyup:",
+      "options": [
+        "$('input').once('keyup', handler)",
+        "$('input').one('keyup', handler)",
+        "$('input').bindOnce('keyup', handler)",
+        "$('input').ononce('keyup', handler)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-085",
+      "text": "One-time handler for keydown:",
+      "options": [
+        "$('input').ononce('keydown', handler)",
+        "$('input').once('keydown', handler)",
+        "$('input').one('keydown', handler)",
+        "$('input').bindOnce('keydown', handler)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-086",
+      "text": "One-time handler for keyup:",
+      "options": [
+        "$('input').one('keyup', handler)",
+        "$('input').once('keyup', handler)",
+        "$('input').bindOnce('keyup', handler)",
+        "$('input').ononce('keyup', handler)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-087",
+      "text": "One-time handler for keyup:",
+      "options": [
+        "$('input').once('keyup', handler)",
+        "$('input').bindOnce('keyup', handler)",
+        "$('input').ononce('keyup', handler)",
+        "$('input').one('keyup', handler)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-088",
+      "text": "One-time handler for change:",
+      "options": [
+        "$('input').bindOnce('change', handler)",
+        "$('input').ononce('change', handler)",
+        "$('input').once('change', handler)",
+        "$('input').one('change', handler)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-089",
+      "text": "One-time handler for click:",
+      "options": [
+        "$('input').once('click', handler)",
+        "$('input').bindOnce('click', handler)",
+        "$('input').one('click', handler)",
+        "$('input').ononce('click', handler)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-090",
+      "text": "One-time handler for change:",
+      "options": [
+        "$('input').ononce('change', handler)",
+        "$('input').one('change', handler)",
+        "$('input').once('change', handler)",
+        "$('input').bindOnce('change', handler)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-091",
+      "text": "One-time handler for keyup:",
+      "options": [
+        "$('input').once('keyup', handler)",
+        "$('input').ononce('keyup', handler)",
+        "$('input').one('keyup', handler)",
+        "$('input').bindOnce('keyup', handler)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-092",
+      "text": "One-time handler for keyup:",
+      "options": [
+        "$('input').bindOnce('keyup', handler)",
+        "$('input').one('keyup', handler)",
+        "$('input').ononce('keyup', handler)",
+        "$('input').once('keyup', handler)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-093",
+      "text": "One-time handler for click:",
+      "options": [
+        "$('input').one('click', handler)",
+        "$('input').once('click', handler)",
+        "$('input').ononce('click', handler)",
+        "$('input').bindOnce('click', handler)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-094",
+      "text": "One-time handler for click:",
+      "options": [
+        "$('input').ononce('click', handler)",
+        "$('input').bindOnce('click', handler)",
+        "$('input').once('click', handler)",
+        "$('input').one('click', handler)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-095",
+      "text": "One-time handler for change:",
+      "options": [
+        "$('input').one('change', handler)",
+        "$('input').once('change', handler)",
+        "$('input').bindOnce('change', handler)",
+        "$('input').ononce('change', handler)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-096",
+      "text": "One-time handler for keyup:",
+      "options": [
+        "$('input').ononce('keyup', handler)",
+        "$('input').once('keyup', handler)",
+        "$('input').bindOnce('keyup', handler)",
+        "$('input').one('keyup', handler)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-097",
+      "text": "One-time handler for click:",
+      "options": [
+        "$('input').bindOnce('click', handler)",
+        "$('input').once('click', handler)",
+        "$('input').one('click', handler)",
+        "$('input').ononce('click', handler)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-098",
+      "text": "One-time handler for click:",
+      "options": [
+        "$('input').one('click', handler)",
+        "$('input').ononce('click', handler)",
+        "$('input').bindOnce('click', handler)",
+        "$('input').once('click', handler)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-099",
+      "text": "One-time handler for keydown:",
+      "options": [
+        "$('input').once('keydown', handler)",
+        "$('input').one('keydown', handler)",
+        "$('input').bindOnce('keydown', handler)",
+        "$('input').ononce('keydown', handler)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-100",
+      "text": "One-time handler for keydown:",
+      "options": [
+        "$('input').one('keydown', handler)",
+        "$('input').bindOnce('keydown', handler)",
+        "$('input').once('keydown', handler)",
+        "$('input').ononce('keydown', handler)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-101",
+      "text": "One-time handler for change:",
+      "options": [
+        "$('input').one('change', handler)",
+        "$('input').ononce('change', handler)",
+        "$('input').once('change', handler)",
+        "$('input').bindOnce('change', handler)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-102",
+      "text": "One-time handler for keydown:",
+      "options": [
+        "$('input').one('keydown', handler)",
+        "$('input').bindOnce('keydown', handler)",
+        "$('input').once('keydown', handler)",
+        "$('input').ononce('keydown', handler)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-103",
+      "text": "One-time handler for keyup:",
+      "options": [
+        "$('input').one('keyup', handler)",
+        "$('input').bindOnce('keyup', handler)",
+        "$('input').ononce('keyup', handler)",
+        "$('input').once('keyup', handler)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-104",
+      "text": "One-time handler for keydown:",
+      "options": [
+        "$('input').once('keydown', handler)",
+        "$('input').ononce('keydown', handler)",
+        "$('input').bindOnce('keydown', handler)",
+        "$('input').one('keydown', handler)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-105",
+      "text": "One-time handler for click:",
+      "options": [
+        "$('input').ononce('click', handler)",
+        "$('input').once('click', handler)",
+        "$('input').one('click', handler)",
+        "$('input').bindOnce('click', handler)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-106",
+      "text": "One-time handler for keydown:",
+      "options": [
+        "$('input').bindOnce('keydown', handler)",
+        "$('input').one('keydown', handler)",
+        "$('input').once('keydown', handler)",
+        "$('input').ononce('keydown', handler)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-107",
+      "text": "One-time handler for click:",
+      "options": [
+        "$('input').once('click', handler)",
+        "$('input').bindOnce('click', handler)",
+        "$('input').ononce('click', handler)",
+        "$('input').one('click', handler)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-108",
+      "text": "One-time handler for change:",
+      "options": [
+        "$('input').ononce('change', handler)",
+        "$('input').once('change', handler)",
+        "$('input').one('change', handler)",
+        "$('input').bindOnce('change', handler)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-109",
+      "text": "One-time handler for click:",
+      "options": [
+        "$('input').one('click', handler)",
+        "$('input').once('click', handler)",
+        "$('input').ononce('click', handler)",
+        "$('input').bindOnce('click', handler)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-110",
+      "text": "One-time handler for click:",
+      "options": [
+        "$('input').ononce('click', handler)",
+        "$('input').once('click', handler)",
+        "$('input').one('click', handler)",
+        "$('input').bindOnce('click', handler)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-111",
+      "text": "One-time handler for keyup:",
+      "options": [
+        "$('input').bindOnce('keyup', handler)",
+        "$('input').one('keyup', handler)",
+        "$('input').ononce('keyup', handler)",
+        "$('input').once('keyup', handler)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-112",
+      "text": "One-time handler for keyup:",
+      "options": [
+        "$('input').one('keyup', handler)",
+        "$('input').ononce('keyup', handler)",
+        "$('input').bindOnce('keyup', handler)",
+        "$('input').once('keyup', handler)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-113",
+      "text": "One-time handler for keydown:",
+      "options": [
+        "$('input').once('keydown', handler)",
+        "$('input').one('keydown', handler)",
+        "$('input').bindOnce('keydown', handler)",
+        "$('input').ononce('keydown', handler)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-114",
+      "text": "One-time handler for keydown:",
+      "options": [
+        "$('input').bindOnce('keydown', handler)",
+        "$('input').ononce('keydown', handler)",
+        "$('input').one('keydown', handler)",
+        "$('input').once('keydown', handler)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-115",
+      "text": "One-time handler for keydown:",
+      "options": [
+        "$('input').once('keydown', handler)",
+        "$('input').ononce('keydown', handler)",
+        "$('input').one('keydown', handler)",
+        "$('input').bindOnce('keydown', handler)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-116",
+      "text": "One-time handler for click:",
+      "options": [
+        "$('input').one('click', handler)",
+        "$('input').once('click', handler)",
+        "$('input').bindOnce('click', handler)",
+        "$('input').ononce('click', handler)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-117",
+      "text": "One-time handler for click:",
+      "options": [
+        "$('input').ononce('click', handler)",
+        "$('input').once('click', handler)",
+        "$('input').one('click', handler)",
+        "$('input').bindOnce('click', handler)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-118",
+      "text": "One-time handler for keydown:",
+      "options": [
+        "$('input').once('keydown', handler)",
+        "$('input').one('keydown', handler)",
+        "$('input').ononce('keydown', handler)",
+        "$('input').bindOnce('keydown', handler)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-119",
+      "text": "One-time handler for keyup:",
+      "options": [
+        "$('input').bindOnce('keyup', handler)",
+        "$('input').ononce('keyup', handler)",
+        "$('input').one('keyup', handler)",
+        "$('input').once('keyup', handler)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    },
+    {
+      "id": "jquery-medium-120",
+      "text": "One-time handler for keydown:",
+      "options": [
+        "$('input').once('keydown', handler)",
+        "$('input').ononce('keydown', handler)",
+        "$('input').bindOnce('keydown', handler)",
+        "$('input').one('keydown', handler)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Events",
+      "explanation": ".one() runs once then removes the handler."
+    }
+  ]
+}

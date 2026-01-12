@@ -1,0 +1,1566 @@
+{
+  "skill": "jquery",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": "jquery-hard-001",
+      "text": "Trigger handlers w/o bubbling or default:",
+      "options": [
+        "triggerHandler()",
+        "fire()",
+        "dispatch()",
+        "trigger()"
+      ],
+      "correctAnswer": 0,
+      "topic": "Events",
+      "explanation": "triggerHandler runs handlers only on the element."
+    },
+    {
+      "id": "jquery-hard-002",
+      "text": "Remove handlers in namespace '.ns':",
+      "options": [
+        "off()",
+        "remove('.ns')",
+        "unbind('.ns')",
+        "off('.ns')"
+      ],
+      "correctAnswer": 3,
+      "topic": "Events",
+      "explanation": "Event namespaces allow selective removal."
+    },
+    {
+      "id": "jquery-hard-003",
+      "text": "Attach handler that runs once:",
+      "options": [
+        "one()",
+        "onOnce()",
+        "once()",
+        "bindOnce()"
+      ],
+      "correctAnswer": 0,
+      "topic": "Events",
+      "explanation": ".one() auto-removes after first call."
+    },
+    {
+      "id": "jquery-hard-004",
+      "text": "Stop other handlers of same event:",
+      "options": [
+        "return false",
+        "event.stopImmediatePropagation()",
+        "event.stopPropagation()",
+        "preventDefault()"
+      ],
+      "correctAnswer": 1,
+      "topic": "Events",
+      "explanation": "Prevents remaining handlers on same element."
+    },
+    {
+      "id": "jquery-hard-005",
+      "text": "Disable global Ajax events:",
+      "options": [
+        "async: false",
+        "cache: false",
+        "crossDomain: false",
+        "global: false"
+      ],
+      "correctAnswer": 3,
+      "topic": "AJAX",
+      "explanation": "Set in $.ajax options."
+    },
+    {
+      "id": "jquery-hard-006",
+      "text": "Defeat cache for GET:",
+      "options": [
+        "ifModified: true",
+        "cache: false",
+        "traditional: true",
+        "processData: false"
+      ],
+      "correctAnswer": 1,
+      "topic": "AJAX",
+      "explanation": "Appends anti-cache parameter."
+    },
+    {
+      "id": "jquery-hard-007",
+      "text": "Modify options before request:",
+      "options": [
+        "$.ajaxPrefilter",
+        "$.ajaxTransport",
+        "$.ajaxBefore",
+        "$.ajaxSetup"
+      ],
+      "correctAnswer": 0,
+      "topic": "AJAX",
+      "explanation": "Prefilter can inspect/alter options."
+    },
+    {
+      "id": "jquery-hard-008",
+      "text": "Set default Ajax options globally:",
+      "options": [
+        "$.ajaxDefaults",
+        "$.ajaxPrefilter",
+        "$.ajaxSetup",
+        "$.ajaxTransport"
+      ],
+      "correctAnswer": 2,
+      "topic": "AJAX",
+      "explanation": "Applies to subsequent requests."
+    },
+    {
+      "id": "jquery-hard-009",
+      "text": "Create a Deferred:",
+      "options": [
+        "$.Promise()",
+        "$.Deferred()",
+        "$.defer()",
+        "new Promise()"
+      ],
+      "correctAnswer": 1,
+      "topic": "Deferred/Promise",
+      "explanation": "jQuery Deferred constructor."
+    },
+    {
+      "id": "jquery-hard-010",
+      "text": "Combine multiple Deferreds:",
+      "options": [
+        "Promise.race()",
+        "$.all()",
+        "$.combine()",
+        "$.when()"
+      ],
+      "correctAnswer": 3,
+      "topic": "Deferred/Promise",
+      "explanation": "Resolves when all resolve."
+    },
+    {
+      "id": "jquery-hard-011",
+      "text": "Valid Deferred state:",
+      "options": [
+        "processing",
+        "pending",
+        "loading",
+        "initialized"
+      ],
+      "correctAnswer": 1,
+      "topic": "Deferred/Promise",
+      "explanation": "States: pending → resolved/rejected."
+    },
+    {
+      "id": "jquery-hard-012",
+      "text": "Get/set vertical scroll:",
+      "options": [
+        "scrollTop()",
+        "position().top",
+        "offset().top",
+        "scrollLeft()"
+      ],
+      "correctAnswer": 0,
+      "topic": "Dimensions",
+      "explanation": "scrollTop/scrollLeft."
+    },
+    {
+      "id": "jquery-hard-013",
+      "text": "Position relative to offset parent:",
+      "options": [
+        "position()",
+        "offset()",
+        "clientTop()",
+        "getBoundingClientRect()"
+      ],
+      "correctAnswer": 0,
+      "topic": "Positioning",
+      "explanation": "position() vs offset()."
+    },
+    {
+      "id": "jquery-hard-014",
+      "text": "Remove children only:",
+      "options": [
+        "empty()",
+        "detach()",
+        "clean()",
+        "remove()"
+      ],
+      "correctAnswer": 0,
+      "topic": "DOM",
+      "explanation": "empty() clears descendants."
+    },
+    {
+      "id": "jquery-hard-015",
+      "text": "Clone incl. data & events:",
+      "options": [
+        "duplicate(true)",
+        "clone(true)",
+        "clone()",
+        "copy(true)"
+      ],
+      "correctAnswer": 1,
+      "topic": "DOM",
+      "explanation": "clone(true) copies handlers/data."
+    },
+    {
+      "id": "jquery-hard-016",
+      "text": "Default effects queue name:",
+      "options": [
+        "'anim'",
+        "'fx'",
+        "'queue'",
+        "'default'"
+      ],
+      "correctAnswer": 1,
+      "topic": "Effects/Queue",
+      "explanation": "Animations run on the 'fx' queue."
+    },
+    {
+      "id": "jquery-hard-017",
+      "text": "Add function to named queue:",
+      "options": [
+        "pushQueue(fn)",
+        "addQueue(fn)",
+        "queue(name, fn)",
+        "enqueue(name, fn)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Effects/Queue",
+      "explanation": "Use .queue('fx', fn)."
+    },
+    {
+      "id": "jquery-hard-018",
+      "text": "Clear remaining queue functions:",
+      "options": [
+        "finishQueue()",
+        "emptyQueue()",
+        "stopQueue()",
+        "clearQueue()"
+      ],
+      "correctAnswer": 3,
+      "topic": "Effects/Queue",
+      "explanation": "Clears named queue."
+    },
+    {
+      "id": "jquery-hard-019",
+      "text": "Extend jQuery prototype:",
+      "options": [
+        "jQuery.plugin",
+        "$.extend",
+        "$.addMethod",
+        "$.fn.extend"
+      ],
+      "correctAnswer": 3,
+      "topic": "Plugins",
+      "explanation": "Adds chainable methods."
+    },
+    {
+      "id": "jquery-hard-020",
+      "text": "Extend jQuery static object:",
+      "options": [
+        "$.static",
+        "$.util",
+        "$.extend",
+        "$.fn.extend"
+      ],
+      "correctAnswer": 2,
+      "topic": "Plugins",
+      "explanation": "Adds static utilities."
+    },
+    {
+      "id": "jquery-hard-021",
+      "text": "'this' inside a plugin method refers to:",
+      "options": [
+        "document",
+        "window",
+        "the jQuery collection",
+        "the options object"
+      ],
+      "correctAnswer": 2,
+      "topic": "Plugins",
+      "explanation": "Return this for chaining."
+    },
+    {
+      "id": "jquery-hard-022",
+      "text": "Check if any element matches selector:",
+      "options": [
+        "some(selector)",
+        "is(selector)",
+        "has(selector)",
+        "filter(selector)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Filters",
+      "explanation": "is() returns boolean."
+    },
+    {
+      "id": "jquery-hard-023",
+      "text": "Keep elements that have a descendant matching:",
+      "options": [
+        "is(selector)",
+        "has(selector)",
+        "contains(selector)",
+        "filter(selector)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Filters",
+      "explanation": "has() filters by descendant."
+    },
+    {
+      "id": "jquery-hard-024",
+      "text": "Exclude elements that match selector:",
+      "options": [
+        "without(selector)",
+        "remove(selector)",
+        "filter(selector)",
+        "not(selector)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Filters",
+      "explanation": "not() excludes."
+    },
+    {
+      "id": "jquery-hard-025",
+      "text": "Select the element at index 6 (0‑based):",
+      "options": [
+        "index(6)",
+        "eq(6)",
+        "nth(6)",
+        "at(6)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-026",
+      "text": "Select the element at index 7 (0‑based):",
+      "options": [
+        "index(7)",
+        "at(7)",
+        "eq(7)",
+        "nth(7)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-027",
+      "text": "Select the element at index 8 (0‑based):",
+      "options": [
+        "eq(8)",
+        "nth(8)",
+        "at(8)",
+        "index(8)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-028",
+      "text": "Select the element at index 9 (0‑based):",
+      "options": [
+        "at(9)",
+        "nth(9)",
+        "eq(9)",
+        "index(9)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-029",
+      "text": "Select the element at index 10 (0‑based):",
+      "options": [
+        "nth(10)",
+        "index(10)",
+        "at(10)",
+        "eq(10)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-030",
+      "text": "Select the element at index 11 (0‑based):",
+      "options": [
+        "index(11)",
+        "nth(11)",
+        "at(11)",
+        "eq(11)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-031",
+      "text": "Select the element at index 12 (0‑based):",
+      "options": [
+        "eq(12)",
+        "nth(12)",
+        "index(12)",
+        "at(12)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-032",
+      "text": "Select the element at index 13 (0‑based):",
+      "options": [
+        "at(13)",
+        "eq(13)",
+        "index(13)",
+        "nth(13)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-033",
+      "text": "Select the element at index 14 (0‑based):",
+      "options": [
+        "at(14)",
+        "eq(14)",
+        "index(14)",
+        "nth(14)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-034",
+      "text": "Select the element at index 15 (0‑based):",
+      "options": [
+        "nth(15)",
+        "index(15)",
+        "eq(15)",
+        "at(15)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-035",
+      "text": "Select the element at index 16 (0‑based):",
+      "options": [
+        "eq(16)",
+        "index(16)",
+        "nth(16)",
+        "at(16)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-036",
+      "text": "Select the element at index 17 (0‑based):",
+      "options": [
+        "index(17)",
+        "eq(17)",
+        "nth(17)",
+        "at(17)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-037",
+      "text": "Select the element at index 18 (0‑based):",
+      "options": [
+        "at(18)",
+        "nth(18)",
+        "index(18)",
+        "eq(18)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-038",
+      "text": "Select the element at index 19 (0‑based):",
+      "options": [
+        "index(19)",
+        "eq(19)",
+        "nth(19)",
+        "at(19)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-039",
+      "text": "Select the element at index 20 (0‑based):",
+      "options": [
+        "eq(20)",
+        "at(20)",
+        "index(20)",
+        "nth(20)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-040",
+      "text": "Select the element at index 21 (0‑based):",
+      "options": [
+        "eq(21)",
+        "index(21)",
+        "nth(21)",
+        "at(21)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-041",
+      "text": "Select the element at index 2 (0‑based):",
+      "options": [
+        "nth(2)",
+        "index(2)",
+        "eq(2)",
+        "at(2)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-042",
+      "text": "Select the element at index 3 (0‑based):",
+      "options": [
+        "eq(3)",
+        "at(3)",
+        "nth(3)",
+        "index(3)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-043",
+      "text": "Select the element at index 4 (0‑based):",
+      "options": [
+        "at(4)",
+        "nth(4)",
+        "eq(4)",
+        "index(4)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-044",
+      "text": "Select the element at index 5 (0‑based):",
+      "options": [
+        "index(5)",
+        "nth(5)",
+        "eq(5)",
+        "at(5)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-045",
+      "text": "Select the element at index 6 (0‑based):",
+      "options": [
+        "nth(6)",
+        "at(6)",
+        "index(6)",
+        "eq(6)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-046",
+      "text": "Select the element at index 7 (0‑based):",
+      "options": [
+        "index(7)",
+        "at(7)",
+        "eq(7)",
+        "nth(7)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-047",
+      "text": "Select the element at index 8 (0‑based):",
+      "options": [
+        "eq(8)",
+        "index(8)",
+        "at(8)",
+        "nth(8)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-048",
+      "text": "Select the element at index 9 (0‑based):",
+      "options": [
+        "index(9)",
+        "nth(9)",
+        "at(9)",
+        "eq(9)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-049",
+      "text": "Select the element at index 10 (0‑based):",
+      "options": [
+        "index(10)",
+        "nth(10)",
+        "at(10)",
+        "eq(10)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-050",
+      "text": "Select the element at index 11 (0‑based):",
+      "options": [
+        "at(11)",
+        "index(11)",
+        "eq(11)",
+        "nth(11)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-051",
+      "text": "Select the element at index 12 (0‑based):",
+      "options": [
+        "nth(12)",
+        "index(12)",
+        "at(12)",
+        "eq(12)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-052",
+      "text": "Select the element at index 13 (0‑based):",
+      "options": [
+        "nth(13)",
+        "index(13)",
+        "eq(13)",
+        "at(13)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-053",
+      "text": "Select the element at index 14 (0‑based):",
+      "options": [
+        "eq(14)",
+        "at(14)",
+        "nth(14)",
+        "index(14)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-054",
+      "text": "Select the element at index 15 (0‑based):",
+      "options": [
+        "index(15)",
+        "eq(15)",
+        "at(15)",
+        "nth(15)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-055",
+      "text": "Select the element at index 16 (0‑based):",
+      "options": [
+        "nth(16)",
+        "eq(16)",
+        "index(16)",
+        "at(16)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-056",
+      "text": "Select the element at index 17 (0‑based):",
+      "options": [
+        "eq(17)",
+        "nth(17)",
+        "at(17)",
+        "index(17)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-057",
+      "text": "Select the element at index 18 (0‑based):",
+      "options": [
+        "nth(18)",
+        "at(18)",
+        "eq(18)",
+        "index(18)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-058",
+      "text": "Select the element at index 19 (0‑based):",
+      "options": [
+        "at(19)",
+        "index(19)",
+        "eq(19)",
+        "nth(19)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-059",
+      "text": "Select the element at index 20 (0‑based):",
+      "options": [
+        "index(20)",
+        "eq(20)",
+        "at(20)",
+        "nth(20)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-060",
+      "text": "Select the element at index 21 (0‑based):",
+      "options": [
+        "at(21)",
+        "index(21)",
+        "eq(21)",
+        "nth(21)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-061",
+      "text": "Select the element at index 2 (0‑based):",
+      "options": [
+        "nth(2)",
+        "index(2)",
+        "at(2)",
+        "eq(2)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-062",
+      "text": "Select the element at index 3 (0‑based):",
+      "options": [
+        "index(3)",
+        "eq(3)",
+        "nth(3)",
+        "at(3)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-063",
+      "text": "Select the element at index 4 (0‑based):",
+      "options": [
+        "eq(4)",
+        "index(4)",
+        "nth(4)",
+        "at(4)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-064",
+      "text": "Select the element at index 5 (0‑based):",
+      "options": [
+        "at(5)",
+        "nth(5)",
+        "index(5)",
+        "eq(5)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-065",
+      "text": "Select the element at index 6 (0‑based):",
+      "options": [
+        "eq(6)",
+        "index(6)",
+        "at(6)",
+        "nth(6)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-066",
+      "text": "Select the element at index 7 (0‑based):",
+      "options": [
+        "nth(7)",
+        "at(7)",
+        "index(7)",
+        "eq(7)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-067",
+      "text": "Select the element at index 8 (0‑based):",
+      "options": [
+        "eq(8)",
+        "at(8)",
+        "nth(8)",
+        "index(8)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-068",
+      "text": "Select the element at index 9 (0‑based):",
+      "options": [
+        "index(9)",
+        "eq(9)",
+        "at(9)",
+        "nth(9)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-069",
+      "text": "Select the element at index 10 (0‑based):",
+      "options": [
+        "eq(10)",
+        "index(10)",
+        "at(10)",
+        "nth(10)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-070",
+      "text": "Select the element at index 11 (0‑based):",
+      "options": [
+        "nth(11)",
+        "at(11)",
+        "index(11)",
+        "eq(11)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-071",
+      "text": "Select the element at index 12 (0‑based):",
+      "options": [
+        "eq(12)",
+        "nth(12)",
+        "at(12)",
+        "index(12)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-072",
+      "text": "Select the element at index 13 (0‑based):",
+      "options": [
+        "at(13)",
+        "index(13)",
+        "eq(13)",
+        "nth(13)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-073",
+      "text": "Select the element at index 14 (0‑based):",
+      "options": [
+        "eq(14)",
+        "index(14)",
+        "at(14)",
+        "nth(14)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-074",
+      "text": "Select the element at index 15 (0‑based):",
+      "options": [
+        "index(15)",
+        "at(15)",
+        "eq(15)",
+        "nth(15)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-075",
+      "text": "Select the element at index 16 (0‑based):",
+      "options": [
+        "nth(16)",
+        "at(16)",
+        "eq(16)",
+        "index(16)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-076",
+      "text": "Select the element at index 17 (0‑based):",
+      "options": [
+        "eq(17)",
+        "index(17)",
+        "at(17)",
+        "nth(17)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-077",
+      "text": "Select the element at index 18 (0‑based):",
+      "options": [
+        "nth(18)",
+        "index(18)",
+        "eq(18)",
+        "at(18)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-078",
+      "text": "Select the element at index 19 (0‑based):",
+      "options": [
+        "index(19)",
+        "at(19)",
+        "nth(19)",
+        "eq(19)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-079",
+      "text": "Select the element at index 20 (0‑based):",
+      "options": [
+        "nth(20)",
+        "eq(20)",
+        "index(20)",
+        "at(20)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-080",
+      "text": "Select the element at index 21 (0‑based):",
+      "options": [
+        "at(21)",
+        "eq(21)",
+        "nth(21)",
+        "index(21)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-081",
+      "text": "Select the element at index 2 (0‑based):",
+      "options": [
+        "eq(2)",
+        "index(2)",
+        "at(2)",
+        "nth(2)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-082",
+      "text": "Select the element at index 3 (0‑based):",
+      "options": [
+        "eq(3)",
+        "index(3)",
+        "at(3)",
+        "nth(3)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-083",
+      "text": "Select the element at index 4 (0‑based):",
+      "options": [
+        "at(4)",
+        "eq(4)",
+        "index(4)",
+        "nth(4)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-084",
+      "text": "Select the element at index 5 (0‑based):",
+      "options": [
+        "index(5)",
+        "at(5)",
+        "eq(5)",
+        "nth(5)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-085",
+      "text": "Select the element at index 6 (0‑based):",
+      "options": [
+        "eq(6)",
+        "index(6)",
+        "nth(6)",
+        "at(6)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-086",
+      "text": "Select the element at index 7 (0‑based):",
+      "options": [
+        "eq(7)",
+        "at(7)",
+        "nth(7)",
+        "index(7)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-087",
+      "text": "Select the element at index 8 (0‑based):",
+      "options": [
+        "index(8)",
+        "at(8)",
+        "eq(8)",
+        "nth(8)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-088",
+      "text": "Select the element at index 9 (0‑based):",
+      "options": [
+        "at(9)",
+        "eq(9)",
+        "nth(9)",
+        "index(9)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-089",
+      "text": "Select the element at index 10 (0‑based):",
+      "options": [
+        "eq(10)",
+        "nth(10)",
+        "at(10)",
+        "index(10)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-090",
+      "text": "Select the element at index 11 (0‑based):",
+      "options": [
+        "at(11)",
+        "nth(11)",
+        "index(11)",
+        "eq(11)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-091",
+      "text": "Select the element at index 12 (0‑based):",
+      "options": [
+        "index(12)",
+        "nth(12)",
+        "at(12)",
+        "eq(12)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-092",
+      "text": "Select the element at index 13 (0‑based):",
+      "options": [
+        "nth(13)",
+        "at(13)",
+        "eq(13)",
+        "index(13)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-093",
+      "text": "Select the element at index 14 (0‑based):",
+      "options": [
+        "nth(14)",
+        "eq(14)",
+        "index(14)",
+        "at(14)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-094",
+      "text": "Select the element at index 15 (0‑based):",
+      "options": [
+        "at(15)",
+        "index(15)",
+        "eq(15)",
+        "nth(15)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-095",
+      "text": "Select the element at index 16 (0‑based):",
+      "options": [
+        "at(16)",
+        "nth(16)",
+        "index(16)",
+        "eq(16)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-096",
+      "text": "Select the element at index 17 (0‑based):",
+      "options": [
+        "index(17)",
+        "eq(17)",
+        "at(17)",
+        "nth(17)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-097",
+      "text": "Select the element at index 18 (0‑based):",
+      "options": [
+        "eq(18)",
+        "index(18)",
+        "nth(18)",
+        "at(18)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-098",
+      "text": "Select the element at index 19 (0‑based):",
+      "options": [
+        "at(19)",
+        "index(19)",
+        "nth(19)",
+        "eq(19)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-099",
+      "text": "Select the element at index 20 (0‑based):",
+      "options": [
+        "at(20)",
+        "index(20)",
+        "nth(20)",
+        "eq(20)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-100",
+      "text": "Select the element at index 21 (0‑based):",
+      "options": [
+        "index(21)",
+        "at(21)",
+        "eq(21)",
+        "nth(21)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-101",
+      "text": "Select the element at index 2 (0‑based):",
+      "options": [
+        "nth(2)",
+        "index(2)",
+        "eq(2)",
+        "at(2)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-102",
+      "text": "Select the element at index 3 (0‑based):",
+      "options": [
+        "at(3)",
+        "eq(3)",
+        "index(3)",
+        "nth(3)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-103",
+      "text": "Select the element at index 4 (0‑based):",
+      "options": [
+        "at(4)",
+        "index(4)",
+        "nth(4)",
+        "eq(4)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-104",
+      "text": "Select the element at index 5 (0‑based):",
+      "options": [
+        "index(5)",
+        "nth(5)",
+        "at(5)",
+        "eq(5)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-105",
+      "text": "Select the element at index 6 (0‑based):",
+      "options": [
+        "index(6)",
+        "eq(6)",
+        "at(6)",
+        "nth(6)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-106",
+      "text": "Select the element at index 7 (0‑based):",
+      "options": [
+        "nth(7)",
+        "at(7)",
+        "eq(7)",
+        "index(7)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-107",
+      "text": "Select the element at index 8 (0‑based):",
+      "options": [
+        "eq(8)",
+        "at(8)",
+        "nth(8)",
+        "index(8)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-108",
+      "text": "Select the element at index 9 (0‑based):",
+      "options": [
+        "at(9)",
+        "eq(9)",
+        "nth(9)",
+        "index(9)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-109",
+      "text": "Select the element at index 10 (0‑based):",
+      "options": [
+        "nth(10)",
+        "index(10)",
+        "at(10)",
+        "eq(10)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-110",
+      "text": "Select the element at index 11 (0‑based):",
+      "options": [
+        "index(11)",
+        "eq(11)",
+        "at(11)",
+        "nth(11)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-111",
+      "text": "Select the element at index 12 (0‑based):",
+      "options": [
+        "index(12)",
+        "nth(12)",
+        "eq(12)",
+        "at(12)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-112",
+      "text": "Select the element at index 13 (0‑based):",
+      "options": [
+        "at(13)",
+        "eq(13)",
+        "index(13)",
+        "nth(13)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-113",
+      "text": "Select the element at index 14 (0‑based):",
+      "options": [
+        "eq(14)",
+        "at(14)",
+        "nth(14)",
+        "index(14)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-114",
+      "text": "Select the element at index 15 (0‑based):",
+      "options": [
+        "nth(15)",
+        "eq(15)",
+        "index(15)",
+        "at(15)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-115",
+      "text": "Select the element at index 16 (0‑based):",
+      "options": [
+        "eq(16)",
+        "nth(16)",
+        "index(16)",
+        "at(16)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-116",
+      "text": "Select the element at index 17 (0‑based):",
+      "options": [
+        "nth(17)",
+        "at(17)",
+        "eq(17)",
+        "index(17)"
+      ],
+      "correctAnswer": 2,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-117",
+      "text": "Select the element at index 18 (0‑based):",
+      "options": [
+        "index(18)",
+        "eq(18)",
+        "at(18)",
+        "nth(18)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-118",
+      "text": "Select the element at index 19 (0‑based):",
+      "options": [
+        "eq(19)",
+        "at(19)",
+        "nth(19)",
+        "index(19)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-119",
+      "text": "Select the element at index 20 (0‑based):",
+      "options": [
+        "nth(20)",
+        "at(20)",
+        "index(20)",
+        "eq(20)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    },
+    {
+      "id": "jquery-hard-120",
+      "text": "Select the element at index 21 (0‑based):",
+      "options": [
+        "eq(21)",
+        "at(21)",
+        "nth(21)",
+        "index(21)"
+      ],
+      "correctAnswer": 0,
+      "topic": "Filters",
+      "explanation": "Use eq(n)."
+    }
+  ]
+}

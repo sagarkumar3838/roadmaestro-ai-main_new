@@ -1,0 +1,6402 @@
+{
+  "skill": "html",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": "html-easy-001",
+      "text": "What does HTML stand for?",
+      "options": [
+        "Hypertext Markup Language",
+        "High Tech Modern Language",
+        "Home Tool Markup Language",
+        "Hyperlink Text Management Language"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Basics",
+      "explanation": "HTML stands for Hypertext Markup Language, which is the standard markup language for creating web pages."
+    },
+    {
+      "id": "html-easy-002",
+      "text": "Which tag is used for the main heading?",
+      "options": [
+        "<head>",
+        "<h1>",
+        "<title>",
+        "<heading>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Headings",
+      "explanation": "The <h1> tag is used for the main heading in HTML. It represents the most important heading."
+    },
+    {
+      "id": "html-easy-003",
+      "text": "What is the correct HTML element for inserting a line break?",
+      "options": [
+        "<break>",
+        "<lb>",
+        "<br>",
+        "<newline>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Line Breaks",
+      "explanation": "The <br> tag is used to insert a line break in HTML. It's a self-closing tag."
+    },
+    {
+      "id": "html-easy-004",
+      "text": "Which tag is used to create a hyperlink?",
+      "options": [
+        "<a>",
+        "<link>",
+        "<href>",
+        "<url>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Links",
+      "explanation": "The <a> (anchor) tag is used to create hyperlinks in HTML using the href attribute."
+    },
+    {
+      "id": "html-easy-005",
+      "text": "What does the <title> tag define?",
+      "options": [
+        "Document title",
+        "Main heading",
+        "Page content",
+        "Meta information"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Document Structure",
+      "explanation": "The <title> tag defines the title of the document shown in the browser's title bar or tab."
+    },
+    {
+      "id": "html-easy-006",
+      "text": "Which HTML tag is used for creating an unordered list?",
+      "options": [
+        "<ul>",
+        "<ol>",
+        "<li>",
+        "<list>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Lists",
+      "explanation": "The <ul> tag creates an unordered (bulleted) list in HTML."
+    },
+    {
+      "id": "html-easy-007",
+      "text": "What is the correct way to close an HTML tag?",
+      "options": [
+        "</tag>",
+        "<tag/>",
+        "<\\tag>",
+        "<end>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Tag Syntax",
+      "explanation": "HTML tags are closed using a forward slash before the tag name: </tag>"
+    },
+    {
+      "id": "html-easy-008",
+      "text": "Which HTML attribute specifies an alternate text for an image?",
+      "options": [
+        "alt",
+        "src",
+        "title",
+        "href"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Images",
+      "explanation": "The 'alt' attribute provides alternative text for images, important for accessibility."
+    },
+    {
+      "id": "html-easy-009",
+      "text": "What does the <p> tag represent?",
+      "options": [
+        "Paragraph",
+        "Page",
+        "Picture",
+        "Panel"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Text Elements",
+      "explanation": "The <p> tag represents a paragraph in HTML."
+    },
+    {
+      "id": "html-easy-010",
+      "text": "Which HTML tag is used to make text bold?",
+      "options": [
+        "<b>",
+        "<strong>",
+        "<bold>",
+        "<em>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <b> tag makes text bold. <strong> also makes text bold but with semantic meaning."
+    },
+    {
+      "id": "html-easy-011",
+      "text": "What is the purpose of the <head> section?",
+      "options": [
+        "Contains metadata",
+        "Main content",
+        "Footer content",
+        "Navigation"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Document Structure",
+      "explanation": "The <head> section contains metadata about the document, not visible content."
+    },
+    {
+      "id": "html-easy-012",
+      "text": "Which tag is used to create a table?",
+      "options": [
+        "<table>",
+        "<tb>",
+        "<grid>",
+        "<data>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Tables",
+      "explanation": "The <table> tag is used to create tables in HTML."
+    },
+    {
+      "id": "html-easy-013",
+      "text": "Which HTML tag is used to define the root element of an HTML document?",
+      "options": [
+        "<root>",
+        "<document>",
+        "<main>",
+        "<html>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Document Structure",
+      "explanation": "The <html> tag is used to define the root element of an HTML document in HTML."
+    },
+    {
+      "id": "html-easy-014",
+      "text": "Which HTML tag is used to define the main content of a web page?",
+      "options": [
+        "<content>",
+        "<main>",
+        "<page>",
+        "<body>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Document Structure",
+      "explanation": "The <body> tag is used to define the main content of a web page in HTML."
+    },
+    {
+      "id": "html-easy-015",
+      "text": "Which HTML tag is used to define a secondary heading?",
+      "options": [
+        "<h6>",
+        "<h2>",
+        "<head>",
+        "<heading>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Headings",
+      "explanation": "The <h2> tag is used to define a secondary heading in HTML."
+    },
+    {
+      "id": "html-easy-016",
+      "text": "Which HTML tag is used to define the smallest level of heading?",
+      "options": [
+        "<small>",
+        "<h6>",
+        "<p>",
+        "<h5>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Headings",
+      "explanation": "The <h6> tag is used to define the smallest level of heading in HTML."
+    },
+    {
+      "id": "html-easy-017",
+      "text": "Which HTML tag is used to define a generic container for block-level content?",
+      "options": [
+        "<span>",
+        "<section>",
+        "<div>",
+        "<container>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Layout",
+      "explanation": "The <div> tag is used to define a generic container for block-level content in HTML."
+    },
+    {
+      "id": "html-easy-018",
+      "text": "Which HTML tag is used to define a generic container for inline text?",
+      "options": [
+        "<span>",
+        "<div>",
+        "<inline>",
+        "<p>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Text Elements",
+      "explanation": "The <span> tag is used to define a generic container for inline text in HTML."
+    },
+    {
+      "id": "html-easy-019",
+      "text": "Which HTML tag is used to define an ordered (numbered) list?",
+      "options": [
+        "<li>",
+        "<ol>",
+        "<list>",
+        "<ul>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Lists",
+      "explanation": "The <ol> tag is used to define an ordered (numbered) list in HTML."
+    },
+    {
+      "id": "html-easy-020",
+      "text": "Which HTML tag is used to define a list item?",
+      "options": [
+        "<item>",
+        "<ul>",
+        "<li>",
+        "<ol>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Lists",
+      "explanation": "The <li> tag is used to define a list item in HTML."
+    },
+    {
+      "id": "html-easy-021",
+      "text": "Which HTML tag is used to define an image?",
+      "options": [
+        "<img>",
+        "<src>",
+        "<image>",
+        "<pic>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Images",
+      "explanation": "The <img> tag is used to define an image in HTML."
+    },
+    {
+      "id": "html-easy-022",
+      "text": "Which HTML tag is used to define a horizontal rule or thematic break?",
+      "options": [
+        "<border>",
+        "<line>",
+        "<rule>",
+        "<hr>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Lines",
+      "explanation": "The <hr> tag is used to define a horizontal rule or thematic break in HTML."
+    },
+    {
+      "id": "html-easy-023",
+      "text": "Which HTML tag is used to define a navigation section of a page?",
+      "options": [
+        "<links>",
+        "<menu>",
+        "<nav>",
+        "<section>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <nav> tag is used to define a navigation section of a page in HTML."
+    },
+    {
+      "id": "html-easy-024",
+      "text": "Which HTML tag is used to define the header section of a page or section?",
+      "options": [
+        "<header>",
+        "<title>",
+        "<top>",
+        "<head>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <header> tag is used to define the header section of a page or section in HTML."
+    },
+    {
+      "id": "html-easy-025",
+      "text": "Which HTML tag is used to define the footer section of a page or section?",
+      "options": [
+        "<bottom>",
+        "<tail>",
+        "<end>",
+        "<footer>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <footer> tag is used to define the footer section of a page or section in HTML."
+    },
+    {
+      "id": "html-easy-026",
+      "text": "Which HTML tag is used to define a standalone piece of content such as a blog post?",
+      "options": [
+        "<post>",
+        "<article>",
+        "<content>",
+        "<section>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <article> tag is used to define a standalone piece of content such as a blog post in HTML."
+    },
+    {
+      "id": "html-easy-027",
+      "text": "Which HTML tag is used to define a section of content?",
+      "options": [
+        "<group>",
+        "<div>",
+        "<section>",
+        "<part>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <section> tag is used to define a section of content in HTML."
+    },
+    {
+      "id": "html-easy-028",
+      "text": "Which HTML tag is used to define content that is indirectly related to the main content, like a sidebar?",
+      "options": [
+        "<extra>",
+        "<aside>",
+        "<side>",
+        "<section>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <aside> tag is used to define content that is indirectly related to the main content, like a sidebar in HTML."
+    },
+    {
+      "id": "html-easy-029",
+      "text": "Which HTML tag is used to define the main content area of a document?",
+      "options": [
+        "<body>",
+        "<content>",
+        "<main>",
+        "<section>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <main> tag is used to define the main content area of a document in HTML."
+    },
+    {
+      "id": "html-easy-030",
+      "text": "Which HTML tag is used to define a table row?",
+      "options": [
+        "<row>",
+        "<th>",
+        "<tr>",
+        "<td>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Tables",
+      "explanation": "The <tr> tag is used to define a table row in HTML."
+    },
+    {
+      "id": "html-easy-031",
+      "text": "Which HTML tag is used to define a standard data cell in a table?",
+      "options": [
+        "<cell>",
+        "<td>",
+        "<tr>",
+        "<th>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Tables",
+      "explanation": "The <td> tag is used to define a standard data cell in a table in HTML."
+    },
+    {
+      "id": "html-easy-032",
+      "text": "Which HTML tag is used to define a header cell in a table?",
+      "options": [
+        "<tr>",
+        "<th>",
+        "<head>",
+        "<td>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Tables",
+      "explanation": "The <th> tag is used to define a header cell in a table in HTML."
+    },
+    {
+      "id": "html-easy-033",
+      "text": "Which HTML tag is used to define the table header section?",
+      "options": [
+        "<th>",
+        "<head>",
+        "<header>",
+        "<thead>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Tables",
+      "explanation": "The <thead> tag is used to define the table header section in HTML."
+    },
+    {
+      "id": "html-easy-034",
+      "text": "Which HTML tag is used to define the table body section?",
+      "options": [
+        "<body>",
+        "<section>",
+        "<td>",
+        "<tbody>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Tables",
+      "explanation": "The <tbody> tag is used to define the table body section in HTML."
+    },
+    {
+      "id": "html-easy-035",
+      "text": "Which HTML tag is used to define the table footer section?",
+      "options": [
+        "<foot>",
+        "<tfoot>",
+        "<end>",
+        "<footer>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Tables",
+      "explanation": "The <tfoot> tag is used to define the table footer section in HTML."
+    },
+    {
+      "id": "html-easy-036",
+      "text": "Which HTML tag is used to define a form for user input?",
+      "options": [
+        "<form>",
+        "<control>",
+        "<input>",
+        "<field>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Forms",
+      "explanation": "The <form> tag is used to define a form for user input in HTML."
+    },
+    {
+      "id": "html-easy-037",
+      "text": "Which HTML tag is used to define a text input field?",
+      "options": [
+        "<textfield>",
+        "<form>",
+        "<text>",
+        "<input>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Forms",
+      "explanation": "The <input> tag is used to define a text input field in HTML."
+    },
+    {
+      "id": "html-easy-038",
+      "text": "Which HTML tag is used to define a clickable button?",
+      "options": [
+        "<button>",
+        "<submit>",
+        "<input>",
+        "<click>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Forms",
+      "explanation": "The <button> tag is used to define a clickable button in HTML."
+    },
+    {
+      "id": "html-easy-039",
+      "text": "Which HTML tag is used to define a multi-line text input area?",
+      "options": [
+        "<text>",
+        "<input>",
+        "<area>",
+        "<textarea>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Forms",
+      "explanation": "The <textarea> tag is used to define a multi-line text input area in HTML."
+    },
+    {
+      "id": "html-easy-040",
+      "text": "Which HTML tag is used to define a drop-down list?",
+      "options": [
+        "<select>",
+        "<dropdown>",
+        "<list>",
+        "<option>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Forms",
+      "explanation": "The <select> tag is used to define a drop-down list in HTML."
+    },
+    {
+      "id": "html-easy-041",
+      "text": "Which HTML tag is used to define an option in a drop-down list?",
+      "options": [
+        "<option>",
+        "<select>",
+        "<item>",
+        "<choice>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Forms",
+      "explanation": "The <option> tag is used to define an option in a drop-down list in HTML."
+    },
+    {
+      "id": "html-easy-042",
+      "text": "Which HTML tag is used to define a label for an input element?",
+      "options": [
+        "<caption>",
+        "<tag>",
+        "<label>",
+        "<name>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Forms",
+      "explanation": "The <label> tag is used to define a label for an input element in HTML."
+    },
+    {
+      "id": "html-easy-043",
+      "text": "Which HTML tag is used to define a figure such as an image with a caption?",
+      "options": [
+        "<img>",
+        "<pic>",
+        "<figure>",
+        "<image>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <figure> tag is used to define a figure such as an image with a caption in HTML."
+    },
+    {
+      "id": "html-easy-044",
+      "text": "Which HTML tag is used to define a caption for a figure?",
+      "options": [
+        "<caption>",
+        "<legend>",
+        "<label>",
+        "<figcaption>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <figcaption> tag is used to define a caption for a figure in HTML."
+    },
+    {
+      "id": "html-easy-045",
+      "text": "Which HTML tag is used to define an audio player?",
+      "options": [
+        "<media>",
+        "<music>",
+        "<audio>",
+        "<sound>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Media",
+      "explanation": "The <audio> tag is used to define an audio player in HTML."
+    },
+    {
+      "id": "html-easy-046",
+      "text": "Which HTML tag is used to define a video player?",
+      "options": [
+        "<video>",
+        "<clip>",
+        "<media>",
+        "<movie>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Media",
+      "explanation": "The <video> tag is used to define a video player in HTML."
+    },
+    {
+      "id": "html-easy-047",
+      "text": "Which HTML tag is used to define a media source inside audio or video?",
+      "options": [
+        "<source>",
+        "<src>",
+        "<media>",
+        "<file>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Media",
+      "explanation": "The <source> tag is used to define a media source inside audio or video in HTML."
+    },
+    {
+      "id": "html-easy-048",
+      "text": "Which HTML tag is used to define an inline frame to embed another page?",
+      "options": [
+        "<frame>",
+        "<iframe>",
+        "<embed>",
+        "<page>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Embedding",
+      "explanation": "The <iframe> tag is used to define an inline frame to embed another page in HTML."
+    },
+    {
+      "id": "html-easy-049",
+      "text": "Which HTML tag is used to define a line of emphasized text?",
+      "options": [
+        "<i>",
+        "<em>",
+        "<b>",
+        "<strong>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <em> tag is used to define a line of emphasized text in HTML."
+    },
+    {
+      "id": "html-easy-050",
+      "text": "Which HTML tag is used to define a line of strongly emphasized text?",
+      "options": [
+        "<strong>",
+        "<b>",
+        "<em>",
+        "<i>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <strong> tag is used to define a line of strongly emphasized text in HTML."
+    },
+    {
+      "id": "html-easy-051",
+      "text": "Which HTML tag is used to define italic text without semantic meaning?",
+      "options": [
+        "<it>",
+        "<em>",
+        "<i>",
+        "<italic>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <i> tag is used to define italic text without semantic meaning in HTML."
+    },
+    {
+      "id": "html-easy-052",
+      "text": "Which HTML tag is used to define small print such as legal text?",
+      "options": [
+        "<mini>",
+        "<tiny>",
+        "<small>",
+        "<p>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <small> tag is used to define small print such as legal text in HTML."
+    },
+    {
+      "id": "html-easy-053",
+      "text": "Which HTML tag is used to define a style definition block inside HTML?",
+      "options": [
+        "<style>",
+        "<head>",
+        "<css>",
+        "<design>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Styles",
+      "explanation": "The <style> tag is used to define a style definition block inside HTML in HTML."
+    },
+    {
+      "id": "html-easy-054",
+      "text": "Which HTML tag is used to define client-side JavaScript code?",
+      "options": [
+        "<program>",
+        "<js>",
+        "<code>",
+        "<script>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Scripting",
+      "explanation": "The <script> tag is used to define client-side JavaScript code in HTML."
+    },
+    {
+      "id": "html-easy-055",
+      "text": "Which HTML tag is used to define an external stylesheet link?",
+      "options": [
+        "<link>",
+        "<css>",
+        "<style>",
+        "<a>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Styles",
+      "explanation": "The <link> tag is used to define an external stylesheet link in HTML."
+    },
+    {
+      "id": "html-easy-056",
+      "text": "Which HTML tag is used to define metadata such as description or keywords?",
+      "options": [
+        "<data>",
+        "<head>",
+        "<meta>",
+        "<info>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Metadata",
+      "explanation": "The <meta> tag is used to define metadata such as description or keywords in HTML."
+    },
+    {
+      "id": "html-easy-057",
+      "text": "Which HTML tag is used to define a definition list?",
+      "options": [
+        "<dl>",
+        "<dt>",
+        "<dd>",
+        "<list>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Lists",
+      "explanation": "The <dl> tag is used to define a definition list in HTML."
+    },
+    {
+      "id": "html-easy-058",
+      "text": "Which HTML tag is used to define a term in a definition list?",
+      "options": [
+        "<term>",
+        "<dd>",
+        "<li>",
+        "<dt>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Lists",
+      "explanation": "The <dt> tag is used to define a term in a definition list in HTML."
+    },
+    {
+      "id": "html-easy-059",
+      "text": "Which HTML tag is used to define a description in a definition list?",
+      "options": [
+        "<dd>",
+        "<desc>",
+        "<dt>",
+        "<li>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Lists",
+      "explanation": "The <dd> tag is used to define a description in a definition list in HTML."
+    },
+    {
+      "id": "html-easy-060",
+      "text": "Which HTML tag is used to define the document type declaration for HTML5?",
+      "options": [
+        "<!DOCTYPE html>",
+        "<html5>",
+        "<!HTML>",
+        "<doctype>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Basics",
+      "explanation": "The <!DOCTYPE html> tag is used to define the document type declaration for HTML5 in HTML."
+    },
+    {
+      "id": "html-easy-061",
+      "text": "In HTML, which element represents the root element of an HTML document?",
+      "options": [
+        "<document>",
+        "<main>",
+        "<html>",
+        "<root>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Document Structure",
+      "explanation": "The <html> tag is used to define the root element of an HTML document in HTML."
+    },
+    {
+      "id": "html-easy-062",
+      "text": "In HTML, which element represents the main content of a web page?",
+      "options": [
+        "<page>",
+        "<main>",
+        "<body>",
+        "<content>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Document Structure",
+      "explanation": "The <body> tag is used to define the main content of a web page in HTML."
+    },
+    {
+      "id": "html-easy-063",
+      "text": "In HTML, which element represents a secondary heading?",
+      "options": [
+        "<heading>",
+        "<h6>",
+        "<h2>",
+        "<head>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Headings",
+      "explanation": "The <h2> tag is used to define a secondary heading in HTML."
+    },
+    {
+      "id": "html-easy-064",
+      "text": "In HTML, which element represents the smallest level of heading?",
+      "options": [
+        "<small>",
+        "<h5>",
+        "<h6>",
+        "<p>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Headings",
+      "explanation": "The <h6> tag is used to define the smallest level of heading in HTML."
+    },
+    {
+      "id": "html-easy-065",
+      "text": "In HTML, which element represents a generic container for block-level content?",
+      "options": [
+        "<section>",
+        "<span>",
+        "<container>",
+        "<div>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Layout",
+      "explanation": "The <div> tag is used to define a generic container for block-level content in HTML."
+    },
+    {
+      "id": "html-easy-066",
+      "text": "In HTML, which element represents a generic container for inline text?",
+      "options": [
+        "<span>",
+        "<div>",
+        "<p>",
+        "<inline>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Text Elements",
+      "explanation": "The <span> tag is used to define a generic container for inline text in HTML."
+    },
+    {
+      "id": "html-easy-067",
+      "text": "In HTML, which element represents an ordered (numbered) list?",
+      "options": [
+        "<ul>",
+        "<li>",
+        "<list>",
+        "<ol>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Lists",
+      "explanation": "The <ol> tag is used to define an ordered (numbered) list in HTML."
+    },
+    {
+      "id": "html-easy-068",
+      "text": "In HTML, which element represents a list item?",
+      "options": [
+        "<ul>",
+        "<item>",
+        "<ol>",
+        "<li>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Lists",
+      "explanation": "The <li> tag is used to define a list item in HTML."
+    },
+    {
+      "id": "html-easy-069",
+      "text": "In HTML, which element represents an image?",
+      "options": [
+        "<pic>",
+        "<img>",
+        "<src>",
+        "<image>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Images",
+      "explanation": "The <img> tag is used to define an image in HTML."
+    },
+    {
+      "id": "html-easy-070",
+      "text": "In HTML, which element represents a horizontal rule or thematic break?",
+      "options": [
+        "<hr>",
+        "<line>",
+        "<border>",
+        "<rule>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Lines",
+      "explanation": "The <hr> tag is used to define a horizontal rule or thematic break in HTML."
+    },
+    {
+      "id": "html-easy-071",
+      "text": "In HTML, which element represents a navigation section of a page?",
+      "options": [
+        "<section>",
+        "<links>",
+        "<nav>",
+        "<menu>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <nav> tag is used to define a navigation section of a page in HTML."
+    },
+    {
+      "id": "html-easy-072",
+      "text": "In HTML, which element represents the header section of a page or section?",
+      "options": [
+        "<header>",
+        "<head>",
+        "<title>",
+        "<top>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <header> tag is used to define the header section of a page or section in HTML."
+    },
+    {
+      "id": "html-easy-073",
+      "text": "In HTML, which element represents the footer section of a page or section?",
+      "options": [
+        "<bottom>",
+        "<tail>",
+        "<footer>",
+        "<end>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <footer> tag is used to define the footer section of a page or section in HTML."
+    },
+    {
+      "id": "html-easy-074",
+      "text": "In HTML, which element represents a standalone piece of content such as a blog post?",
+      "options": [
+        "<article>",
+        "<section>",
+        "<post>",
+        "<content>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <article> tag is used to define a standalone piece of content such as a blog post in HTML."
+    },
+    {
+      "id": "html-easy-075",
+      "text": "In HTML, which element represents a section of content?",
+      "options": [
+        "<div>",
+        "<group>",
+        "<part>",
+        "<section>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <section> tag is used to define a section of content in HTML."
+    },
+    {
+      "id": "html-easy-076",
+      "text": "In HTML, which element represents content that is indirectly related to the main content, like a sidebar?",
+      "options": [
+        "<side>",
+        "<aside>",
+        "<extra>",
+        "<section>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <aside> tag is used to define content that is indirectly related to the main content, like a sidebar in HTML."
+    },
+    {
+      "id": "html-easy-077",
+      "text": "In HTML, which element represents the main content area of a document?",
+      "options": [
+        "<content>",
+        "<main>",
+        "<section>",
+        "<body>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <main> tag is used to define the main content area of a document in HTML."
+    },
+    {
+      "id": "html-easy-078",
+      "text": "In HTML, which element represents a table row?",
+      "options": [
+        "<row>",
+        "<th>",
+        "<td>",
+        "<tr>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Tables",
+      "explanation": "The <tr> tag is used to define a table row in HTML."
+    },
+    {
+      "id": "html-easy-079",
+      "text": "In HTML, which element represents a standard data cell in a table?",
+      "options": [
+        "<th>",
+        "<tr>",
+        "<cell>",
+        "<td>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Tables",
+      "explanation": "The <td> tag is used to define a standard data cell in a table in HTML."
+    },
+    {
+      "id": "html-easy-080",
+      "text": "In HTML, which element represents a header cell in a table?",
+      "options": [
+        "<head>",
+        "<th>",
+        "<td>",
+        "<tr>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Tables",
+      "explanation": "The <th> tag is used to define a header cell in a table in HTML."
+    },
+    {
+      "id": "html-easy-081",
+      "text": "In HTML, which element represents the table header section?",
+      "options": [
+        "<head>",
+        "<header>",
+        "<thead>",
+        "<th>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Tables",
+      "explanation": "The <thead> tag is used to define the table header section in HTML."
+    },
+    {
+      "id": "html-easy-082",
+      "text": "In HTML, which element represents the table body section?",
+      "options": [
+        "<tbody>",
+        "<section>",
+        "<td>",
+        "<body>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Tables",
+      "explanation": "The <tbody> tag is used to define the table body section in HTML."
+    },
+    {
+      "id": "html-easy-083",
+      "text": "In HTML, which element represents the table footer section?",
+      "options": [
+        "<footer>",
+        "<end>",
+        "<foot>",
+        "<tfoot>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Tables",
+      "explanation": "The <tfoot> tag is used to define the table footer section in HTML."
+    },
+    {
+      "id": "html-easy-084",
+      "text": "In HTML, which element represents a form for user input?",
+      "options": [
+        "<control>",
+        "<field>",
+        "<form>",
+        "<input>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Forms",
+      "explanation": "The <form> tag is used to define a form for user input in HTML."
+    },
+    {
+      "id": "html-easy-085",
+      "text": "In HTML, which element represents a text input field?",
+      "options": [
+        "<form>",
+        "<text>",
+        "<textfield>",
+        "<input>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Forms",
+      "explanation": "The <input> tag is used to define a text input field in HTML."
+    },
+    {
+      "id": "html-easy-086",
+      "text": "In HTML, which element represents a clickable button?",
+      "options": [
+        "<button>",
+        "<submit>",
+        "<click>",
+        "<input>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Forms",
+      "explanation": "The <button> tag is used to define a clickable button in HTML."
+    },
+    {
+      "id": "html-easy-087",
+      "text": "In HTML, which element represents a multi-line text input area?",
+      "options": [
+        "<area>",
+        "<input>",
+        "<text>",
+        "<textarea>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Forms",
+      "explanation": "The <textarea> tag is used to define a multi-line text input area in HTML."
+    },
+    {
+      "id": "html-easy-088",
+      "text": "In HTML, which element represents a drop-down list?",
+      "options": [
+        "<list>",
+        "<option>",
+        "<select>",
+        "<dropdown>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Forms",
+      "explanation": "The <select> tag is used to define a drop-down list in HTML."
+    },
+    {
+      "id": "html-easy-089",
+      "text": "In HTML, which element represents an option in a drop-down list?",
+      "options": [
+        "<select>",
+        "<option>",
+        "<choice>",
+        "<item>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Forms",
+      "explanation": "The <option> tag is used to define an option in a drop-down list in HTML."
+    },
+    {
+      "id": "html-easy-090",
+      "text": "In HTML, which element represents a label for an input element?",
+      "options": [
+        "<caption>",
+        "<name>",
+        "<tag>",
+        "<label>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Forms",
+      "explanation": "The <label> tag is used to define a label for an input element in HTML."
+    },
+    {
+      "id": "html-easy-091",
+      "text": "In HTML, which element represents a figure such as an image with a caption?",
+      "options": [
+        "<image>",
+        "<figure>",
+        "<pic>",
+        "<img>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <figure> tag is used to define a figure such as an image with a caption in HTML."
+    },
+    {
+      "id": "html-easy-092",
+      "text": "In HTML, which element represents a caption for a figure?",
+      "options": [
+        "<caption>",
+        "<figcaption>",
+        "<legend>",
+        "<label>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <figcaption> tag is used to define a caption for a figure in HTML."
+    },
+    {
+      "id": "html-easy-093",
+      "text": "In HTML, which element represents an audio player?",
+      "options": [
+        "<music>",
+        "<sound>",
+        "<media>",
+        "<audio>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Media",
+      "explanation": "The <audio> tag is used to define an audio player in HTML."
+    },
+    {
+      "id": "html-easy-094",
+      "text": "In HTML, which element represents a video player?",
+      "options": [
+        "<media>",
+        "<movie>",
+        "<video>",
+        "<clip>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Media",
+      "explanation": "The <video> tag is used to define a video player in HTML."
+    },
+    {
+      "id": "html-easy-095",
+      "text": "In HTML, which element represents a media source inside audio or video?",
+      "options": [
+        "<file>",
+        "<src>",
+        "<source>",
+        "<media>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Media",
+      "explanation": "The <source> tag is used to define a media source inside audio or video in HTML."
+    },
+    {
+      "id": "html-easy-096",
+      "text": "In HTML, which element represents an inline frame to embed another page?",
+      "options": [
+        "<iframe>",
+        "<embed>",
+        "<frame>",
+        "<page>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Embedding",
+      "explanation": "The <iframe> tag is used to define an inline frame to embed another page in HTML."
+    },
+    {
+      "id": "html-easy-097",
+      "text": "In HTML, which element represents a line of emphasized text?",
+      "options": [
+        "<i>",
+        "<b>",
+        "<em>",
+        "<strong>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <em> tag is used to define a line of emphasized text in HTML."
+    },
+    {
+      "id": "html-easy-098",
+      "text": "In HTML, which element represents a line of strongly emphasized text?",
+      "options": [
+        "<strong>",
+        "<em>",
+        "<i>",
+        "<b>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <strong> tag is used to define a line of strongly emphasized text in HTML."
+    },
+    {
+      "id": "html-easy-099",
+      "text": "In HTML, which element represents italic text without semantic meaning?",
+      "options": [
+        "<italic>",
+        "<it>",
+        "<em>",
+        "<i>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <i> tag is used to define italic text without semantic meaning in HTML."
+    },
+    {
+      "id": "html-easy-100",
+      "text": "In HTML, which element represents small print such as legal text?",
+      "options": [
+        "<mini>",
+        "<small>",
+        "<tiny>",
+        "<p>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <small> tag is used to define small print such as legal text in HTML."
+    },
+    {
+      "id": "html-easy-101",
+      "text": "In HTML, which element represents a style definition block inside HTML?",
+      "options": [
+        "<css>",
+        "<head>",
+        "<design>",
+        "<style>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Styles",
+      "explanation": "The <style> tag is used to define a style definition block inside HTML in HTML."
+    },
+    {
+      "id": "html-easy-102",
+      "text": "In HTML, which element represents client-side JavaScript code?",
+      "options": [
+        "<script>",
+        "<code>",
+        "<js>",
+        "<program>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Scripting",
+      "explanation": "The <script> tag is used to define client-side JavaScript code in HTML."
+    },
+    {
+      "id": "html-easy-103",
+      "text": "In HTML, which element represents an external stylesheet link?",
+      "options": [
+        "<css>",
+        "<link>",
+        "<a>",
+        "<style>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Styles",
+      "explanation": "The <link> tag is used to define an external stylesheet link in HTML."
+    },
+    {
+      "id": "html-easy-104",
+      "text": "In HTML, which element represents metadata such as description or keywords?",
+      "options": [
+        "<meta>",
+        "<info>",
+        "<data>",
+        "<head>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Metadata",
+      "explanation": "The <meta> tag is used to define metadata such as description or keywords in HTML."
+    },
+    {
+      "id": "html-easy-105",
+      "text": "In HTML, which element represents a definition list?",
+      "options": [
+        "<dt>",
+        "<dl>",
+        "<list>",
+        "<dd>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Lists",
+      "explanation": "The <dl> tag is used to define a definition list in HTML."
+    },
+    {
+      "id": "html-easy-106",
+      "text": "In HTML, which element represents a term in a definition list?",
+      "options": [
+        "<li>",
+        "<term>",
+        "<dd>",
+        "<dt>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Lists",
+      "explanation": "The <dt> tag is used to define a term in a definition list in HTML."
+    },
+    {
+      "id": "html-easy-107",
+      "text": "In HTML, which element represents a description in a definition list?",
+      "options": [
+        "<li>",
+        "<dt>",
+        "<desc>",
+        "<dd>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Lists",
+      "explanation": "The <dd> tag is used to define a description in a definition list in HTML."
+    },
+    {
+      "id": "html-easy-108",
+      "text": "In HTML, which element represents the document type declaration for HTML5?",
+      "options": [
+        "<html5>",
+        "<!HTML>",
+        "<doctype>",
+        "<!DOCTYPE html>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Basics",
+      "explanation": "The <!DOCTYPE html> tag is used to define the document type declaration for HTML5 in HTML."
+    },
+    {
+      "id": "html-easy-109",
+      "text": "What is the correct HTML element for the root element of an HTML document?",
+      "options": [
+        "<html>",
+        "<main>",
+        "<document>",
+        "<root>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Document Structure",
+      "explanation": "The <html> tag is used to define the root element of an HTML document in HTML."
+    },
+    {
+      "id": "html-easy-110",
+      "text": "What is the correct HTML element for the main content of a web page?",
+      "options": [
+        "<body>",
+        "<main>",
+        "<page>",
+        "<content>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Document Structure",
+      "explanation": "The <body> tag is used to define the main content of a web page in HTML."
+    },
+    {
+      "id": "html-easy-111",
+      "text": "What is the correct HTML element for a secondary heading?",
+      "options": [
+        "<h6>",
+        "<h2>",
+        "<heading>",
+        "<head>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Headings",
+      "explanation": "The <h2> tag is used to define a secondary heading in HTML."
+    },
+    {
+      "id": "html-easy-112",
+      "text": "What is the correct HTML element for the smallest level of heading?",
+      "options": [
+        "<p>",
+        "<h6>",
+        "<h5>",
+        "<small>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Headings",
+      "explanation": "The <h6> tag is used to define the smallest level of heading in HTML."
+    },
+    {
+      "id": "html-easy-113",
+      "text": "What is the correct HTML element for a generic container for block-level content?",
+      "options": [
+        "<div>",
+        "<span>",
+        "<section>",
+        "<container>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Layout",
+      "explanation": "The <div> tag is used to define a generic container for block-level content in HTML."
+    },
+    {
+      "id": "html-easy-114",
+      "text": "What is the correct HTML element for a generic container for inline text?",
+      "options": [
+        "<p>",
+        "<div>",
+        "<span>",
+        "<inline>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Text Elements",
+      "explanation": "The <span> tag is used to define a generic container for inline text in HTML."
+    },
+    {
+      "id": "html-easy-115",
+      "text": "What is the correct HTML element for an ordered (numbered) list?",
+      "options": [
+        "<li>",
+        "<list>",
+        "<ul>",
+        "<ol>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Lists",
+      "explanation": "The <ol> tag is used to define an ordered (numbered) list in HTML."
+    },
+    {
+      "id": "html-easy-116",
+      "text": "What is the correct HTML element for a list item?",
+      "options": [
+        "<item>",
+        "<ol>",
+        "<ul>",
+        "<li>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Lists",
+      "explanation": "The <li> tag is used to define a list item in HTML."
+    },
+    {
+      "id": "html-easy-117",
+      "text": "What is the correct HTML element for an image?",
+      "options": [
+        "<src>",
+        "<img>",
+        "<image>",
+        "<pic>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Images",
+      "explanation": "The <img> tag is used to define an image in HTML."
+    },
+    {
+      "id": "html-easy-118",
+      "text": "What is the correct HTML element for a horizontal rule or thematic break?",
+      "options": [
+        "<rule>",
+        "<line>",
+        "<hr>",
+        "<border>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Lines",
+      "explanation": "The <hr> tag is used to define a horizontal rule or thematic break in HTML."
+    },
+    {
+      "id": "html-easy-119",
+      "text": "What is the correct HTML element for a navigation section of a page?",
+      "options": [
+        "<section>",
+        "<nav>",
+        "<menu>",
+        "<links>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <nav> tag is used to define a navigation section of a page in HTML."
+    },
+    {
+      "id": "html-easy-120",
+      "text": "What is the correct HTML element for the header section of a page or section?",
+      "options": [
+        "<head>",
+        "<header>",
+        "<title>",
+        "<top>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <header> tag is used to define the header section of a page or section in HTML."
+    },
+    {
+      "id": "html-easy-121",
+      "text": "What is the correct HTML element for the footer section of a page or section?",
+      "options": [
+        "<bottom>",
+        "<footer>",
+        "<tail>",
+        "<end>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <footer> tag is used to define the footer section of a page or section in HTML."
+    },
+    {
+      "id": "html-easy-122",
+      "text": "What is the correct HTML element for a standalone piece of content such as a blog post?",
+      "options": [
+        "<section>",
+        "<article>",
+        "<post>",
+        "<content>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <article> tag is used to define a standalone piece of content such as a blog post in HTML."
+    },
+    {
+      "id": "html-easy-123",
+      "text": "What is the correct HTML element for a section of content?",
+      "options": [
+        "<part>",
+        "<section>",
+        "<div>",
+        "<group>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <section> tag is used to define a section of content in HTML."
+    },
+    {
+      "id": "html-easy-124",
+      "text": "What is the correct HTML element for content that is indirectly related to the main content, like a sidebar?",
+      "options": [
+        "<aside>",
+        "<section>",
+        "<side>",
+        "<extra>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <aside> tag is used to define content that is indirectly related to the main content, like a sidebar in HTML."
+    },
+    {
+      "id": "html-easy-125",
+      "text": "What is the correct HTML element for the main content area of a document?",
+      "options": [
+        "<content>",
+        "<main>",
+        "<body>",
+        "<section>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <main> tag is used to define the main content area of a document in HTML."
+    },
+    {
+      "id": "html-easy-126",
+      "text": "What is the correct HTML element for a table row?",
+      "options": [
+        "<th>",
+        "<row>",
+        "<tr>",
+        "<td>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Tables",
+      "explanation": "The <tr> tag is used to define a table row in HTML."
+    },
+    {
+      "id": "html-easy-127",
+      "text": "What is the correct HTML element for a standard data cell in a table?",
+      "options": [
+        "<th>",
+        "<cell>",
+        "<td>",
+        "<tr>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Tables",
+      "explanation": "The <td> tag is used to define a standard data cell in a table in HTML."
+    },
+    {
+      "id": "html-easy-128",
+      "text": "What is the correct HTML element for a header cell in a table?",
+      "options": [
+        "<td>",
+        "<th>",
+        "<head>",
+        "<tr>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Tables",
+      "explanation": "The <th> tag is used to define a header cell in a table in HTML."
+    },
+    {
+      "id": "html-easy-129",
+      "text": "What is the correct HTML element for the table header section?",
+      "options": [
+        "<head>",
+        "<header>",
+        "<thead>",
+        "<th>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Tables",
+      "explanation": "The <thead> tag is used to define the table header section in HTML."
+    },
+    {
+      "id": "html-easy-130",
+      "text": "What is the correct HTML element for the table body section?",
+      "options": [
+        "<body>",
+        "<tbody>",
+        "<section>",
+        "<td>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Tables",
+      "explanation": "The <tbody> tag is used to define the table body section in HTML."
+    },
+    {
+      "id": "html-easy-131",
+      "text": "What is the correct HTML element for the table footer section?",
+      "options": [
+        "<tfoot>",
+        "<footer>",
+        "<foot>",
+        "<end>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Tables",
+      "explanation": "The <tfoot> tag is used to define the table footer section in HTML."
+    },
+    {
+      "id": "html-easy-132",
+      "text": "What is the correct HTML element for a form for user input?",
+      "options": [
+        "<control>",
+        "<form>",
+        "<field>",
+        "<input>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Forms",
+      "explanation": "The <form> tag is used to define a form for user input in HTML."
+    },
+    {
+      "id": "html-easy-133",
+      "text": "What is the correct HTML element for a text input field?",
+      "options": [
+        "<text>",
+        "<form>",
+        "<input>",
+        "<textfield>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Forms",
+      "explanation": "The <input> tag is used to define a text input field in HTML."
+    },
+    {
+      "id": "html-easy-134",
+      "text": "What is the correct HTML element for a clickable button?",
+      "options": [
+        "<button>",
+        "<input>",
+        "<click>",
+        "<submit>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Forms",
+      "explanation": "The <button> tag is used to define a clickable button in HTML."
+    },
+    {
+      "id": "html-easy-135",
+      "text": "What is the correct HTML element for a multi-line text input area?",
+      "options": [
+        "<text>",
+        "<area>",
+        "<input>",
+        "<textarea>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Forms",
+      "explanation": "The <textarea> tag is used to define a multi-line text input area in HTML."
+    },
+    {
+      "id": "html-easy-136",
+      "text": "What is the correct HTML element for a drop-down list?",
+      "options": [
+        "<select>",
+        "<option>",
+        "<dropdown>",
+        "<list>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Forms",
+      "explanation": "The <select> tag is used to define a drop-down list in HTML."
+    },
+    {
+      "id": "html-easy-137",
+      "text": "What is the correct HTML element for an option in a drop-down list?",
+      "options": [
+        "<select>",
+        "<option>",
+        "<item>",
+        "<choice>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Forms",
+      "explanation": "The <option> tag is used to define an option in a drop-down list in HTML."
+    },
+    {
+      "id": "html-easy-138",
+      "text": "What is the correct HTML element for a label for an input element?",
+      "options": [
+        "<name>",
+        "<caption>",
+        "<label>",
+        "<tag>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Forms",
+      "explanation": "The <label> tag is used to define a label for an input element in HTML."
+    },
+    {
+      "id": "html-easy-139",
+      "text": "What is the correct HTML element for a figure such as an image with a caption?",
+      "options": [
+        "<img>",
+        "<pic>",
+        "<image>",
+        "<figure>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <figure> tag is used to define a figure such as an image with a caption in HTML."
+    },
+    {
+      "id": "html-easy-140",
+      "text": "What is the correct HTML element for a caption for a figure?",
+      "options": [
+        "<label>",
+        "<legend>",
+        "<caption>",
+        "<figcaption>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <figcaption> tag is used to define a caption for a figure in HTML."
+    },
+    {
+      "id": "html-easy-141",
+      "text": "What is the correct HTML element for an audio player?",
+      "options": [
+        "<sound>",
+        "<music>",
+        "<audio>",
+        "<media>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Media",
+      "explanation": "The <audio> tag is used to define an audio player in HTML."
+    },
+    {
+      "id": "html-easy-142",
+      "text": "What is the correct HTML element for a video player?",
+      "options": [
+        "<video>",
+        "<media>",
+        "<clip>",
+        "<movie>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Media",
+      "explanation": "The <video> tag is used to define a video player in HTML."
+    },
+    {
+      "id": "html-easy-143",
+      "text": "What is the correct HTML element for a media source inside audio or video?",
+      "options": [
+        "<source>",
+        "<media>",
+        "<src>",
+        "<file>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Media",
+      "explanation": "The <source> tag is used to define a media source inside audio or video in HTML."
+    },
+    {
+      "id": "html-easy-144",
+      "text": "What is the correct HTML element for an inline frame to embed another page?",
+      "options": [
+        "<embed>",
+        "<frame>",
+        "<page>",
+        "<iframe>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Embedding",
+      "explanation": "The <iframe> tag is used to define an inline frame to embed another page in HTML."
+    },
+    {
+      "id": "html-easy-145",
+      "text": "What is the correct HTML element for a line of emphasized text?",
+      "options": [
+        "<b>",
+        "<em>",
+        "<i>",
+        "<strong>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <em> tag is used to define a line of emphasized text in HTML."
+    },
+    {
+      "id": "html-easy-146",
+      "text": "What is the correct HTML element for a line of strongly emphasized text?",
+      "options": [
+        "<b>",
+        "<strong>",
+        "<em>",
+        "<i>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <strong> tag is used to define a line of strongly emphasized text in HTML."
+    },
+    {
+      "id": "html-easy-147",
+      "text": "What is the correct HTML element for italic text without semantic meaning?",
+      "options": [
+        "<i>",
+        "<em>",
+        "<it>",
+        "<italic>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <i> tag is used to define italic text without semantic meaning in HTML."
+    },
+    {
+      "id": "html-easy-148",
+      "text": "What is the correct HTML element for small print such as legal text?",
+      "options": [
+        "<mini>",
+        "<p>",
+        "<tiny>",
+        "<small>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <small> tag is used to define small print such as legal text in HTML."
+    },
+    {
+      "id": "html-easy-149",
+      "text": "What is the correct HTML element for a style definition block inside HTML?",
+      "options": [
+        "<css>",
+        "<design>",
+        "<head>",
+        "<style>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Styles",
+      "explanation": "The <style> tag is used to define a style definition block inside HTML in HTML."
+    },
+    {
+      "id": "html-easy-150",
+      "text": "What is the correct HTML element for client-side JavaScript code?",
+      "options": [
+        "<js>",
+        "<program>",
+        "<code>",
+        "<script>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Scripting",
+      "explanation": "The <script> tag is used to define client-side JavaScript code in HTML."
+    },
+    {
+      "id": "html-easy-151",
+      "text": "What is the correct HTML element for an external stylesheet link?",
+      "options": [
+        "<link>",
+        "<style>",
+        "<a>",
+        "<css>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Styles",
+      "explanation": "The <link> tag is used to define an external stylesheet link in HTML."
+    },
+    {
+      "id": "html-easy-152",
+      "text": "What is the correct HTML element for metadata such as description or keywords?",
+      "options": [
+        "<head>",
+        "<info>",
+        "<data>",
+        "<meta>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Metadata",
+      "explanation": "The <meta> tag is used to define metadata such as description or keywords in HTML."
+    },
+    {
+      "id": "html-easy-153",
+      "text": "What is the correct HTML element for a definition list?",
+      "options": [
+        "<dd>",
+        "<dl>",
+        "<list>",
+        "<dt>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Lists",
+      "explanation": "The <dl> tag is used to define a definition list in HTML."
+    },
+    {
+      "id": "html-easy-154",
+      "text": "What is the correct HTML element for a term in a definition list?",
+      "options": [
+        "<dt>",
+        "<term>",
+        "<dd>",
+        "<li>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Lists",
+      "explanation": "The <dt> tag is used to define a term in a definition list in HTML."
+    },
+    {
+      "id": "html-easy-155",
+      "text": "What is the correct HTML element for a description in a definition list?",
+      "options": [
+        "<dt>",
+        "<li>",
+        "<desc>",
+        "<dd>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Lists",
+      "explanation": "The <dd> tag is used to define a description in a definition list in HTML."
+    },
+    {
+      "id": "html-easy-156",
+      "text": "What is the correct HTML element for the document type declaration for HTML5?",
+      "options": [
+        "<doctype>",
+        "<!DOCTYPE html>",
+        "<html5>",
+        "<!HTML>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Basics",
+      "explanation": "The <!DOCTYPE html> tag is used to define the document type declaration for HTML5 in HTML."
+    },
+    {
+      "id": "html-easy-157",
+      "text": "To mark up the root element of an HTML document, which HTML tag should you use?",
+      "options": [
+        "<html>",
+        "<root>",
+        "<document>",
+        "<main>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Document Structure",
+      "explanation": "The <html> tag is used to define the root element of an HTML document in HTML."
+    },
+    {
+      "id": "html-easy-158",
+      "text": "To mark up the main content of a web page, which HTML tag should you use?",
+      "options": [
+        "<main>",
+        "<page>",
+        "<content>",
+        "<body>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Document Structure",
+      "explanation": "The <body> tag is used to define the main content of a web page in HTML."
+    },
+    {
+      "id": "html-easy-159",
+      "text": "To mark up a secondary heading, which HTML tag should you use?",
+      "options": [
+        "<heading>",
+        "<head>",
+        "<h6>",
+        "<h2>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Headings",
+      "explanation": "The <h2> tag is used to define a secondary heading in HTML."
+    },
+    {
+      "id": "html-easy-160",
+      "text": "To mark up the smallest level of heading, which HTML tag should you use?",
+      "options": [
+        "<h5>",
+        "<p>",
+        "<small>",
+        "<h6>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Headings",
+      "explanation": "The <h6> tag is used to define the smallest level of heading in HTML."
+    },
+    {
+      "id": "html-easy-161",
+      "text": "To mark up a generic container for block-level content, which HTML tag should you use?",
+      "options": [
+        "<section>",
+        "<container>",
+        "<div>",
+        "<span>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Layout",
+      "explanation": "The <div> tag is used to define a generic container for block-level content in HTML."
+    },
+    {
+      "id": "html-easy-162",
+      "text": "To mark up a generic container for inline text, which HTML tag should you use?",
+      "options": [
+        "<div>",
+        "<span>",
+        "<inline>",
+        "<p>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Text Elements",
+      "explanation": "The <span> tag is used to define a generic container for inline text in HTML."
+    },
+    {
+      "id": "html-easy-163",
+      "text": "To mark up an ordered (numbered) list, which HTML tag should you use?",
+      "options": [
+        "<ol>",
+        "<li>",
+        "<ul>",
+        "<list>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Lists",
+      "explanation": "The <ol> tag is used to define an ordered (numbered) list in HTML."
+    },
+    {
+      "id": "html-easy-164",
+      "text": "To mark up a list item, which HTML tag should you use?",
+      "options": [
+        "<ul>",
+        "<li>",
+        "<ol>",
+        "<item>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Lists",
+      "explanation": "The <li> tag is used to define a list item in HTML."
+    },
+    {
+      "id": "html-easy-165",
+      "text": "To mark up an image, which HTML tag should you use?",
+      "options": [
+        "<img>",
+        "<src>",
+        "<image>",
+        "<pic>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Images",
+      "explanation": "The <img> tag is used to define an image in HTML."
+    },
+    {
+      "id": "html-easy-166",
+      "text": "To mark up a horizontal rule or thematic break, which HTML tag should you use?",
+      "options": [
+        "<line>",
+        "<rule>",
+        "<border>",
+        "<hr>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Lines",
+      "explanation": "The <hr> tag is used to define a horizontal rule or thematic break in HTML."
+    },
+    {
+      "id": "html-easy-167",
+      "text": "To mark up a navigation section of a page, which HTML tag should you use?",
+      "options": [
+        "<nav>",
+        "<menu>",
+        "<section>",
+        "<links>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <nav> tag is used to define a navigation section of a page in HTML."
+    },
+    {
+      "id": "html-easy-168",
+      "text": "To mark up the header section of a page or section, which HTML tag should you use?",
+      "options": [
+        "<head>",
+        "<header>",
+        "<title>",
+        "<top>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <header> tag is used to define the header section of a page or section in HTML."
+    },
+    {
+      "id": "html-easy-169",
+      "text": "To mark up the footer section of a page or section, which HTML tag should you use?",
+      "options": [
+        "<end>",
+        "<footer>",
+        "<bottom>",
+        "<tail>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <footer> tag is used to define the footer section of a page or section in HTML."
+    },
+    {
+      "id": "html-easy-170",
+      "text": "To mark up a standalone piece of content such as a blog post, which HTML tag should you use?",
+      "options": [
+        "<post>",
+        "<section>",
+        "<content>",
+        "<article>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <article> tag is used to define a standalone piece of content such as a blog post in HTML."
+    },
+    {
+      "id": "html-easy-171",
+      "text": "To mark up a section of content, which HTML tag should you use?",
+      "options": [
+        "<group>",
+        "<section>",
+        "<div>",
+        "<part>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <section> tag is used to define a section of content in HTML."
+    },
+    {
+      "id": "html-easy-172",
+      "text": "To mark up content that is indirectly related to the main content, like a sidebar, which HTML tag should you use?",
+      "options": [
+        "<extra>",
+        "<side>",
+        "<section>",
+        "<aside>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <aside> tag is used to define content that is indirectly related to the main content, like a sidebar in HTML."
+    },
+    {
+      "id": "html-easy-173",
+      "text": "To mark up the main content area of a document, which HTML tag should you use?",
+      "options": [
+        "<content>",
+        "<body>",
+        "<section>",
+        "<main>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <main> tag is used to define the main content area of a document in HTML."
+    },
+    {
+      "id": "html-easy-174",
+      "text": "To mark up a table row, which HTML tag should you use?",
+      "options": [
+        "<tr>",
+        "<row>",
+        "<th>",
+        "<td>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Tables",
+      "explanation": "The <tr> tag is used to define a table row in HTML."
+    },
+    {
+      "id": "html-easy-175",
+      "text": "To mark up a standard data cell in a table, which HTML tag should you use?",
+      "options": [
+        "<tr>",
+        "<td>",
+        "<cell>",
+        "<th>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Tables",
+      "explanation": "The <td> tag is used to define a standard data cell in a table in HTML."
+    },
+    {
+      "id": "html-easy-176",
+      "text": "To mark up a header cell in a table, which HTML tag should you use?",
+      "options": [
+        "<tr>",
+        "<td>",
+        "<th>",
+        "<head>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Tables",
+      "explanation": "The <th> tag is used to define a header cell in a table in HTML."
+    },
+    {
+      "id": "html-easy-177",
+      "text": "To mark up the table header section, which HTML tag should you use?",
+      "options": [
+        "<th>",
+        "<header>",
+        "<head>",
+        "<thead>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Tables",
+      "explanation": "The <thead> tag is used to define the table header section in HTML."
+    },
+    {
+      "id": "html-easy-178",
+      "text": "To mark up the table body section, which HTML tag should you use?",
+      "options": [
+        "<tbody>",
+        "<section>",
+        "<body>",
+        "<td>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Tables",
+      "explanation": "The <tbody> tag is used to define the table body section in HTML."
+    },
+    {
+      "id": "html-easy-179",
+      "text": "To mark up the table footer section, which HTML tag should you use?",
+      "options": [
+        "<footer>",
+        "<foot>",
+        "<end>",
+        "<tfoot>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Tables",
+      "explanation": "The <tfoot> tag is used to define the table footer section in HTML."
+    },
+    {
+      "id": "html-easy-180",
+      "text": "To mark up a form for user input, which HTML tag should you use?",
+      "options": [
+        "<form>",
+        "<field>",
+        "<input>",
+        "<control>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Forms",
+      "explanation": "The <form> tag is used to define a form for user input in HTML."
+    },
+    {
+      "id": "html-easy-181",
+      "text": "To mark up a text input field, which HTML tag should you use?",
+      "options": [
+        "<text>",
+        "<textfield>",
+        "<form>",
+        "<input>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Forms",
+      "explanation": "The <input> tag is used to define a text input field in HTML."
+    },
+    {
+      "id": "html-easy-182",
+      "text": "To mark up a clickable button, which HTML tag should you use?",
+      "options": [
+        "<button>",
+        "<submit>",
+        "<input>",
+        "<click>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Forms",
+      "explanation": "The <button> tag is used to define a clickable button in HTML."
+    },
+    {
+      "id": "html-easy-183",
+      "text": "To mark up a multi-line text input area, which HTML tag should you use?",
+      "options": [
+        "<text>",
+        "<area>",
+        "<input>",
+        "<textarea>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Forms",
+      "explanation": "The <textarea> tag is used to define a multi-line text input area in HTML."
+    },
+    {
+      "id": "html-easy-184",
+      "text": "To mark up a drop-down list, which HTML tag should you use?",
+      "options": [
+        "<select>",
+        "<dropdown>",
+        "<list>",
+        "<option>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Forms",
+      "explanation": "The <select> tag is used to define a drop-down list in HTML."
+    },
+    {
+      "id": "html-easy-185",
+      "text": "To mark up an option in a drop-down list, which HTML tag should you use?",
+      "options": [
+        "<choice>",
+        "<option>",
+        "<item>",
+        "<select>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Forms",
+      "explanation": "The <option> tag is used to define an option in a drop-down list in HTML."
+    },
+    {
+      "id": "html-easy-186",
+      "text": "To mark up a label for an input element, which HTML tag should you use?",
+      "options": [
+        "<label>",
+        "<name>",
+        "<caption>",
+        "<tag>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Forms",
+      "explanation": "The <label> tag is used to define a label for an input element in HTML."
+    },
+    {
+      "id": "html-easy-187",
+      "text": "To mark up a figure such as an image with a caption, which HTML tag should you use?",
+      "options": [
+        "<pic>",
+        "<image>",
+        "<figure>",
+        "<img>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <figure> tag is used to define a figure such as an image with a caption in HTML."
+    },
+    {
+      "id": "html-easy-188",
+      "text": "To mark up a caption for a figure, which HTML tag should you use?",
+      "options": [
+        "<caption>",
+        "<label>",
+        "<figcaption>",
+        "<legend>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <figcaption> tag is used to define a caption for a figure in HTML."
+    },
+    {
+      "id": "html-easy-189",
+      "text": "To mark up an audio player, which HTML tag should you use?",
+      "options": [
+        "<music>",
+        "<audio>",
+        "<media>",
+        "<sound>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Media",
+      "explanation": "The <audio> tag is used to define an audio player in HTML."
+    },
+    {
+      "id": "html-easy-190",
+      "text": "To mark up a video player, which HTML tag should you use?",
+      "options": [
+        "<clip>",
+        "<movie>",
+        "<video>",
+        "<media>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Media",
+      "explanation": "The <video> tag is used to define a video player in HTML."
+    },
+    {
+      "id": "html-easy-191",
+      "text": "To mark up a media source inside audio or video, which HTML tag should you use?",
+      "options": [
+        "<media>",
+        "<file>",
+        "<src>",
+        "<source>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Media",
+      "explanation": "The <source> tag is used to define a media source inside audio or video in HTML."
+    },
+    {
+      "id": "html-easy-192",
+      "text": "To mark up an inline frame to embed another page, which HTML tag should you use?",
+      "options": [
+        "<frame>",
+        "<page>",
+        "<iframe>",
+        "<embed>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Embedding",
+      "explanation": "The <iframe> tag is used to define an inline frame to embed another page in HTML."
+    },
+    {
+      "id": "html-easy-193",
+      "text": "To mark up a line of emphasized text, which HTML tag should you use?",
+      "options": [
+        "<strong>",
+        "<b>",
+        "<em>",
+        "<i>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <em> tag is used to define a line of emphasized text in HTML."
+    },
+    {
+      "id": "html-easy-194",
+      "text": "To mark up a line of strongly emphasized text, which HTML tag should you use?",
+      "options": [
+        "<b>",
+        "<em>",
+        "<strong>",
+        "<i>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <strong> tag is used to define a line of strongly emphasized text in HTML."
+    },
+    {
+      "id": "html-easy-195",
+      "text": "To mark up italic text without semantic meaning, which HTML tag should you use?",
+      "options": [
+        "<italic>",
+        "<em>",
+        "<it>",
+        "<i>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <i> tag is used to define italic text without semantic meaning in HTML."
+    },
+    {
+      "id": "html-easy-196",
+      "text": "To mark up small print such as legal text, which HTML tag should you use?",
+      "options": [
+        "<tiny>",
+        "<mini>",
+        "<small>",
+        "<p>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <small> tag is used to define small print such as legal text in HTML."
+    },
+    {
+      "id": "html-easy-197",
+      "text": "To mark up a style definition block inside HTML, which HTML tag should you use?",
+      "options": [
+        "<style>",
+        "<design>",
+        "<head>",
+        "<css>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Styles",
+      "explanation": "The <style> tag is used to define a style definition block inside HTML in HTML."
+    },
+    {
+      "id": "html-easy-198",
+      "text": "To mark up client-side JavaScript code, which HTML tag should you use?",
+      "options": [
+        "<script>",
+        "<js>",
+        "<program>",
+        "<code>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Scripting",
+      "explanation": "The <script> tag is used to define client-side JavaScript code in HTML."
+    },
+    {
+      "id": "html-easy-199",
+      "text": "To mark up an external stylesheet link, which HTML tag should you use?",
+      "options": [
+        "<style>",
+        "<link>",
+        "<a>",
+        "<css>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Styles",
+      "explanation": "The <link> tag is used to define an external stylesheet link in HTML."
+    },
+    {
+      "id": "html-easy-200",
+      "text": "To mark up metadata such as description or keywords, which HTML tag should you use?",
+      "options": [
+        "<info>",
+        "<data>",
+        "<head>",
+        "<meta>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Metadata",
+      "explanation": "The <meta> tag is used to define metadata such as description or keywords in HTML."
+    },
+    {
+      "id": "html-easy-201",
+      "text": "To mark up a definition list, which HTML tag should you use?",
+      "options": [
+        "<dt>",
+        "<list>",
+        "<dl>",
+        "<dd>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Lists",
+      "explanation": "The <dl> tag is used to define a definition list in HTML."
+    },
+    {
+      "id": "html-easy-202",
+      "text": "To mark up a term in a definition list, which HTML tag should you use?",
+      "options": [
+        "<term>",
+        "<dt>",
+        "<dd>",
+        "<li>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Lists",
+      "explanation": "The <dt> tag is used to define a term in a definition list in HTML."
+    },
+    {
+      "id": "html-easy-203",
+      "text": "To mark up a description in a definition list, which HTML tag should you use?",
+      "options": [
+        "<li>",
+        "<dd>",
+        "<dt>",
+        "<desc>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Lists",
+      "explanation": "The <dd> tag is used to define a description in a definition list in HTML."
+    },
+    {
+      "id": "html-easy-204",
+      "text": "To mark up the document type declaration for HTML5, which HTML tag should you use?",
+      "options": [
+        "<!DOCTYPE html>",
+        "<html5>",
+        "<!HTML>",
+        "<doctype>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Basics",
+      "explanation": "The <!DOCTYPE html> tag is used to define the document type declaration for HTML5 in HTML."
+    },
+    {
+      "id": "html-easy-205",
+      "text": "When you want to create the root element of an HTML document, which HTML element is appropriate?",
+      "options": [
+        "<html>",
+        "<document>",
+        "<main>",
+        "<root>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Document Structure",
+      "explanation": "The <html> tag is used to define the root element of an HTML document in HTML."
+    },
+    {
+      "id": "html-easy-206",
+      "text": "When you want to create the main content of a web page, which HTML element is appropriate?",
+      "options": [
+        "<main>",
+        "<content>",
+        "<body>",
+        "<page>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Document Structure",
+      "explanation": "The <body> tag is used to define the main content of a web page in HTML."
+    },
+    {
+      "id": "html-easy-207",
+      "text": "When you want to create a secondary heading, which HTML element is appropriate?",
+      "options": [
+        "<heading>",
+        "<h2>",
+        "<head>",
+        "<h6>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Headings",
+      "explanation": "The <h2> tag is used to define a secondary heading in HTML."
+    },
+    {
+      "id": "html-easy-208",
+      "text": "When you want to create the smallest level of heading, which HTML element is appropriate?",
+      "options": [
+        "<h6>",
+        "<small>",
+        "<p>",
+        "<h5>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Headings",
+      "explanation": "The <h6> tag is used to define the smallest level of heading in HTML."
+    },
+    {
+      "id": "html-easy-209",
+      "text": "When you want to create a generic container for block-level content, which HTML element is appropriate?",
+      "options": [
+        "<container>",
+        "<div>",
+        "<section>",
+        "<span>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Layout",
+      "explanation": "The <div> tag is used to define a generic container for block-level content in HTML."
+    },
+    {
+      "id": "html-easy-210",
+      "text": "When you want to create a generic container for inline text, which HTML element is appropriate?",
+      "options": [
+        "<p>",
+        "<div>",
+        "<inline>",
+        "<span>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Text Elements",
+      "explanation": "The <span> tag is used to define a generic container for inline text in HTML."
+    },
+    {
+      "id": "html-easy-211",
+      "text": "When you want to create an ordered (numbered) list, which HTML element is appropriate?",
+      "options": [
+        "<list>",
+        "<li>",
+        "<ul>",
+        "<ol>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Lists",
+      "explanation": "The <ol> tag is used to define an ordered (numbered) list in HTML."
+    },
+    {
+      "id": "html-easy-212",
+      "text": "When you want to create a list item, which HTML element is appropriate?",
+      "options": [
+        "<li>",
+        "<ol>",
+        "<item>",
+        "<ul>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Lists",
+      "explanation": "The <li> tag is used to define a list item in HTML."
+    },
+    {
+      "id": "html-easy-213",
+      "text": "When you want to create an image, which HTML element is appropriate?",
+      "options": [
+        "<img>",
+        "<image>",
+        "<pic>",
+        "<src>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Images",
+      "explanation": "The <img> tag is used to define an image in HTML."
+    },
+    {
+      "id": "html-easy-214",
+      "text": "When you want to create a horizontal rule or thematic break, which HTML element is appropriate?",
+      "options": [
+        "<border>",
+        "<rule>",
+        "<hr>",
+        "<line>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Lines",
+      "explanation": "The <hr> tag is used to define a horizontal rule or thematic break in HTML."
+    },
+    {
+      "id": "html-easy-215",
+      "text": "When you want to create a navigation section of a page, which HTML element is appropriate?",
+      "options": [
+        "<links>",
+        "<nav>",
+        "<menu>",
+        "<section>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <nav> tag is used to define a navigation section of a page in HTML."
+    },
+    {
+      "id": "html-easy-216",
+      "text": "When you want to create the header section of a page or section, which HTML element is appropriate?",
+      "options": [
+        "<title>",
+        "<top>",
+        "<header>",
+        "<head>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <header> tag is used to define the header section of a page or section in HTML."
+    },
+    {
+      "id": "html-easy-217",
+      "text": "When you want to create the footer section of a page or section, which HTML element is appropriate?",
+      "options": [
+        "<end>",
+        "<footer>",
+        "<tail>",
+        "<bottom>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <footer> tag is used to define the footer section of a page or section in HTML."
+    },
+    {
+      "id": "html-easy-218",
+      "text": "When you want to create a standalone piece of content such as a blog post, which HTML element is appropriate?",
+      "options": [
+        "<post>",
+        "<section>",
+        "<article>",
+        "<content>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <article> tag is used to define a standalone piece of content such as a blog post in HTML."
+    },
+    {
+      "id": "html-easy-219",
+      "text": "When you want to create a section of content, which HTML element is appropriate?",
+      "options": [
+        "<div>",
+        "<group>",
+        "<section>",
+        "<part>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <section> tag is used to define a section of content in HTML."
+    },
+    {
+      "id": "html-easy-220",
+      "text": "When you want to create content that is indirectly related to the main content, like a sidebar, which HTML element is appropriate?",
+      "options": [
+        "<extra>",
+        "<side>",
+        "<aside>",
+        "<section>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <aside> tag is used to define content that is indirectly related to the main content, like a sidebar in HTML."
+    },
+    {
+      "id": "html-easy-221",
+      "text": "When you want to create the main content area of a document, which HTML element is appropriate?",
+      "options": [
+        "<content>",
+        "<section>",
+        "<body>",
+        "<main>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <main> tag is used to define the main content area of a document in HTML."
+    },
+    {
+      "id": "html-easy-222",
+      "text": "When you want to create a table row, which HTML element is appropriate?",
+      "options": [
+        "<tr>",
+        "<row>",
+        "<td>",
+        "<th>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Tables",
+      "explanation": "The <tr> tag is used to define a table row in HTML."
+    },
+    {
+      "id": "html-easy-223",
+      "text": "When you want to create a standard data cell in a table, which HTML element is appropriate?",
+      "options": [
+        "<cell>",
+        "<th>",
+        "<td>",
+        "<tr>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Tables",
+      "explanation": "The <td> tag is used to define a standard data cell in a table in HTML."
+    },
+    {
+      "id": "html-easy-224",
+      "text": "When you want to create a header cell in a table, which HTML element is appropriate?",
+      "options": [
+        "<td>",
+        "<tr>",
+        "<head>",
+        "<th>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Tables",
+      "explanation": "The <th> tag is used to define a header cell in a table in HTML."
+    },
+    {
+      "id": "html-easy-225",
+      "text": "When you want to create the table header section, which HTML element is appropriate?",
+      "options": [
+        "<header>",
+        "<thead>",
+        "<head>",
+        "<th>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Tables",
+      "explanation": "The <thead> tag is used to define the table header section in HTML."
+    },
+    {
+      "id": "html-easy-226",
+      "text": "When you want to create the table body section, which HTML element is appropriate?",
+      "options": [
+        "<section>",
+        "<body>",
+        "<td>",
+        "<tbody>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Tables",
+      "explanation": "The <tbody> tag is used to define the table body section in HTML."
+    },
+    {
+      "id": "html-easy-227",
+      "text": "When you want to create the table footer section, which HTML element is appropriate?",
+      "options": [
+        "<footer>",
+        "<tfoot>",
+        "<end>",
+        "<foot>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Tables",
+      "explanation": "The <tfoot> tag is used to define the table footer section in HTML."
+    },
+    {
+      "id": "html-easy-228",
+      "text": "When you want to create a form for user input, which HTML element is appropriate?",
+      "options": [
+        "<control>",
+        "<field>",
+        "<input>",
+        "<form>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Forms",
+      "explanation": "The <form> tag is used to define a form for user input in HTML."
+    },
+    {
+      "id": "html-easy-229",
+      "text": "When you want to create a text input field, which HTML element is appropriate?",
+      "options": [
+        "<text>",
+        "<textfield>",
+        "<input>",
+        "<form>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Forms",
+      "explanation": "The <input> tag is used to define a text input field in HTML."
+    },
+    {
+      "id": "html-easy-230",
+      "text": "When you want to create a clickable button, which HTML element is appropriate?",
+      "options": [
+        "<input>",
+        "<submit>",
+        "<click>",
+        "<button>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Forms",
+      "explanation": "The <button> tag is used to define a clickable button in HTML."
+    },
+    {
+      "id": "html-easy-231",
+      "text": "When you want to create a multi-line text input area, which HTML element is appropriate?",
+      "options": [
+        "<textarea>",
+        "<input>",
+        "<text>",
+        "<area>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Forms",
+      "explanation": "The <textarea> tag is used to define a multi-line text input area in HTML."
+    },
+    {
+      "id": "html-easy-232",
+      "text": "When you want to create a drop-down list, which HTML element is appropriate?",
+      "options": [
+        "<dropdown>",
+        "<select>",
+        "<list>",
+        "<option>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Forms",
+      "explanation": "The <select> tag is used to define a drop-down list in HTML."
+    },
+    {
+      "id": "html-easy-233",
+      "text": "When you want to create an option in a drop-down list, which HTML element is appropriate?",
+      "options": [
+        "<option>",
+        "<select>",
+        "<item>",
+        "<choice>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Forms",
+      "explanation": "The <option> tag is used to define an option in a drop-down list in HTML."
+    },
+    {
+      "id": "html-easy-234",
+      "text": "When you want to create a label for an input element, which HTML element is appropriate?",
+      "options": [
+        "<name>",
+        "<caption>",
+        "<label>",
+        "<tag>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Forms",
+      "explanation": "The <label> tag is used to define a label for an input element in HTML."
+    },
+    {
+      "id": "html-easy-235",
+      "text": "When you want to create a figure such as an image with a caption, which HTML element is appropriate?",
+      "options": [
+        "<img>",
+        "<pic>",
+        "<image>",
+        "<figure>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <figure> tag is used to define a figure such as an image with a caption in HTML."
+    },
+    {
+      "id": "html-easy-236",
+      "text": "When you want to create a caption for a figure, which HTML element is appropriate?",
+      "options": [
+        "<caption>",
+        "<label>",
+        "<legend>",
+        "<figcaption>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <figcaption> tag is used to define a caption for a figure in HTML."
+    },
+    {
+      "id": "html-easy-237",
+      "text": "When you want to create an audio player, which HTML element is appropriate?",
+      "options": [
+        "<sound>",
+        "<music>",
+        "<media>",
+        "<audio>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Media",
+      "explanation": "The <audio> tag is used to define an audio player in HTML."
+    },
+    {
+      "id": "html-easy-238",
+      "text": "When you want to create a video player, which HTML element is appropriate?",
+      "options": [
+        "<media>",
+        "<movie>",
+        "<video>",
+        "<clip>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Media",
+      "explanation": "The <video> tag is used to define a video player in HTML."
+    },
+    {
+      "id": "html-easy-239",
+      "text": "When you want to create a media source inside audio or video, which HTML element is appropriate?",
+      "options": [
+        "<file>",
+        "<src>",
+        "<source>",
+        "<media>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Media",
+      "explanation": "The <source> tag is used to define a media source inside audio or video in HTML."
+    },
+    {
+      "id": "html-easy-240",
+      "text": "When you want to create an inline frame to embed another page, which HTML element is appropriate?",
+      "options": [
+        "<iframe>",
+        "<page>",
+        "<embed>",
+        "<frame>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Embedding",
+      "explanation": "The <iframe> tag is used to define an inline frame to embed another page in HTML."
+    },
+    {
+      "id": "html-easy-241",
+      "text": "When you want to create a line of emphasized text, which HTML element is appropriate?",
+      "options": [
+        "<em>",
+        "<strong>",
+        "<i>",
+        "<b>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <em> tag is used to define a line of emphasized text in HTML."
+    },
+    {
+      "id": "html-easy-242",
+      "text": "When you want to create a line of strongly emphasized text, which HTML element is appropriate?",
+      "options": [
+        "<strong>",
+        "<em>",
+        "<i>",
+        "<b>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <strong> tag is used to define a line of strongly emphasized text in HTML."
+    },
+    {
+      "id": "html-easy-243",
+      "text": "When you want to create italic text without semantic meaning, which HTML element is appropriate?",
+      "options": [
+        "<italic>",
+        "<it>",
+        "<em>",
+        "<i>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <i> tag is used to define italic text without semantic meaning in HTML."
+    },
+    {
+      "id": "html-easy-244",
+      "text": "When you want to create small print such as legal text, which HTML element is appropriate?",
+      "options": [
+        "<small>",
+        "<tiny>",
+        "<p>",
+        "<mini>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <small> tag is used to define small print such as legal text in HTML."
+    },
+    {
+      "id": "html-easy-245",
+      "text": "When you want to create a style definition block inside HTML, which HTML element is appropriate?",
+      "options": [
+        "<design>",
+        "<head>",
+        "<style>",
+        "<css>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Styles",
+      "explanation": "The <style> tag is used to define a style definition block inside HTML in HTML."
+    },
+    {
+      "id": "html-easy-246",
+      "text": "When you want to create client-side JavaScript code, which HTML element is appropriate?",
+      "options": [
+        "<code>",
+        "<js>",
+        "<script>",
+        "<program>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Scripting",
+      "explanation": "The <script> tag is used to define client-side JavaScript code in HTML."
+    },
+    {
+      "id": "html-easy-247",
+      "text": "When you want to create an external stylesheet link, which HTML element is appropriate?",
+      "options": [
+        "<css>",
+        "<style>",
+        "<a>",
+        "<link>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Styles",
+      "explanation": "The <link> tag is used to define an external stylesheet link in HTML."
+    },
+    {
+      "id": "html-easy-248",
+      "text": "When you want to create metadata such as description or keywords, which HTML element is appropriate?",
+      "options": [
+        "<info>",
+        "<head>",
+        "<data>",
+        "<meta>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Metadata",
+      "explanation": "The <meta> tag is used to define metadata such as description or keywords in HTML."
+    },
+    {
+      "id": "html-easy-249",
+      "text": "When you want to create a definition list, which HTML element is appropriate?",
+      "options": [
+        "<dl>",
+        "<list>",
+        "<dt>",
+        "<dd>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Lists",
+      "explanation": "The <dl> tag is used to define a definition list in HTML."
+    },
+    {
+      "id": "html-easy-250",
+      "text": "When you want to create a term in a definition list, which HTML element is appropriate?",
+      "options": [
+        "<li>",
+        "<dd>",
+        "<dt>",
+        "<term>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Lists",
+      "explanation": "The <dt> tag is used to define a term in a definition list in HTML."
+    },
+    {
+      "id": "html-easy-251",
+      "text": "When you want to create a description in a definition list, which HTML element is appropriate?",
+      "options": [
+        "<desc>",
+        "<dd>",
+        "<li>",
+        "<dt>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Lists",
+      "explanation": "The <dd> tag is used to define a description in a definition list in HTML."
+    },
+    {
+      "id": "html-easy-252",
+      "text": "When you want to create the document type declaration for HTML5, which HTML element is appropriate?",
+      "options": [
+        "<!DOCTYPE html>",
+        "<doctype>",
+        "<html5>",
+        "<!HTML>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Basics",
+      "explanation": "The <!DOCTYPE html> tag is used to define the document type declaration for HTML5 in HTML."
+    },
+    {
+      "id": "html-easy-253",
+      "text": "For the root element of an HTML document, which HTML tag is correct?",
+      "options": [
+        "<document>",
+        "<html>",
+        "<root>",
+        "<main>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Document Structure",
+      "explanation": "The <html> tag is used to define the root element of an HTML document in HTML."
+    },
+    {
+      "id": "html-easy-254",
+      "text": "For the main content of a web page, which HTML tag is correct?",
+      "options": [
+        "<page>",
+        "<content>",
+        "<main>",
+        "<body>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Document Structure",
+      "explanation": "The <body> tag is used to define the main content of a web page in HTML."
+    },
+    {
+      "id": "html-easy-255",
+      "text": "For a secondary heading, which HTML tag is correct?",
+      "options": [
+        "<head>",
+        "<heading>",
+        "<h6>",
+        "<h2>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Headings",
+      "explanation": "The <h2> tag is used to define a secondary heading in HTML."
+    },
+    {
+      "id": "html-easy-256",
+      "text": "For the smallest level of heading, which HTML tag is correct?",
+      "options": [
+        "<p>",
+        "<small>",
+        "<h5>",
+        "<h6>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Headings",
+      "explanation": "The <h6> tag is used to define the smallest level of heading in HTML."
+    },
+    {
+      "id": "html-easy-257",
+      "text": "For a generic container for block-level content, which HTML tag is correct?",
+      "options": [
+        "<container>",
+        "<div>",
+        "<section>",
+        "<span>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Layout",
+      "explanation": "The <div> tag is used to define a generic container for block-level content in HTML."
+    },
+    {
+      "id": "html-easy-258",
+      "text": "For a generic container for inline text, which HTML tag is correct?",
+      "options": [
+        "<inline>",
+        "<p>",
+        "<div>",
+        "<span>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Text Elements",
+      "explanation": "The <span> tag is used to define a generic container for inline text in HTML."
+    },
+    {
+      "id": "html-easy-259",
+      "text": "For an ordered (numbered) list, which HTML tag is correct?",
+      "options": [
+        "<ol>",
+        "<list>",
+        "<ul>",
+        "<li>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Lists",
+      "explanation": "The <ol> tag is used to define an ordered (numbered) list in HTML."
+    },
+    {
+      "id": "html-easy-260",
+      "text": "For a list item, which HTML tag is correct?",
+      "options": [
+        "<li>",
+        "<item>",
+        "<ul>",
+        "<ol>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Lists",
+      "explanation": "The <li> tag is used to define a list item in HTML."
+    },
+    {
+      "id": "html-easy-261",
+      "text": "For an image, which HTML tag is correct?",
+      "options": [
+        "<pic>",
+        "<image>",
+        "<img>",
+        "<src>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Images",
+      "explanation": "The <img> tag is used to define an image in HTML."
+    },
+    {
+      "id": "html-easy-262",
+      "text": "For a horizontal rule or thematic break, which HTML tag is correct?",
+      "options": [
+        "<line>",
+        "<border>",
+        "<hr>",
+        "<rule>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Lines",
+      "explanation": "The <hr> tag is used to define a horizontal rule or thematic break in HTML."
+    },
+    {
+      "id": "html-easy-263",
+      "text": "For a navigation section of a page, which HTML tag is correct?",
+      "options": [
+        "<menu>",
+        "<links>",
+        "<nav>",
+        "<section>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <nav> tag is used to define a navigation section of a page in HTML."
+    },
+    {
+      "id": "html-easy-264",
+      "text": "For the header section of a page or section, which HTML tag is correct?",
+      "options": [
+        "<header>",
+        "<head>",
+        "<top>",
+        "<title>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <header> tag is used to define the header section of a page or section in HTML."
+    },
+    {
+      "id": "html-easy-265",
+      "text": "For the footer section of a page or section, which HTML tag is correct?",
+      "options": [
+        "<footer>",
+        "<tail>",
+        "<end>",
+        "<bottom>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <footer> tag is used to define the footer section of a page or section in HTML."
+    },
+    {
+      "id": "html-easy-266",
+      "text": "For a standalone piece of content such as a blog post, which HTML tag is correct?",
+      "options": [
+        "<post>",
+        "<section>",
+        "<article>",
+        "<content>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <article> tag is used to define a standalone piece of content such as a blog post in HTML."
+    },
+    {
+      "id": "html-easy-267",
+      "text": "For a section of content, which HTML tag is correct?",
+      "options": [
+        "<part>",
+        "<div>",
+        "<group>",
+        "<section>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <section> tag is used to define a section of content in HTML."
+    },
+    {
+      "id": "html-easy-268",
+      "text": "For content that is indirectly related to the main content, like a sidebar, which HTML tag is correct?",
+      "options": [
+        "<extra>",
+        "<side>",
+        "<section>",
+        "<aside>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <aside> tag is used to define content that is indirectly related to the main content, like a sidebar in HTML."
+    },
+    {
+      "id": "html-easy-269",
+      "text": "For the main content area of a document, which HTML tag is correct?",
+      "options": [
+        "<section>",
+        "<body>",
+        "<main>",
+        "<content>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <main> tag is used to define the main content area of a document in HTML."
+    },
+    {
+      "id": "html-easy-270",
+      "text": "For a table row, which HTML tag is correct?",
+      "options": [
+        "<th>",
+        "<row>",
+        "<tr>",
+        "<td>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Tables",
+      "explanation": "The <tr> tag is used to define a table row in HTML."
+    },
+    {
+      "id": "html-easy-271",
+      "text": "For a standard data cell in a table, which HTML tag is correct?",
+      "options": [
+        "<th>",
+        "<cell>",
+        "<tr>",
+        "<td>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Tables",
+      "explanation": "The <td> tag is used to define a standard data cell in a table in HTML."
+    },
+    {
+      "id": "html-easy-272",
+      "text": "For a header cell in a table, which HTML tag is correct?",
+      "options": [
+        "<head>",
+        "<tr>",
+        "<th>",
+        "<td>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Tables",
+      "explanation": "The <th> tag is used to define a header cell in a table in HTML."
+    },
+    {
+      "id": "html-easy-273",
+      "text": "For the table header section, which HTML tag is correct?",
+      "options": [
+        "<thead>",
+        "<header>",
+        "<th>",
+        "<head>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Tables",
+      "explanation": "The <thead> tag is used to define the table header section in HTML."
+    },
+    {
+      "id": "html-easy-274",
+      "text": "For the table body section, which HTML tag is correct?",
+      "options": [
+        "<td>",
+        "<tbody>",
+        "<body>",
+        "<section>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Tables",
+      "explanation": "The <tbody> tag is used to define the table body section in HTML."
+    },
+    {
+      "id": "html-easy-275",
+      "text": "For the table footer section, which HTML tag is correct?",
+      "options": [
+        "<end>",
+        "<footer>",
+        "<foot>",
+        "<tfoot>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Tables",
+      "explanation": "The <tfoot> tag is used to define the table footer section in HTML."
+    },
+    {
+      "id": "html-easy-276",
+      "text": "For a form for user input, which HTML tag is correct?",
+      "options": [
+        "<field>",
+        "<control>",
+        "<form>",
+        "<input>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Forms",
+      "explanation": "The <form> tag is used to define a form for user input in HTML."
+    },
+    {
+      "id": "html-easy-277",
+      "text": "For a text input field, which HTML tag is correct?",
+      "options": [
+        "<text>",
+        "<form>",
+        "<textfield>",
+        "<input>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Forms",
+      "explanation": "The <input> tag is used to define a text input field in HTML."
+    },
+    {
+      "id": "html-easy-278",
+      "text": "For a clickable button, which HTML tag is correct?",
+      "options": [
+        "<button>",
+        "<input>",
+        "<click>",
+        "<submit>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Forms",
+      "explanation": "The <button> tag is used to define a clickable button in HTML."
+    },
+    {
+      "id": "html-easy-279",
+      "text": "For a multi-line text input area, which HTML tag is correct?",
+      "options": [
+        "<textarea>",
+        "<area>",
+        "<input>",
+        "<text>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Forms",
+      "explanation": "The <textarea> tag is used to define a multi-line text input area in HTML."
+    },
+    {
+      "id": "html-easy-280",
+      "text": "For a drop-down list, which HTML tag is correct?",
+      "options": [
+        "<list>",
+        "<option>",
+        "<select>",
+        "<dropdown>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Forms",
+      "explanation": "The <select> tag is used to define a drop-down list in HTML."
+    },
+    {
+      "id": "html-easy-281",
+      "text": "For an option in a drop-down list, which HTML tag is correct?",
+      "options": [
+        "<choice>",
+        "<item>",
+        "<option>",
+        "<select>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Forms",
+      "explanation": "The <option> tag is used to define an option in a drop-down list in HTML."
+    },
+    {
+      "id": "html-easy-282",
+      "text": "For a label for an input element, which HTML tag is correct?",
+      "options": [
+        "<name>",
+        "<label>",
+        "<caption>",
+        "<tag>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Forms",
+      "explanation": "The <label> tag is used to define a label for an input element in HTML."
+    },
+    {
+      "id": "html-easy-283",
+      "text": "For a figure such as an image with a caption, which HTML tag is correct?",
+      "options": [
+        "<image>",
+        "<img>",
+        "<pic>",
+        "<figure>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <figure> tag is used to define a figure such as an image with a caption in HTML."
+    },
+    {
+      "id": "html-easy-284",
+      "text": "For a caption for a figure, which HTML tag is correct?",
+      "options": [
+        "<legend>",
+        "<label>",
+        "<figcaption>",
+        "<caption>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <figcaption> tag is used to define a caption for a figure in HTML."
+    },
+    {
+      "id": "html-easy-285",
+      "text": "For an audio player, which HTML tag is correct?",
+      "options": [
+        "<sound>",
+        "<media>",
+        "<music>",
+        "<audio>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Media",
+      "explanation": "The <audio> tag is used to define an audio player in HTML."
+    },
+    {
+      "id": "html-easy-286",
+      "text": "For a video player, which HTML tag is correct?",
+      "options": [
+        "<video>",
+        "<clip>",
+        "<movie>",
+        "<media>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Media",
+      "explanation": "The <video> tag is used to define a video player in HTML."
+    },
+    {
+      "id": "html-easy-287",
+      "text": "For a media source inside audio or video, which HTML tag is correct?",
+      "options": [
+        "<src>",
+        "<file>",
+        "<source>",
+        "<media>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Media",
+      "explanation": "The <source> tag is used to define a media source inside audio or video in HTML."
+    },
+    {
+      "id": "html-easy-288",
+      "text": "For an inline frame to embed another page, which HTML tag is correct?",
+      "options": [
+        "<iframe>",
+        "<frame>",
+        "<page>",
+        "<embed>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Embedding",
+      "explanation": "The <iframe> tag is used to define an inline frame to embed another page in HTML."
+    },
+    {
+      "id": "html-easy-289",
+      "text": "For a line of emphasized text, which HTML tag is correct?",
+      "options": [
+        "<b>",
+        "<em>",
+        "<strong>",
+        "<i>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <em> tag is used to define a line of emphasized text in HTML."
+    },
+    {
+      "id": "html-easy-290",
+      "text": "For a line of strongly emphasized text, which HTML tag is correct?",
+      "options": [
+        "<strong>",
+        "<b>",
+        "<em>",
+        "<i>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <strong> tag is used to define a line of strongly emphasized text in HTML."
+    },
+    {
+      "id": "html-easy-291",
+      "text": "For italic text without semantic meaning, which HTML tag is correct?",
+      "options": [
+        "<it>",
+        "<italic>",
+        "<em>",
+        "<i>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <i> tag is used to define italic text without semantic meaning in HTML."
+    },
+    {
+      "id": "html-easy-292",
+      "text": "For small print such as legal text, which HTML tag is correct?",
+      "options": [
+        "<tiny>",
+        "<p>",
+        "<mini>",
+        "<small>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <small> tag is used to define small print such as legal text in HTML."
+    },
+    {
+      "id": "html-easy-293",
+      "text": "For a style definition block inside HTML, which HTML tag is correct?",
+      "options": [
+        "<design>",
+        "<style>",
+        "<head>",
+        "<css>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Styles",
+      "explanation": "The <style> tag is used to define a style definition block inside HTML in HTML."
+    },
+    {
+      "id": "html-easy-294",
+      "text": "For client-side JavaScript code, which HTML tag is correct?",
+      "options": [
+        "<script>",
+        "<js>",
+        "<code>",
+        "<program>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Scripting",
+      "explanation": "The <script> tag is used to define client-side JavaScript code in HTML."
+    },
+    {
+      "id": "html-easy-295",
+      "text": "For an external stylesheet link, which HTML tag is correct?",
+      "options": [
+        "<a>",
+        "<style>",
+        "<css>",
+        "<link>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Styles",
+      "explanation": "The <link> tag is used to define an external stylesheet link in HTML."
+    },
+    {
+      "id": "html-easy-296",
+      "text": "For metadata such as description or keywords, which HTML tag is correct?",
+      "options": [
+        "<meta>",
+        "<head>",
+        "<info>",
+        "<data>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Metadata",
+      "explanation": "The <meta> tag is used to define metadata such as description or keywords in HTML."
+    },
+    {
+      "id": "html-easy-297",
+      "text": "For a definition list, which HTML tag is correct?",
+      "options": [
+        "<dl>",
+        "<list>",
+        "<dt>",
+        "<dd>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Lists",
+      "explanation": "The <dl> tag is used to define a definition list in HTML."
+    },
+    {
+      "id": "html-easy-298",
+      "text": "For a term in a definition list, which HTML tag is correct?",
+      "options": [
+        "<term>",
+        "<dt>",
+        "<li>",
+        "<dd>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Lists",
+      "explanation": "The <dt> tag is used to define a term in a definition list in HTML."
+    },
+    {
+      "id": "html-easy-299",
+      "text": "For a description in a definition list, which HTML tag is correct?",
+      "options": [
+        "<li>",
+        "<dd>",
+        "<desc>",
+        "<dt>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Lists",
+      "explanation": "The <dd> tag is used to define a description in a definition list in HTML."
+    },
+    {
+      "id": "html-easy-300",
+      "text": "For the document type declaration for HTML5, which HTML tag is correct?",
+      "options": [
+        "<!HTML>",
+        "<!DOCTYPE html>",
+        "<doctype>",
+        "<html5>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Basics",
+      "explanation": "The <!DOCTYPE html> tag is used to define the document type declaration for HTML5 in HTML."
+    },
+    {
+      "id": "html-easy-301",
+      "text": "In a web page, what tag is used for the root element of an HTML document?",
+      "options": [
+        "<main>",
+        "<document>",
+        "<html>",
+        "<root>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Document Structure",
+      "explanation": "The <html> tag is used to define the root element of an HTML document in HTML."
+    },
+    {
+      "id": "html-easy-302",
+      "text": "In a web page, what tag is used for the main content of a web page?",
+      "options": [
+        "<main>",
+        "<body>",
+        "<page>",
+        "<content>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Document Structure",
+      "explanation": "The <body> tag is used to define the main content of a web page in HTML."
+    },
+    {
+      "id": "html-easy-303",
+      "text": "In a web page, what tag is used for a secondary heading?",
+      "options": [
+        "<h6>",
+        "<heading>",
+        "<h2>",
+        "<head>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Headings",
+      "explanation": "The <h2> tag is used to define a secondary heading in HTML."
+    },
+    {
+      "id": "html-easy-304",
+      "text": "In a web page, what tag is used for the smallest level of heading?",
+      "options": [
+        "<small>",
+        "<h5>",
+        "<h6>",
+        "<p>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Headings",
+      "explanation": "The <h6> tag is used to define the smallest level of heading in HTML."
+    },
+    {
+      "id": "html-easy-305",
+      "text": "In a web page, what tag is used for a generic container for block-level content?",
+      "options": [
+        "<span>",
+        "<div>",
+        "<section>",
+        "<container>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Layout",
+      "explanation": "The <div> tag is used to define a generic container for block-level content in HTML."
+    },
+    {
+      "id": "html-easy-306",
+      "text": "In a web page, what tag is used for a generic container for inline text?",
+      "options": [
+        "<span>",
+        "<p>",
+        "<inline>",
+        "<div>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Text Elements",
+      "explanation": "The <span> tag is used to define a generic container for inline text in HTML."
+    },
+    {
+      "id": "html-easy-307",
+      "text": "In a web page, what tag is used for an ordered (numbered) list?",
+      "options": [
+        "<list>",
+        "<ol>",
+        "<ul>",
+        "<li>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Lists",
+      "explanation": "The <ol> tag is used to define an ordered (numbered) list in HTML."
+    },
+    {
+      "id": "html-easy-308",
+      "text": "In a web page, what tag is used for a list item?",
+      "options": [
+        "<item>",
+        "<li>",
+        "<ul>",
+        "<ol>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Lists",
+      "explanation": "The <li> tag is used to define a list item in HTML."
+    },
+    {
+      "id": "html-easy-309",
+      "text": "In a web page, what tag is used for an image?",
+      "options": [
+        "<pic>",
+        "<img>",
+        "<src>",
+        "<image>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Images",
+      "explanation": "The <img> tag is used to define an image in HTML."
+    },
+    {
+      "id": "html-easy-310",
+      "text": "In a web page, what tag is used for a horizontal rule or thematic break?",
+      "options": [
+        "<hr>",
+        "<border>",
+        "<line>",
+        "<rule>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Lines",
+      "explanation": "The <hr> tag is used to define a horizontal rule or thematic break in HTML."
+    },
+    {
+      "id": "html-easy-311",
+      "text": "In a web page, what tag is used for a navigation section of a page?",
+      "options": [
+        "<nav>",
+        "<links>",
+        "<section>",
+        "<menu>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <nav> tag is used to define a navigation section of a page in HTML."
+    },
+    {
+      "id": "html-easy-312",
+      "text": "In a web page, what tag is used for the header section of a page or section?",
+      "options": [
+        "<title>",
+        "<head>",
+        "<top>",
+        "<header>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <header> tag is used to define the header section of a page or section in HTML."
+    },
+    {
+      "id": "html-easy-313",
+      "text": "In a web page, what tag is used for the footer section of a page or section?",
+      "options": [
+        "<tail>",
+        "<bottom>",
+        "<footer>",
+        "<end>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <footer> tag is used to define the footer section of a page or section in HTML."
+    },
+    {
+      "id": "html-easy-314",
+      "text": "In a web page, what tag is used for a standalone piece of content such as a blog post?",
+      "options": [
+        "<article>",
+        "<section>",
+        "<content>",
+        "<post>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <article> tag is used to define a standalone piece of content such as a blog post in HTML."
+    },
+    {
+      "id": "html-easy-315",
+      "text": "In a web page, what tag is used for a section of content?",
+      "options": [
+        "<div>",
+        "<section>",
+        "<part>",
+        "<group>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <section> tag is used to define a section of content in HTML."
+    },
+    {
+      "id": "html-easy-316",
+      "text": "In a web page, what tag is used for content that is indirectly related to the main content, like a sidebar?",
+      "options": [
+        "<aside>",
+        "<side>",
+        "<extra>",
+        "<section>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <aside> tag is used to define content that is indirectly related to the main content, like a sidebar in HTML."
+    },
+    {
+      "id": "html-easy-317",
+      "text": "In a web page, what tag is used for the main content area of a document?",
+      "options": [
+        "<content>",
+        "<body>",
+        "<main>",
+        "<section>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <main> tag is used to define the main content area of a document in HTML."
+    },
+    {
+      "id": "html-easy-318",
+      "text": "In a web page, what tag is used for a table row?",
+      "options": [
+        "<th>",
+        "<row>",
+        "<tr>",
+        "<td>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Tables",
+      "explanation": "The <tr> tag is used to define a table row in HTML."
+    },
+    {
+      "id": "html-easy-319",
+      "text": "In a web page, what tag is used for a standard data cell in a table?",
+      "options": [
+        "<cell>",
+        "<th>",
+        "<tr>",
+        "<td>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Tables",
+      "explanation": "The <td> tag is used to define a standard data cell in a table in HTML."
+    },
+    {
+      "id": "html-easy-320",
+      "text": "In a web page, what tag is used for a header cell in a table?",
+      "options": [
+        "<tr>",
+        "<head>",
+        "<td>",
+        "<th>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Tables",
+      "explanation": "The <th> tag is used to define a header cell in a table in HTML."
+    },
+    {
+      "id": "html-easy-321",
+      "text": "In a web page, what tag is used for the table header section?",
+      "options": [
+        "<head>",
+        "<header>",
+        "<th>",
+        "<thead>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Tables",
+      "explanation": "The <thead> tag is used to define the table header section in HTML."
+    },
+    {
+      "id": "html-easy-322",
+      "text": "In a web page, what tag is used for the table body section?",
+      "options": [
+        "<tbody>",
+        "<body>",
+        "<section>",
+        "<td>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Tables",
+      "explanation": "The <tbody> tag is used to define the table body section in HTML."
+    },
+    {
+      "id": "html-easy-323",
+      "text": "In a web page, what tag is used for the table footer section?",
+      "options": [
+        "<end>",
+        "<foot>",
+        "<footer>",
+        "<tfoot>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Tables",
+      "explanation": "The <tfoot> tag is used to define the table footer section in HTML."
+    },
+    {
+      "id": "html-easy-324",
+      "text": "In a web page, what tag is used for a form for user input?",
+      "options": [
+        "<control>",
+        "<input>",
+        "<field>",
+        "<form>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Forms",
+      "explanation": "The <form> tag is used to define a form for user input in HTML."
+    },
+    {
+      "id": "html-easy-325",
+      "text": "In a web page, what tag is used for a text input field?",
+      "options": [
+        "<input>",
+        "<form>",
+        "<textfield>",
+        "<text>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Forms",
+      "explanation": "The <input> tag is used to define a text input field in HTML."
+    },
+    {
+      "id": "html-easy-326",
+      "text": "In a web page, what tag is used for a clickable button?",
+      "options": [
+        "<submit>",
+        "<click>",
+        "<input>",
+        "<button>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Forms",
+      "explanation": "The <button> tag is used to define a clickable button in HTML."
+    },
+    {
+      "id": "html-easy-327",
+      "text": "In a web page, what tag is used for a multi-line text input area?",
+      "options": [
+        "<textarea>",
+        "<input>",
+        "<area>",
+        "<text>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Forms",
+      "explanation": "The <textarea> tag is used to define a multi-line text input area in HTML."
+    },
+    {
+      "id": "html-easy-328",
+      "text": "In a web page, what tag is used for a drop-down list?",
+      "options": [
+        "<select>",
+        "<option>",
+        "<dropdown>",
+        "<list>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Forms",
+      "explanation": "The <select> tag is used to define a drop-down list in HTML."
+    },
+    {
+      "id": "html-easy-329",
+      "text": "In a web page, what tag is used for an option in a drop-down list?",
+      "options": [
+        "<option>",
+        "<choice>",
+        "<select>",
+        "<item>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Forms",
+      "explanation": "The <option> tag is used to define an option in a drop-down list in HTML."
+    },
+    {
+      "id": "html-easy-330",
+      "text": "In a web page, what tag is used for a label for an input element?",
+      "options": [
+        "<tag>",
+        "<name>",
+        "<caption>",
+        "<label>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Forms",
+      "explanation": "The <label> tag is used to define a label for an input element in HTML."
+    },
+    {
+      "id": "html-easy-331",
+      "text": "In a web page, what tag is used for a figure such as an image with a caption?",
+      "options": [
+        "<figure>",
+        "<image>",
+        "<img>",
+        "<pic>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <figure> tag is used to define a figure such as an image with a caption in HTML."
+    },
+    {
+      "id": "html-easy-332",
+      "text": "In a web page, what tag is used for a caption for a figure?",
+      "options": [
+        "<figcaption>",
+        "<legend>",
+        "<caption>",
+        "<label>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <figcaption> tag is used to define a caption for a figure in HTML."
+    },
+    {
+      "id": "html-easy-333",
+      "text": "In a web page, what tag is used for an audio player?",
+      "options": [
+        "<media>",
+        "<sound>",
+        "<music>",
+        "<audio>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Media",
+      "explanation": "The <audio> tag is used to define an audio player in HTML."
+    },
+    {
+      "id": "html-easy-334",
+      "text": "In a web page, what tag is used for a video player?",
+      "options": [
+        "<movie>",
+        "<clip>",
+        "<media>",
+        "<video>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Media",
+      "explanation": "The <video> tag is used to define a video player in HTML."
+    },
+    {
+      "id": "html-easy-335",
+      "text": "In a web page, what tag is used for a media source inside audio or video?",
+      "options": [
+        "<file>",
+        "<src>",
+        "<media>",
+        "<source>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Media",
+      "explanation": "The <source> tag is used to define a media source inside audio or video in HTML."
+    },
+    {
+      "id": "html-easy-336",
+      "text": "In a web page, what tag is used for an inline frame to embed another page?",
+      "options": [
+        "<frame>",
+        "<page>",
+        "<embed>",
+        "<iframe>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Embedding",
+      "explanation": "The <iframe> tag is used to define an inline frame to embed another page in HTML."
+    },
+    {
+      "id": "html-easy-337",
+      "text": "In a web page, what tag is used for a line of emphasized text?",
+      "options": [
+        "<em>",
+        "<b>",
+        "<i>",
+        "<strong>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <em> tag is used to define a line of emphasized text in HTML."
+    },
+    {
+      "id": "html-easy-338",
+      "text": "In a web page, what tag is used for a line of strongly emphasized text?",
+      "options": [
+        "<b>",
+        "<strong>",
+        "<em>",
+        "<i>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <strong> tag is used to define a line of strongly emphasized text in HTML."
+    },
+    {
+      "id": "html-easy-339",
+      "text": "In a web page, what tag is used for italic text without semantic meaning?",
+      "options": [
+        "<it>",
+        "<em>",
+        "<i>",
+        "<italic>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <i> tag is used to define italic text without semantic meaning in HTML."
+    },
+    {
+      "id": "html-easy-340",
+      "text": "In a web page, what tag is used for small print such as legal text?",
+      "options": [
+        "<tiny>",
+        "<small>",
+        "<mini>",
+        "<p>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <small> tag is used to define small print such as legal text in HTML."
+    },
+    {
+      "id": "html-easy-341",
+      "text": "In a web page, what tag is used for a style definition block inside HTML?",
+      "options": [
+        "<design>",
+        "<style>",
+        "<head>",
+        "<css>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Styles",
+      "explanation": "The <style> tag is used to define a style definition block inside HTML in HTML."
+    },
+    {
+      "id": "html-easy-342",
+      "text": "In a web page, what tag is used for client-side JavaScript code?",
+      "options": [
+        "<program>",
+        "<script>",
+        "<code>",
+        "<js>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Scripting",
+      "explanation": "The <script> tag is used to define client-side JavaScript code in HTML."
+    },
+    {
+      "id": "html-easy-343",
+      "text": "In a web page, what tag is used for an external stylesheet link?",
+      "options": [
+        "<style>",
+        "<css>",
+        "<a>",
+        "<link>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Styles",
+      "explanation": "The <link> tag is used to define an external stylesheet link in HTML."
+    },
+    {
+      "id": "html-easy-344",
+      "text": "In a web page, what tag is used for metadata such as description or keywords?",
+      "options": [
+        "<meta>",
+        "<info>",
+        "<head>",
+        "<data>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Metadata",
+      "explanation": "The <meta> tag is used to define metadata such as description or keywords in HTML."
+    },
+    {
+      "id": "html-easy-345",
+      "text": "In a web page, what tag is used for a definition list?",
+      "options": [
+        "<dl>",
+        "<dd>",
+        "<dt>",
+        "<list>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Lists",
+      "explanation": "The <dl> tag is used to define a definition list in HTML."
+    },
+    {
+      "id": "html-easy-346",
+      "text": "In a web page, what tag is used for a term in a definition list?",
+      "options": [
+        "<dd>",
+        "<term>",
+        "<dt>",
+        "<li>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Lists",
+      "explanation": "The <dt> tag is used to define a term in a definition list in HTML."
+    },
+    {
+      "id": "html-easy-347",
+      "text": "In a web page, what tag is used for a description in a definition list?",
+      "options": [
+        "<desc>",
+        "<dd>",
+        "<li>",
+        "<dt>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Lists",
+      "explanation": "The <dd> tag is used to define a description in a definition list in HTML."
+    },
+    {
+      "id": "html-easy-348",
+      "text": "In a web page, what tag is used for the document type declaration for HTML5?",
+      "options": [
+        "<html5>",
+        "<!DOCTYPE html>",
+        "<!HTML>",
+        "<doctype>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Basics",
+      "explanation": "The <!DOCTYPE html> tag is used to define the document type declaration for HTML5 in HTML."
+    },
+    {
+      "id": "html-easy-349",
+      "text": "Which of the following tags defines the root element of an HTML document?",
+      "options": [
+        "<main>",
+        "<html>",
+        "<root>",
+        "<document>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Document Structure",
+      "explanation": "The <html> tag is used to define the root element of an HTML document in HTML."
+    },
+    {
+      "id": "html-easy-350",
+      "text": "Which of the following tags defines the main content of a web page?",
+      "options": [
+        "<body>",
+        "<page>",
+        "<main>",
+        "<content>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Document Structure",
+      "explanation": "The <body> tag is used to define the main content of a web page in HTML."
+    },
+    {
+      "id": "html-easy-351",
+      "text": "Which of the following tags defines a secondary heading?",
+      "options": [
+        "<h2>",
+        "<head>",
+        "<h6>",
+        "<heading>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Headings",
+      "explanation": "The <h2> tag is used to define a secondary heading in HTML."
+    },
+    {
+      "id": "html-easy-352",
+      "text": "Which of the following tags defines the smallest level of heading?",
+      "options": [
+        "<p>",
+        "<h5>",
+        "<h6>",
+        "<small>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Headings",
+      "explanation": "The <h6> tag is used to define the smallest level of heading in HTML."
+    },
+    {
+      "id": "html-easy-353",
+      "text": "Which of the following tags defines a generic container for block-level content?",
+      "options": [
+        "<div>",
+        "<section>",
+        "<container>",
+        "<span>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Layout",
+      "explanation": "The <div> tag is used to define a generic container for block-level content in HTML."
+    },
+    {
+      "id": "html-easy-354",
+      "text": "Which of the following tags defines a generic container for inline text?",
+      "options": [
+        "<div>",
+        "<p>",
+        "<span>",
+        "<inline>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Text Elements",
+      "explanation": "The <span> tag is used to define a generic container for inline text in HTML."
+    },
+    {
+      "id": "html-easy-355",
+      "text": "Which of the following tags defines an ordered (numbered) list?",
+      "options": [
+        "<ol>",
+        "<list>",
+        "<li>",
+        "<ul>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Lists",
+      "explanation": "The <ol> tag is used to define an ordered (numbered) list in HTML."
+    },
+    {
+      "id": "html-easy-356",
+      "text": "Which of the following tags defines a list item?",
+      "options": [
+        "<li>",
+        "<item>",
+        "<ol>",
+        "<ul>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Lists",
+      "explanation": "The <li> tag is used to define a list item in HTML."
+    },
+    {
+      "id": "html-easy-357",
+      "text": "Which of the following tags defines an image?",
+      "options": [
+        "<pic>",
+        "<src>",
+        "<img>",
+        "<image>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Images",
+      "explanation": "The <img> tag is used to define an image in HTML."
+    },
+    {
+      "id": "html-easy-358",
+      "text": "Which of the following tags defines a horizontal rule or thematic break?",
+      "options": [
+        "<line>",
+        "<rule>",
+        "<hr>",
+        "<border>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Lines",
+      "explanation": "The <hr> tag is used to define a horizontal rule or thematic break in HTML."
+    },
+    {
+      "id": "html-easy-359",
+      "text": "Which of the following tags defines a navigation section of a page?",
+      "options": [
+        "<nav>",
+        "<menu>",
+        "<links>",
+        "<section>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <nav> tag is used to define a navigation section of a page in HTML."
+    },
+    {
+      "id": "html-easy-360",
+      "text": "Which of the following tags defines the header section of a page or section?",
+      "options": [
+        "<title>",
+        "<top>",
+        "<head>",
+        "<header>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <header> tag is used to define the header section of a page or section in HTML."
+    },
+    {
+      "id": "html-easy-361",
+      "text": "Which of the following tags defines the footer section of a page or section?",
+      "options": [
+        "<end>",
+        "<tail>",
+        "<bottom>",
+        "<footer>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <footer> tag is used to define the footer section of a page or section in HTML."
+    },
+    {
+      "id": "html-easy-362",
+      "text": "Which of the following tags defines a standalone piece of content such as a blog post?",
+      "options": [
+        "<section>",
+        "<content>",
+        "<article>",
+        "<post>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <article> tag is used to define a standalone piece of content such as a blog post in HTML."
+    },
+    {
+      "id": "html-easy-363",
+      "text": "Which of the following tags defines a section of content?",
+      "options": [
+        "<div>",
+        "<group>",
+        "<part>",
+        "<section>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <section> tag is used to define a section of content in HTML."
+    },
+    {
+      "id": "html-easy-364",
+      "text": "Which of the following tags defines content that is indirectly related to the main content, like a sidebar?",
+      "options": [
+        "<aside>",
+        "<section>",
+        "<extra>",
+        "<side>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <aside> tag is used to define content that is indirectly related to the main content, like a sidebar in HTML."
+    },
+    {
+      "id": "html-easy-365",
+      "text": "Which of the following tags defines the main content area of a document?",
+      "options": [
+        "<main>",
+        "<content>",
+        "<section>",
+        "<body>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <main> tag is used to define the main content area of a document in HTML."
+    },
+    {
+      "id": "html-easy-366",
+      "text": "Which of the following tags defines a table row?",
+      "options": [
+        "<tr>",
+        "<td>",
+        "<th>",
+        "<row>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Tables",
+      "explanation": "The <tr> tag is used to define a table row in HTML."
+    },
+    {
+      "id": "html-easy-367",
+      "text": "Which of the following tags defines a standard data cell in a table?",
+      "options": [
+        "<cell>",
+        "<th>",
+        "<td>",
+        "<tr>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Tables",
+      "explanation": "The <td> tag is used to define a standard data cell in a table in HTML."
+    },
+    {
+      "id": "html-easy-368",
+      "text": "Which of the following tags defines a header cell in a table?",
+      "options": [
+        "<td>",
+        "<tr>",
+        "<th>",
+        "<head>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Tables",
+      "explanation": "The <th> tag is used to define a header cell in a table in HTML."
+    },
+    {
+      "id": "html-easy-369",
+      "text": "Which of the following tags defines the table header section?",
+      "options": [
+        "<th>",
+        "<head>",
+        "<header>",
+        "<thead>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Tables",
+      "explanation": "The <thead> tag is used to define the table header section in HTML."
+    },
+    {
+      "id": "html-easy-370",
+      "text": "Which of the following tags defines the table body section?",
+      "options": [
+        "<td>",
+        "<body>",
+        "<tbody>",
+        "<section>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Tables",
+      "explanation": "The <tbody> tag is used to define the table body section in HTML."
+    },
+    {
+      "id": "html-easy-371",
+      "text": "Which of the following tags defines the table footer section?",
+      "options": [
+        "<footer>",
+        "<tfoot>",
+        "<foot>",
+        "<end>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Tables",
+      "explanation": "The <tfoot> tag is used to define the table footer section in HTML."
+    },
+    {
+      "id": "html-easy-372",
+      "text": "Which of the following tags defines a form for user input?",
+      "options": [
+        "<form>",
+        "<field>",
+        "<input>",
+        "<control>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Forms",
+      "explanation": "The <form> tag is used to define a form for user input in HTML."
+    },
+    {
+      "id": "html-easy-373",
+      "text": "Which of the following tags defines a text input field?",
+      "options": [
+        "<form>",
+        "<text>",
+        "<textfield>",
+        "<input>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Forms",
+      "explanation": "The <input> tag is used to define a text input field in HTML."
+    },
+    {
+      "id": "html-easy-374",
+      "text": "Which of the following tags defines a clickable button?",
+      "options": [
+        "<input>",
+        "<click>",
+        "<button>",
+        "<submit>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Forms",
+      "explanation": "The <button> tag is used to define a clickable button in HTML."
+    },
+    {
+      "id": "html-easy-375",
+      "text": "Which of the following tags defines a multi-line text input area?",
+      "options": [
+        "<text>",
+        "<input>",
+        "<textarea>",
+        "<area>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Forms",
+      "explanation": "The <textarea> tag is used to define a multi-line text input area in HTML."
+    },
+    {
+      "id": "html-easy-376",
+      "text": "Which of the following tags defines a drop-down list?",
+      "options": [
+        "<dropdown>",
+        "<list>",
+        "<select>",
+        "<option>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Forms",
+      "explanation": "The <select> tag is used to define a drop-down list in HTML."
+    },
+    {
+      "id": "html-easy-377",
+      "text": "Which of the following tags defines an option in a drop-down list?",
+      "options": [
+        "<choice>",
+        "<select>",
+        "<item>",
+        "<option>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Forms",
+      "explanation": "The <option> tag is used to define an option in a drop-down list in HTML."
+    },
+    {
+      "id": "html-easy-378",
+      "text": "Which of the following tags defines a label for an input element?",
+      "options": [
+        "<label>",
+        "<tag>",
+        "<caption>",
+        "<name>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Forms",
+      "explanation": "The <label> tag is used to define a label for an input element in HTML."
+    },
+    {
+      "id": "html-easy-379",
+      "text": "Which of the following tags defines a figure such as an image with a caption?",
+      "options": [
+        "<img>",
+        "<figure>",
+        "<pic>",
+        "<image>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <figure> tag is used to define a figure such as an image with a caption in HTML."
+    },
+    {
+      "id": "html-easy-380",
+      "text": "Which of the following tags defines a caption for a figure?",
+      "options": [
+        "<caption>",
+        "<figcaption>",
+        "<legend>",
+        "<label>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <figcaption> tag is used to define a caption for a figure in HTML."
+    },
+    {
+      "id": "html-easy-381",
+      "text": "Which of the following tags defines an audio player?",
+      "options": [
+        "<sound>",
+        "<audio>",
+        "<media>",
+        "<music>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Media",
+      "explanation": "The <audio> tag is used to define an audio player in HTML."
+    },
+    {
+      "id": "html-easy-382",
+      "text": "Which of the following tags defines a video player?",
+      "options": [
+        "<video>",
+        "<clip>",
+        "<media>",
+        "<movie>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Media",
+      "explanation": "The <video> tag is used to define a video player in HTML."
+    },
+    {
+      "id": "html-easy-383",
+      "text": "Which of the following tags defines a media source inside audio or video?",
+      "options": [
+        "<src>",
+        "<media>",
+        "<file>",
+        "<source>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Media",
+      "explanation": "The <source> tag is used to define a media source inside audio or video in HTML."
+    },
+    {
+      "id": "html-easy-384",
+      "text": "Which of the following tags defines an inline frame to embed another page?",
+      "options": [
+        "<page>",
+        "<embed>",
+        "<iframe>",
+        "<frame>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Embedding",
+      "explanation": "The <iframe> tag is used to define an inline frame to embed another page in HTML."
+    },
+    {
+      "id": "html-easy-385",
+      "text": "Which of the following tags defines a line of emphasized text?",
+      "options": [
+        "<b>",
+        "<i>",
+        "<em>",
+        "<strong>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <em> tag is used to define a line of emphasized text in HTML."
+    },
+    {
+      "id": "html-easy-386",
+      "text": "Which of the following tags defines a line of strongly emphasized text?",
+      "options": [
+        "<b>",
+        "<i>",
+        "<em>",
+        "<strong>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <strong> tag is used to define a line of strongly emphasized text in HTML."
+    },
+    {
+      "id": "html-easy-387",
+      "text": "Which of the following tags defines italic text without semantic meaning?",
+      "options": [
+        "<italic>",
+        "<em>",
+        "<i>",
+        "<it>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <i> tag is used to define italic text without semantic meaning in HTML."
+    },
+    {
+      "id": "html-easy-388",
+      "text": "Which of the following tags defines small print such as legal text?",
+      "options": [
+        "<mini>",
+        "<tiny>",
+        "<p>",
+        "<small>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <small> tag is used to define small print such as legal text in HTML."
+    },
+    {
+      "id": "html-easy-389",
+      "text": "Which of the following tags defines a style definition block inside HTML?",
+      "options": [
+        "<style>",
+        "<head>",
+        "<css>",
+        "<design>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Styles",
+      "explanation": "The <style> tag is used to define a style definition block inside HTML in HTML."
+    },
+    {
+      "id": "html-easy-390",
+      "text": "Which of the following tags defines client-side JavaScript code?",
+      "options": [
+        "<script>",
+        "<js>",
+        "<code>",
+        "<program>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Scripting",
+      "explanation": "The <script> tag is used to define client-side JavaScript code in HTML."
+    },
+    {
+      "id": "html-easy-391",
+      "text": "Which of the following tags defines an external stylesheet link?",
+      "options": [
+        "<style>",
+        "<a>",
+        "<css>",
+        "<link>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Styles",
+      "explanation": "The <link> tag is used to define an external stylesheet link in HTML."
+    },
+    {
+      "id": "html-easy-392",
+      "text": "Which of the following tags defines metadata such as description or keywords?",
+      "options": [
+        "<info>",
+        "<data>",
+        "<meta>",
+        "<head>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Metadata",
+      "explanation": "The <meta> tag is used to define metadata such as description or keywords in HTML."
+    },
+    {
+      "id": "html-easy-393",
+      "text": "Which of the following tags defines a definition list?",
+      "options": [
+        "<dt>",
+        "<dl>",
+        "<dd>",
+        "<list>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Lists",
+      "explanation": "The <dl> tag is used to define a definition list in HTML."
+    },
+    {
+      "id": "html-easy-394",
+      "text": "Which of the following tags defines a term in a definition list?",
+      "options": [
+        "<term>",
+        "<dt>",
+        "<dd>",
+        "<li>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Lists",
+      "explanation": "The <dt> tag is used to define a term in a definition list in HTML."
+    },
+    {
+      "id": "html-easy-395",
+      "text": "Which of the following tags defines a description in a definition list?",
+      "options": [
+        "<li>",
+        "<dd>",
+        "<desc>",
+        "<dt>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Lists",
+      "explanation": "The <dd> tag is used to define a description in a definition list in HTML."
+    },
+    {
+      "id": "html-easy-396",
+      "text": "Which of the following tags defines the document type declaration for HTML5?",
+      "options": [
+        "<html5>",
+        "<!DOCTYPE html>",
+        "<!HTML>",
+        "<doctype>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Basics",
+      "explanation": "The <!DOCTYPE html> tag is used to define the document type declaration for HTML5 in HTML."
+    },
+    {
+      "id": "html-easy-397",
+      "text": "Select the correct HTML element that represents the root element of an HTML document.",
+      "options": [
+        "<document>",
+        "<root>",
+        "<html>",
+        "<main>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Document Structure",
+      "explanation": "The <html> tag is used to define the root element of an HTML document in HTML."
+    },
+    {
+      "id": "html-easy-398",
+      "text": "Select the correct HTML element that represents the main content of a web page.",
+      "options": [
+        "<body>",
+        "<main>",
+        "<content>",
+        "<page>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Document Structure",
+      "explanation": "The <body> tag is used to define the main content of a web page in HTML."
+    },
+    {
+      "id": "html-easy-399",
+      "text": "Select the correct HTML element that represents a secondary heading.",
+      "options": [
+        "<h2>",
+        "<head>",
+        "<h6>",
+        "<heading>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Headings",
+      "explanation": "The <h2> tag is used to define a secondary heading in HTML."
+    },
+    {
+      "id": "html-easy-400",
+      "text": "Select the correct HTML element that represents the smallest level of heading.",
+      "options": [
+        "<h6>",
+        "<h5>",
+        "<small>",
+        "<p>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Headings",
+      "explanation": "The <h6> tag is used to define the smallest level of heading in HTML."
+    },
+    {
+      "id": "html-easy-401",
+      "text": "Select the correct HTML element that represents a generic container for block-level content.",
+      "options": [
+        "<span>",
+        "<div>",
+        "<section>",
+        "<container>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Layout",
+      "explanation": "The <div> tag is used to define a generic container for block-level content in HTML."
+    },
+    {
+      "id": "html-easy-402",
+      "text": "Select the correct HTML element that represents a generic container for inline text.",
+      "options": [
+        "<div>",
+        "<inline>",
+        "<span>",
+        "<p>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Text Elements",
+      "explanation": "The <span> tag is used to define a generic container for inline text in HTML."
+    },
+    {
+      "id": "html-easy-403",
+      "text": "Select the correct HTML element that represents an ordered (numbered) list.",
+      "options": [
+        "<list>",
+        "<ol>",
+        "<ul>",
+        "<li>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Lists",
+      "explanation": "The <ol> tag is used to define an ordered (numbered) list in HTML."
+    },
+    {
+      "id": "html-easy-404",
+      "text": "Select the correct HTML element that represents a list item.",
+      "options": [
+        "<ul>",
+        "<li>",
+        "<item>",
+        "<ol>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Lists",
+      "explanation": "The <li> tag is used to define a list item in HTML."
+    },
+    {
+      "id": "html-easy-405",
+      "text": "Select the correct HTML element that represents an image.",
+      "options": [
+        "<img>",
+        "<pic>",
+        "<src>",
+        "<image>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Images",
+      "explanation": "The <img> tag is used to define an image in HTML."
+    },
+    {
+      "id": "html-easy-406",
+      "text": "Select the correct HTML element that represents a horizontal rule or thematic break.",
+      "options": [
+        "<line>",
+        "<hr>",
+        "<rule>",
+        "<border>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Lines",
+      "explanation": "The <hr> tag is used to define a horizontal rule or thematic break in HTML."
+    },
+    {
+      "id": "html-easy-407",
+      "text": "Select the correct HTML element that represents a navigation section of a page.",
+      "options": [
+        "<links>",
+        "<section>",
+        "<nav>",
+        "<menu>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <nav> tag is used to define a navigation section of a page in HTML."
+    },
+    {
+      "id": "html-easy-408",
+      "text": "Select the correct HTML element that represents the header section of a page or section.",
+      "options": [
+        "<title>",
+        "<header>",
+        "<head>",
+        "<top>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <header> tag is used to define the header section of a page or section in HTML."
+    },
+    {
+      "id": "html-easy-409",
+      "text": "Select the correct HTML element that represents the footer section of a page or section.",
+      "options": [
+        "<bottom>",
+        "<tail>",
+        "<footer>",
+        "<end>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <footer> tag is used to define the footer section of a page or section in HTML."
+    },
+    {
+      "id": "html-easy-410",
+      "text": "Select the correct HTML element that represents a standalone piece of content such as a blog post.",
+      "options": [
+        "<post>",
+        "<article>",
+        "<content>",
+        "<section>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <article> tag is used to define a standalone piece of content such as a blog post in HTML."
+    },
+    {
+      "id": "html-easy-411",
+      "text": "Select the correct HTML element that represents a section of content.",
+      "options": [
+        "<part>",
+        "<div>",
+        "<section>",
+        "<group>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <section> tag is used to define a section of content in HTML."
+    },
+    {
+      "id": "html-easy-412",
+      "text": "Select the correct HTML element that represents content that is indirectly related to the main content, like a sidebar.",
+      "options": [
+        "<section>",
+        "<extra>",
+        "<aside>",
+        "<side>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <aside> tag is used to define content that is indirectly related to the main content, like a sidebar in HTML."
+    },
+    {
+      "id": "html-easy-413",
+      "text": "Select the correct HTML element that represents the main content area of a document.",
+      "options": [
+        "<section>",
+        "<body>",
+        "<main>",
+        "<content>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <main> tag is used to define the main content area of a document in HTML."
+    },
+    {
+      "id": "html-easy-414",
+      "text": "Select the correct HTML element that represents a table row.",
+      "options": [
+        "<th>",
+        "<row>",
+        "<td>",
+        "<tr>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Tables",
+      "explanation": "The <tr> tag is used to define a table row in HTML."
+    },
+    {
+      "id": "html-easy-415",
+      "text": "Select the correct HTML element that represents a standard data cell in a table.",
+      "options": [
+        "<cell>",
+        "<tr>",
+        "<th>",
+        "<td>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Tables",
+      "explanation": "The <td> tag is used to define a standard data cell in a table in HTML."
+    },
+    {
+      "id": "html-easy-416",
+      "text": "Select the correct HTML element that represents a header cell in a table.",
+      "options": [
+        "<th>",
+        "<head>",
+        "<tr>",
+        "<td>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Tables",
+      "explanation": "The <th> tag is used to define a header cell in a table in HTML."
+    },
+    {
+      "id": "html-easy-417",
+      "text": "Select the correct HTML element that represents the table header section.",
+      "options": [
+        "<header>",
+        "<thead>",
+        "<head>",
+        "<th>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Tables",
+      "explanation": "The <thead> tag is used to define the table header section in HTML."
+    },
+    {
+      "id": "html-easy-418",
+      "text": "Select the correct HTML element that represents the table body section.",
+      "options": [
+        "<td>",
+        "<section>",
+        "<body>",
+        "<tbody>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Tables",
+      "explanation": "The <tbody> tag is used to define the table body section in HTML."
+    },
+    {
+      "id": "html-easy-419",
+      "text": "Select the correct HTML element that represents the table footer section.",
+      "options": [
+        "<tfoot>",
+        "<footer>",
+        "<end>",
+        "<foot>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Tables",
+      "explanation": "The <tfoot> tag is used to define the table footer section in HTML."
+    },
+    {
+      "id": "html-easy-420",
+      "text": "Select the correct HTML element that represents a form for user input.",
+      "options": [
+        "<input>",
+        "<control>",
+        "<form>",
+        "<field>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Forms",
+      "explanation": "The <form> tag is used to define a form for user input in HTML."
+    },
+    {
+      "id": "html-easy-421",
+      "text": "Select the correct HTML element that represents a text input field.",
+      "options": [
+        "<form>",
+        "<textfield>",
+        "<text>",
+        "<input>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Forms",
+      "explanation": "The <input> tag is used to define a text input field in HTML."
+    },
+    {
+      "id": "html-easy-422",
+      "text": "Select the correct HTML element that represents a clickable button.",
+      "options": [
+        "<click>",
+        "<button>",
+        "<input>",
+        "<submit>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Forms",
+      "explanation": "The <button> tag is used to define a clickable button in HTML."
+    },
+    {
+      "id": "html-easy-423",
+      "text": "Select the correct HTML element that represents a multi-line text input area.",
+      "options": [
+        "<input>",
+        "<textarea>",
+        "<text>",
+        "<area>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Forms",
+      "explanation": "The <textarea> tag is used to define a multi-line text input area in HTML."
+    },
+    {
+      "id": "html-easy-424",
+      "text": "Select the correct HTML element that represents a drop-down list.",
+      "options": [
+        "<select>",
+        "<option>",
+        "<list>",
+        "<dropdown>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Forms",
+      "explanation": "The <select> tag is used to define a drop-down list in HTML."
+    },
+    {
+      "id": "html-easy-425",
+      "text": "Select the correct HTML element that represents an option in a drop-down list.",
+      "options": [
+        "<choice>",
+        "<item>",
+        "<select>",
+        "<option>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Forms",
+      "explanation": "The <option> tag is used to define an option in a drop-down list in HTML."
+    },
+    {
+      "id": "html-easy-426",
+      "text": "Select the correct HTML element that represents a label for an input element.",
+      "options": [
+        "<tag>",
+        "<caption>",
+        "<label>",
+        "<name>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Forms",
+      "explanation": "The <label> tag is used to define a label for an input element in HTML."
+    },
+    {
+      "id": "html-easy-427",
+      "text": "Select the correct HTML element that represents a figure such as an image with a caption.",
+      "options": [
+        "<pic>",
+        "<figure>",
+        "<image>",
+        "<img>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <figure> tag is used to define a figure such as an image with a caption in HTML."
+    },
+    {
+      "id": "html-easy-428",
+      "text": "Select the correct HTML element that represents a caption for a figure.",
+      "options": [
+        "<legend>",
+        "<label>",
+        "<caption>",
+        "<figcaption>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <figcaption> tag is used to define a caption for a figure in HTML."
+    },
+    {
+      "id": "html-easy-429",
+      "text": "Select the correct HTML element that represents an audio player.",
+      "options": [
+        "<audio>",
+        "<media>",
+        "<sound>",
+        "<music>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Media",
+      "explanation": "The <audio> tag is used to define an audio player in HTML."
+    },
+    {
+      "id": "html-easy-430",
+      "text": "Select the correct HTML element that represents a video player.",
+      "options": [
+        "<video>",
+        "<movie>",
+        "<clip>",
+        "<media>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Media",
+      "explanation": "The <video> tag is used to define a video player in HTML."
+    },
+    {
+      "id": "html-easy-431",
+      "text": "Select the correct HTML element that represents a media source inside audio or video.",
+      "options": [
+        "<source>",
+        "<media>",
+        "<file>",
+        "<src>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Media",
+      "explanation": "The <source> tag is used to define a media source inside audio or video in HTML."
+    },
+    {
+      "id": "html-easy-432",
+      "text": "Select the correct HTML element that represents an inline frame to embed another page.",
+      "options": [
+        "<iframe>",
+        "<frame>",
+        "<page>",
+        "<embed>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Embedding",
+      "explanation": "The <iframe> tag is used to define an inline frame to embed another page in HTML."
+    },
+    {
+      "id": "html-easy-433",
+      "text": "Select the correct HTML element that represents a line of emphasized text.",
+      "options": [
+        "<b>",
+        "<strong>",
+        "<em>",
+        "<i>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <em> tag is used to define a line of emphasized text in HTML."
+    },
+    {
+      "id": "html-easy-434",
+      "text": "Select the correct HTML element that represents a line of strongly emphasized text.",
+      "options": [
+        "<strong>",
+        "<em>",
+        "<b>",
+        "<i>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <strong> tag is used to define a line of strongly emphasized text in HTML."
+    },
+    {
+      "id": "html-easy-435",
+      "text": "Select the correct HTML element that represents italic text without semantic meaning.",
+      "options": [
+        "<em>",
+        "<i>",
+        "<it>",
+        "<italic>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <i> tag is used to define italic text without semantic meaning in HTML."
+    },
+    {
+      "id": "html-easy-436",
+      "text": "Select the correct HTML element that represents small print such as legal text.",
+      "options": [
+        "<mini>",
+        "<small>",
+        "<tiny>",
+        "<p>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <small> tag is used to define small print such as legal text in HTML."
+    },
+    {
+      "id": "html-easy-437",
+      "text": "Select the correct HTML element that represents a style definition block inside HTML.",
+      "options": [
+        "<head>",
+        "<design>",
+        "<style>",
+        "<css>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Styles",
+      "explanation": "The <style> tag is used to define a style definition block inside HTML in HTML."
+    },
+    {
+      "id": "html-easy-438",
+      "text": "Select the correct HTML element that represents client-side JavaScript code.",
+      "options": [
+        "<script>",
+        "<program>",
+        "<js>",
+        "<code>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Scripting",
+      "explanation": "The <script> tag is used to define client-side JavaScript code in HTML."
+    },
+    {
+      "id": "html-easy-439",
+      "text": "Select the correct HTML element that represents an external stylesheet link.",
+      "options": [
+        "<link>",
+        "<a>",
+        "<style>",
+        "<css>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Styles",
+      "explanation": "The <link> tag is used to define an external stylesheet link in HTML."
+    },
+    {
+      "id": "html-easy-440",
+      "text": "Select the correct HTML element that represents metadata such as description or keywords.",
+      "options": [
+        "<info>",
+        "<meta>",
+        "<head>",
+        "<data>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Metadata",
+      "explanation": "The <meta> tag is used to define metadata such as description or keywords in HTML."
+    },
+    {
+      "id": "html-easy-441",
+      "text": "Select the correct HTML element that represents a definition list.",
+      "options": [
+        "<dd>",
+        "<dt>",
+        "<list>",
+        "<dl>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Lists",
+      "explanation": "The <dl> tag is used to define a definition list in HTML."
+    },
+    {
+      "id": "html-easy-442",
+      "text": "Select the correct HTML element that represents a term in a definition list.",
+      "options": [
+        "<dd>",
+        "<term>",
+        "<li>",
+        "<dt>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Lists",
+      "explanation": "The <dt> tag is used to define a term in a definition list in HTML."
+    },
+    {
+      "id": "html-easy-443",
+      "text": "Select the correct HTML element that represents a description in a definition list.",
+      "options": [
+        "<dd>",
+        "<desc>",
+        "<li>",
+        "<dt>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Lists",
+      "explanation": "The <dd> tag is used to define a description in a definition list in HTML."
+    },
+    {
+      "id": "html-easy-444",
+      "text": "Select the correct HTML element that represents the document type declaration for HTML5.",
+      "options": [
+        "<!HTML>",
+        "<html5>",
+        "<!DOCTYPE html>",
+        "<doctype>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Basics",
+      "explanation": "The <!DOCTYPE html> tag is used to define the document type declaration for HTML5 in HTML."
+    },
+    {
+      "id": "html-easy-445",
+      "text": "In HTML code, which element is used for the root element of an HTML document?",
+      "options": [
+        "<html>",
+        "<document>",
+        "<main>",
+        "<root>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Document Structure",
+      "explanation": "The <html> tag is used to define the root element of an HTML document in HTML."
+    },
+    {
+      "id": "html-easy-446",
+      "text": "In HTML code, which element is used for the main content of a web page?",
+      "options": [
+        "<page>",
+        "<main>",
+        "<content>",
+        "<body>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Document Structure",
+      "explanation": "The <body> tag is used to define the main content of a web page in HTML."
+    },
+    {
+      "id": "html-easy-447",
+      "text": "In HTML code, which element is used for a secondary heading?",
+      "options": [
+        "<h6>",
+        "<heading>",
+        "<head>",
+        "<h2>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Headings",
+      "explanation": "The <h2> tag is used to define a secondary heading in HTML."
+    },
+    {
+      "id": "html-easy-448",
+      "text": "In HTML code, which element is used for the smallest level of heading?",
+      "options": [
+        "<h6>",
+        "<p>",
+        "<small>",
+        "<h5>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Headings",
+      "explanation": "The <h6> tag is used to define the smallest level of heading in HTML."
+    },
+    {
+      "id": "html-easy-449",
+      "text": "In HTML code, which element is used for a generic container for block-level content?",
+      "options": [
+        "<section>",
+        "<container>",
+        "<div>",
+        "<span>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Layout",
+      "explanation": "The <div> tag is used to define a generic container for block-level content in HTML."
+    },
+    {
+      "id": "html-easy-450",
+      "text": "In HTML code, which element is used for a generic container for inline text?",
+      "options": [
+        "<span>",
+        "<div>",
+        "<inline>",
+        "<p>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Text Elements",
+      "explanation": "The <span> tag is used to define a generic container for inline text in HTML."
+    },
+    {
+      "id": "html-easy-451",
+      "text": "In HTML code, which element is used for an ordered (numbered) list?",
+      "options": [
+        "<list>",
+        "<ol>",
+        "<ul>",
+        "<li>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Lists",
+      "explanation": "The <ol> tag is used to define an ordered (numbered) list in HTML."
+    },
+    {
+      "id": "html-easy-452",
+      "text": "In HTML code, which element is used for a list item?",
+      "options": [
+        "<item>",
+        "<li>",
+        "<ol>",
+        "<ul>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Lists",
+      "explanation": "The <li> tag is used to define a list item in HTML."
+    },
+    {
+      "id": "html-easy-453",
+      "text": "In HTML code, which element is used for an image?",
+      "options": [
+        "<pic>",
+        "<image>",
+        "<src>",
+        "<img>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Images",
+      "explanation": "The <img> tag is used to define an image in HTML."
+    },
+    {
+      "id": "html-easy-454",
+      "text": "In HTML code, which element is used for a horizontal rule or thematic break?",
+      "options": [
+        "<border>",
+        "<hr>",
+        "<line>",
+        "<rule>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Lines",
+      "explanation": "The <hr> tag is used to define a horizontal rule or thematic break in HTML."
+    },
+    {
+      "id": "html-easy-455",
+      "text": "In HTML code, which element is used for a navigation section of a page?",
+      "options": [
+        "<nav>",
+        "<menu>",
+        "<section>",
+        "<links>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <nav> tag is used to define a navigation section of a page in HTML."
+    },
+    {
+      "id": "html-easy-456",
+      "text": "In HTML code, which element is used for the header section of a page or section?",
+      "options": [
+        "<header>",
+        "<head>",
+        "<title>",
+        "<top>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <header> tag is used to define the header section of a page or section in HTML."
+    },
+    {
+      "id": "html-easy-457",
+      "text": "In HTML code, which element is used for the footer section of a page or section?",
+      "options": [
+        "<tail>",
+        "<footer>",
+        "<end>",
+        "<bottom>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <footer> tag is used to define the footer section of a page or section in HTML."
+    },
+    {
+      "id": "html-easy-458",
+      "text": "In HTML code, which element is used for a standalone piece of content such as a blog post?",
+      "options": [
+        "<content>",
+        "<post>",
+        "<article>",
+        "<section>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <article> tag is used to define a standalone piece of content such as a blog post in HTML."
+    },
+    {
+      "id": "html-easy-459",
+      "text": "In HTML code, which element is used for a section of content?",
+      "options": [
+        "<div>",
+        "<section>",
+        "<group>",
+        "<part>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <section> tag is used to define a section of content in HTML."
+    },
+    {
+      "id": "html-easy-460",
+      "text": "In HTML code, which element is used for content that is indirectly related to the main content, like a sidebar?",
+      "options": [
+        "<section>",
+        "<extra>",
+        "<aside>",
+        "<side>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <aside> tag is used to define content that is indirectly related to the main content, like a sidebar in HTML."
+    },
+    {
+      "id": "html-easy-461",
+      "text": "In HTML code, which element is used for the main content area of a document?",
+      "options": [
+        "<main>",
+        "<content>",
+        "<body>",
+        "<section>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <main> tag is used to define the main content area of a document in HTML."
+    },
+    {
+      "id": "html-easy-462",
+      "text": "In HTML code, which element is used for a table row?",
+      "options": [
+        "<th>",
+        "<td>",
+        "<tr>",
+        "<row>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Tables",
+      "explanation": "The <tr> tag is used to define a table row in HTML."
+    },
+    {
+      "id": "html-easy-463",
+      "text": "In HTML code, which element is used for a standard data cell in a table?",
+      "options": [
+        "<tr>",
+        "<th>",
+        "<td>",
+        "<cell>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Tables",
+      "explanation": "The <td> tag is used to define a standard data cell in a table in HTML."
+    },
+    {
+      "id": "html-easy-464",
+      "text": "In HTML code, which element is used for a header cell in a table?",
+      "options": [
+        "<th>",
+        "<head>",
+        "<td>",
+        "<tr>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Tables",
+      "explanation": "The <th> tag is used to define a header cell in a table in HTML."
+    },
+    {
+      "id": "html-easy-465",
+      "text": "In HTML code, which element is used for the table header section?",
+      "options": [
+        "<header>",
+        "<head>",
+        "<th>",
+        "<thead>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Tables",
+      "explanation": "The <thead> tag is used to define the table header section in HTML."
+    },
+    {
+      "id": "html-easy-466",
+      "text": "In HTML code, which element is used for the table body section?",
+      "options": [
+        "<tbody>",
+        "<body>",
+        "<td>",
+        "<section>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Tables",
+      "explanation": "The <tbody> tag is used to define the table body section in HTML."
+    },
+    {
+      "id": "html-easy-467",
+      "text": "In HTML code, which element is used for the table footer section?",
+      "options": [
+        "<end>",
+        "<foot>",
+        "<tfoot>",
+        "<footer>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Tables",
+      "explanation": "The <tfoot> tag is used to define the table footer section in HTML."
+    },
+    {
+      "id": "html-easy-468",
+      "text": "In HTML code, which element is used for a form for user input?",
+      "options": [
+        "<field>",
+        "<form>",
+        "<input>",
+        "<control>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Forms",
+      "explanation": "The <form> tag is used to define a form for user input in HTML."
+    },
+    {
+      "id": "html-easy-469",
+      "text": "In HTML code, which element is used for a text input field?",
+      "options": [
+        "<text>",
+        "<input>",
+        "<form>",
+        "<textfield>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Forms",
+      "explanation": "The <input> tag is used to define a text input field in HTML."
+    },
+    {
+      "id": "html-easy-470",
+      "text": "In HTML code, which element is used for a clickable button?",
+      "options": [
+        "<submit>",
+        "<click>",
+        "<button>",
+        "<input>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Forms",
+      "explanation": "The <button> tag is used to define a clickable button in HTML."
+    },
+    {
+      "id": "html-easy-471",
+      "text": "In HTML code, which element is used for a multi-line text input area?",
+      "options": [
+        "<area>",
+        "<textarea>",
+        "<input>",
+        "<text>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Forms",
+      "explanation": "The <textarea> tag is used to define a multi-line text input area in HTML."
+    },
+    {
+      "id": "html-easy-472",
+      "text": "In HTML code, which element is used for a drop-down list?",
+      "options": [
+        "<select>",
+        "<list>",
+        "<dropdown>",
+        "<option>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Forms",
+      "explanation": "The <select> tag is used to define a drop-down list in HTML."
+    },
+    {
+      "id": "html-easy-473",
+      "text": "In HTML code, which element is used for an option in a drop-down list?",
+      "options": [
+        "<choice>",
+        "<option>",
+        "<item>",
+        "<select>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Forms",
+      "explanation": "The <option> tag is used to define an option in a drop-down list in HTML."
+    },
+    {
+      "id": "html-easy-474",
+      "text": "In HTML code, which element is used for a label for an input element?",
+      "options": [
+        "<caption>",
+        "<label>",
+        "<name>",
+        "<tag>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Forms",
+      "explanation": "The <label> tag is used to define a label for an input element in HTML."
+    },
+    {
+      "id": "html-easy-475",
+      "text": "In HTML code, which element is used for a figure such as an image with a caption?",
+      "options": [
+        "<img>",
+        "<pic>",
+        "<figure>",
+        "<image>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <figure> tag is used to define a figure such as an image with a caption in HTML."
+    },
+    {
+      "id": "html-easy-476",
+      "text": "In HTML code, which element is used for a caption for a figure?",
+      "options": [
+        "<caption>",
+        "<legend>",
+        "<label>",
+        "<figcaption>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Semantic Elements",
+      "explanation": "The <figcaption> tag is used to define a caption for a figure in HTML."
+    },
+    {
+      "id": "html-easy-477",
+      "text": "In HTML code, which element is used for an audio player?",
+      "options": [
+        "<audio>",
+        "<music>",
+        "<sound>",
+        "<media>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Media",
+      "explanation": "The <audio> tag is used to define an audio player in HTML."
+    },
+    {
+      "id": "html-easy-478",
+      "text": "In HTML code, which element is used for a video player?",
+      "options": [
+        "<media>",
+        "<video>",
+        "<clip>",
+        "<movie>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Media",
+      "explanation": "The <video> tag is used to define a video player in HTML."
+    },
+    {
+      "id": "html-easy-479",
+      "text": "In HTML code, which element is used for a media source inside audio or video?",
+      "options": [
+        "<media>",
+        "<src>",
+        "<file>",
+        "<source>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Media",
+      "explanation": "The <source> tag is used to define a media source inside audio or video in HTML."
+    },
+    {
+      "id": "html-easy-480",
+      "text": "In HTML code, which element is used for an inline frame to embed another page?",
+      "options": [
+        "<frame>",
+        "<iframe>",
+        "<embed>",
+        "<page>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Embedding",
+      "explanation": "The <iframe> tag is used to define an inline frame to embed another page in HTML."
+    },
+    {
+      "id": "html-easy-481",
+      "text": "In HTML code, which element is used for a line of emphasized text?",
+      "options": [
+        "<strong>",
+        "<i>",
+        "<b>",
+        "<em>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <em> tag is used to define a line of emphasized text in HTML."
+    },
+    {
+      "id": "html-easy-482",
+      "text": "In HTML code, which element is used for a line of strongly emphasized text?",
+      "options": [
+        "<strong>",
+        "<em>",
+        "<i>",
+        "<b>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <strong> tag is used to define a line of strongly emphasized text in HTML."
+    },
+    {
+      "id": "html-easy-483",
+      "text": "In HTML code, which element is used for italic text without semantic meaning?",
+      "options": [
+        "<em>",
+        "<i>",
+        "<it>",
+        "<italic>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <i> tag is used to define italic text without semantic meaning in HTML."
+    },
+    {
+      "id": "html-easy-484",
+      "text": "In HTML code, which element is used for small print such as legal text?",
+      "options": [
+        "<mini>",
+        "<p>",
+        "<tiny>",
+        "<small>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Text Formatting",
+      "explanation": "The <small> tag is used to define small print such as legal text in HTML."
+    },
+    {
+      "id": "html-easy-485",
+      "text": "In HTML code, which element is used for a style definition block inside HTML?",
+      "options": [
+        "<css>",
+        "<style>",
+        "<design>",
+        "<head>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Styles",
+      "explanation": "The <style> tag is used to define a style definition block inside HTML in HTML."
+    },
+    {
+      "id": "html-easy-486",
+      "text": "In HTML code, which element is used for client-side JavaScript code?",
+      "options": [
+        "<code>",
+        "<program>",
+        "<js>",
+        "<script>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Scripting",
+      "explanation": "The <script> tag is used to define client-side JavaScript code in HTML."
+    },
+    {
+      "id": "html-easy-487",
+      "text": "In HTML code, which element is used for an external stylesheet link?",
+      "options": [
+        "<link>",
+        "<style>",
+        "<css>",
+        "<a>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Styles",
+      "explanation": "The <link> tag is used to define an external stylesheet link in HTML."
+    },
+    {
+      "id": "html-easy-488",
+      "text": "In HTML code, which element is used for metadata such as description or keywords?",
+      "options": [
+        "<info>",
+        "<head>",
+        "<meta>",
+        "<data>"
+      ],
+      "correctAnswer": 2,
+      "topic": "HTML Metadata",
+      "explanation": "The <meta> tag is used to define metadata such as description or keywords in HTML."
+    },
+    {
+      "id": "html-easy-489",
+      "text": "In HTML code, which element is used for a definition list?",
+      "options": [
+        "<dd>",
+        "<dl>",
+        "<dt>",
+        "<list>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Lists",
+      "explanation": "The <dl> tag is used to define a definition list in HTML."
+    },
+    {
+      "id": "html-easy-490",
+      "text": "In HTML code, which element is used for a term in a definition list?",
+      "options": [
+        "<li>",
+        "<dt>",
+        "<term>",
+        "<dd>"
+      ],
+      "correctAnswer": 1,
+      "topic": "HTML Lists",
+      "explanation": "The <dt> tag is used to define a term in a definition list in HTML."
+    },
+    {
+      "id": "html-easy-491",
+      "text": "In HTML code, which element is used for a description in a definition list?",
+      "options": [
+        "<desc>",
+        "<dt>",
+        "<li>",
+        "<dd>"
+      ],
+      "correctAnswer": 3,
+      "topic": "HTML Lists",
+      "explanation": "The <dd> tag is used to define a description in a definition list in HTML."
+    },
+    {
+      "id": "html-easy-492",
+      "text": "In HTML code, which element is used for the document type declaration for HTML5?",
+      "options": [
+        "<!DOCTYPE html>",
+        "<doctype>",
+        "<!HTML>",
+        "<html5>"
+      ],
+      "correctAnswer": 0,
+      "topic": "HTML Basics",
+      "explanation": "The <!DOCTYPE html> tag is used to define the document type declaration for HTML5 in HTML."
+    }
+  ]
+}

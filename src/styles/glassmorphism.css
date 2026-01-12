@@ -1,0 +1,331 @@
+/* 
+ * Glassmorphism Design System for Dark Mode
+ * 
+ * This file contains reusable glassmorphism utilities following best practices:
+ * - Semi-transparent backgrounds with backdrop blur
+ * - Subtle borders for depth
+ * - Proper text hierarchy with opacity
+ * - Optimized for dark mode readability
+ */
+
+/* ============================================
+   GLASS PANEL VARIANTS
+   ============================================ */
+
+/* Light Glass - Subtle transparency */
+.glass-light {
+  background: rgba(30, 33, 41, 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.25);
+}
+
+/* Medium Glass - Standard glassmorphism */
+.glass-medium {
+  background: rgba(30, 33, 41, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+/* Strong Glass - More opaque for important content */
+.glass-strong {
+  background: rgba(30, 33, 41, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* Ultra Glass - Maximum blur effect */
+.glass-ultra {
+  background: rgba(30, 33, 41, 0.6);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 12px 48px 0 rgba(0, 0, 0, 0.4);
+}
+
+/* ============================================
+   GLASS CARD COMPONENTS
+   ============================================ */
+
+.glass-card {
+  background: rgba(30, 33, 41, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-card:hover {
+  background: rgba(30, 33, 41, 0.8);
+  border-color: rgba(255, 255, 255, 0.15);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 48px 0 rgba(0, 0, 0, 0.45);
+}
+
+/* Glass card with accent glow */
+.glass-card-accent {
+  background: rgba(30, 33, 41, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(247, 115, 22, 0.2);
+  border-radius: 1rem;
+  box-shadow: 0 8px 32px 0 rgba(247, 115, 22, 0.15);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-card-accent:hover {
+  background: rgba(30, 33, 41, 0.8);
+  border-color: rgba(247, 115, 22, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(247, 115, 22, 0.3);
+}
+
+/* ============================================
+   GLASS BUTTONS
+   ============================================ */
+
+.glass-button {
+  background: rgba(30, 33, 41, 0.6);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  color: rgba(255, 255, 255, 0.87);
+  font-weight: 500;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.glass-button:hover {
+  background: rgba(30, 33, 41, 0.8);
+  border-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.3);
+}
+
+.glass-button:active {
+  transform: translateY(0);
+}
+
+/* Glass button with primary accent */
+.glass-button-primary {
+  background: rgba(247, 115, 22, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(247, 115, 22, 0.3);
+  border-radius: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  color: #ffffff;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.glass-button-primary:hover {
+  background: rgba(247, 115, 22, 0.9);
+  border-color: rgba(247, 115, 22, 0.5);
+  box-shadow: 0 4px 16px 0 rgba(247, 115, 22, 0.4);
+}
+
+/* ============================================
+   GLASS MODALS & OVERLAYS
+   ============================================ */
+
+.glass-modal {
+  background: rgba(30, 33, 41, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 1.5rem;
+  box-shadow: 0 16px 64px 0 rgba(0, 0, 0, 0.6);
+}
+
+.glass-overlay {
+  background: rgba(18, 20, 24, 0.8);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+/* ============================================
+   GLASS NAVIGATION
+   ============================================ */
+
+.glass-nav {
+  background: rgba(30, 33, 41, 0.8);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.3);
+}
+
+.glass-sidebar {
+  background: rgba(30, 33, 41, 0.75);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 4px 0 16px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* ============================================
+   TEXT HIERARCHY (Opacity-based)
+   ============================================ */
+
+/* High emphasis - Primary content */
+.text-high-emphasis {
+  color: rgba(235, 235, 235, 0.87);
+}
+
+/* Medium emphasis - Secondary content */
+.text-medium-emphasis {
+  color: rgba(235, 235, 235, 0.60);
+}
+
+/* Disabled - Inactive content */
+.text-disabled {
+  color: rgba(235, 235, 235, 0.38);
+}
+
+/* ============================================
+   GLASS INPUT FIELDS
+   ============================================ */
+
+.glass-input {
+  background: rgba(30, 33, 41, 0.6);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  color: rgba(235, 235, 235, 0.87);
+  transition: all 0.3s ease;
+}
+
+.glass-input:focus {
+  background: rgba(30, 33, 41, 0.8);
+  border-color: rgba(247, 115, 22, 0.5);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(247, 115, 22, 0.1);
+}
+
+.glass-input::placeholder {
+  color: rgba(235, 235, 235, 0.38);
+}
+
+/* ============================================
+   GLASS BADGES & TAGS
+   ============================================ */
+
+.glass-badge {
+  background: rgba(30, 33, 41, 0.7);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 9999px;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: rgba(235, 235, 235, 0.87);
+}
+
+.glass-badge-success {
+  background: rgba(34, 197, 94, 0.2);
+  border-color: rgba(34, 197, 94, 0.3);
+  color: rgb(134, 239, 172);
+}
+
+.glass-badge-warning {
+  background: rgba(251, 191, 36, 0.2);
+  border-color: rgba(251, 191, 36, 0.3);
+  color: rgb(253, 224, 71);
+}
+
+.glass-badge-error {
+  background: rgba(239, 68, 68, 0.2);
+  border-color: rgba(239, 68, 68, 0.3);
+  color: rgb(252, 165, 165);
+}
+
+/* ============================================
+   UTILITY CLASSES
+   ============================================ */
+
+/* Frosted glass effect for images in dark mode */
+.dark .glass-image-filter {
+  filter: brightness(0.8) contrast(1.2);
+}
+
+/* Remove filter for specific images */
+.glass-image-no-filter {
+  filter: none !important;
+}
+
+/* Glass divider */
+.glass-divider {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.1) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+/* Glass gradient background */
+.glass-gradient-bg {
+  background: linear-gradient(
+    135deg,
+    rgba(30, 33, 41, 0.8) 0%,
+    rgba(30, 33, 41, 0.6) 100%
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* ============================================
+   RESPONSIVE ADJUSTMENTS
+   ============================================ */
+
+@media (max-width: 768px) {
+  /* Reduce blur on mobile for better performance */
+  .glass-light,
+  .glass-medium,
+  .glass-strong,
+  .glass-ultra,
+  .glass-card,
+  .glass-modal {
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+}
+
+/* ============================================
+   ACCESSIBILITY
+   ============================================ */
+
+/* Respect user's motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .glass-card,
+  .glass-button,
+  .glass-button-primary,
+  .glass-input {
+    transition: none;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .glass-light,
+  .glass-medium,
+  .glass-strong,
+  .glass-ultra {
+    border-width: 2px;
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+}

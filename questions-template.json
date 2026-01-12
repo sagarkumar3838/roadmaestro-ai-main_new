@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "skill": "html",
+    "difficulty": "easy",
+    "totalQuestions": 10,
+    "version": "1.0",
+    "lastUpdated": "2025-12-05"
+  },
+  "questions": [
+    {
+      "id": "html-easy-001",
+      "skill": "html",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "text": "What does HTML stand for?",
+      "options": [
+        "Hypertext Markup Language",
+        "High Tech Modern Language",
+        "Home Tool Markup Language",
+        "Hyperlink Text Management Language"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HTML stands for Hypertext Markup Language, which is the standard markup language for creating web pages."
+    },
+    {
+      "id": "html-easy-002",
+      "skill": "html",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "text": "Which tag is used for the main heading?",
+      "options": [
+        "<head>",
+        "<h1>",
+        "<title>",
+        "<heading>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <h1> tag is used for the main heading in HTML."
+    },
+    {
+      "id": "html-easy-003",
+      "skill": "html",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "text": "What is the correct HTML element for inserting a line break?",
+      "options": [
+        "<break>",
+        "<lb>",
+        "<br>",
+        "<newline>"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <br> tag is used to insert a line break in HTML."
+    },
+    {
+      "id": "html-easy-004",
+      "skill": "html",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "text": "Which tag is used to create a hyperlink?",
+      "options": [
+        "<a>",
+        "<link>",
+        "<href>",
+        "<url>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <a> (anchor) tag is used to create hyperlinks in HTML."
+    },
+    {
+      "id": "html-easy-005",
+      "skill": "html",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "text": "What does the <title> tag define?",
+      "options": [
+        "Document title",
+        "Main heading",
+        "Page content",
+        "Meta information"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <title> tag defines the title of the document shown in the browser's title bar or tab."
+    },
+    {
+      "id": "html-easy-006",
+      "skill": "html",
+      "difficulty": "easy",
+      "type": "coding",
+      "text": "Write the HTML code to create a paragraph with the text 'Hello World'",
+      "correctAnswer": "<p>Hello World</p>",
+      "explanation": "Use the <p> tag to create a paragraph element."
+    },
+    {
+      "id": "html-easy-007",
+      "skill": "html",
+      "difficulty": "easy",
+      "type": "fill-blanks",
+      "text": "The _____ tag is used to create an unordered list.",
+      "blanks": ["ul"],
+      "correctAnswer": "ul",
+      "explanation": "The <ul> tag creates an unordered (bulleted) list."
+    },
+    {
+      "id": "html-easy-008",
+      "skill": "html",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "text": "Which HTML attribute specifies an alternate text for an image?",
+      "options": [
+        "alt",
+        "src",
+        "title",
+        "href"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The 'alt' attribute provides alternative text for images."
+    },
+    {
+      "id": "html-easy-009",
+      "skill": "html",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "text": "What does the <p> tag represent?",
+      "options": [
+        "Paragraph",
+        "Page",
+        "Picture",
+        "Panel"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <p> tag represents a paragraph in HTML."
+    },
+    {
+      "id": "html-easy-010",
+      "skill": "html",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "text": "Which HTML tag is used to make text bold?",
+      "options": [
+        "<b>",
+        "<strong>",
+        "<bold>",
+        "<em>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both <b> and <strong> can make text bold, but <b> is the basic bold tag."
+    }
+  ]
+}

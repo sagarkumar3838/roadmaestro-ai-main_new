@@ -1,0 +1,10 @@
+
+- [x] Search for all Cloudinary references in codebase
+- [x] Check .env for Cloudinary environment variables
+- [x] Check package.json for Cloudinary dependencies
+- [x] Examine FileUpload.tsx for Cloudinary usage
+- [x] Examine TestPage.tsx for Cloudinary usage
+- [ ] Remove or modify Cloudinary-related code
+- [ ] Remove unnecessary dependencies if any
+- [ ] Clean up environment variables
+- [ ] Test project after removal

@@ -1,0 +1,1566 @@
+{
+  "skill": "jquery",
+  "difficulty": "advanced",
+  "questions": [
+    {
+      "id": "jquery-advanced-001",
+      "text": "Deferred method that returns a new promise-like and allows chaining:",
+      "options": [
+        "success()",
+        "then()",
+        "resolve()",
+        "done()"
+      ],
+      "correctAnswer": 1,
+      "topic": "Deferred/Promise",
+      "explanation": "then(onFulfilled, onRejected)."
+    },
+    {
+      "id": "jquery-advanced-002",
+      "text": "Register a rejection handler:",
+      "options": [
+        "error()",
+        "fail()",
+        "reject()",
+        "catch()"
+      ],
+      "correctAnswer": 1,
+      "topic": "Deferred/Promise",
+      "explanation": "fail(handler)."
+    },
+    {
+      "id": "jquery-advanced-003",
+      "text": "Run after settle regardless of outcome:",
+      "options": [
+        "either()",
+        "finally()",
+        "always()",
+        "complete()"
+      ],
+      "correctAnswer": 2,
+      "topic": "Deferred/Promise",
+      "explanation": "always(handler)."
+    },
+    {
+      "id": "jquery-advanced-004",
+      "text": "Define custom low-level Ajax transport:",
+      "options": [
+        "$.ajaxPrefilter",
+        "$.ajaxTransport",
+        "$.ajaxSetup",
+        "$.ajaxDriver"
+      ],
+      "correctAnswer": 1,
+      "topic": "AJAX Internals",
+      "explanation": "Transport for special dataTypes/conditions."
+    },
+    {
+      "id": "jquery-advanced-005",
+      "text": "Send raw FormData in $.ajax:",
+      "options": [
+        "global: false",
+        "processData: false",
+        "traditional: true",
+        "ifModified: true"
+      ],
+      "correctAnswer": 1,
+      "topic": "AJAX",
+      "explanation": "Disable automatic query string processing."
+    },
+    {
+      "id": "jquery-advanced-006",
+      "text": "Enable JSONP for cross-domain GET:",
+      "options": [
+        "jsonp",
+        "script",
+        "json",
+        "html"
+      ],
+      "correctAnswer": 0,
+      "topic": "AJAX",
+      "explanation": "Use dataType:'jsonp'."
+    },
+    {
+      "id": "jquery-advanced-007",
+      "text": "Use old param serialization:",
+      "options": [
+        "legacy: true",
+        "traditional: true",
+        "nested: false",
+        "flat: true"
+      ],
+      "correctAnswer": 1,
+      "topic": "AJAX",
+      "explanation": "Old jQuery.param format."
+    },
+    {
+      "id": "jquery-advanced-008",
+      "text": "Bubbling versions of focus/blur for delegation:",
+      "options": [
+        "focusin/focusout",
+        "activeFocus/passiveBlur",
+        "captureFocus/captureBlur",
+        "focus/blur"
+      ],
+      "correctAnswer": 0,
+      "topic": "Events",
+      "explanation": "focusin/out bubble."
+    },
+    {
+      "id": "jquery-advanced-009",
+      "text": "Bind a function to a context:",
+      "options": [
+        "$.proxy",
+        "$.bind",
+        "Function.prototype.bind",
+        "$.context"
+      ],
+      "correctAnswer": 0,
+      "topic": "Utilities",
+      "explanation": "$.proxy(fn, ctx[, args])."
+    },
+    {
+      "id": "jquery-advanced-010",
+      "text": "Deep copy/merge objects:",
+      "options": [
+        "$.fn.extend(true, ... )",
+        "$.copy(true, ... )",
+        "$.clone(true, ... )",
+        "$.extend(true, target, source)"
+      ],
+      "correctAnswer": 3,
+      "topic": "Utilities",
+      "explanation": "First argument true → deep merge."
+    },
+    {
+      "id": "jquery-advanced-011",
+      "text": "Add chainable plugin methods:",
+      "options": [
+        "$.plugin",
+        "$.extend",
+        "$.fn.extend",
+        "$.add"
+      ],
+      "correctAnswer": 2,
+      "topic": "Plugins",
+      "explanation": "Use $.fn.extend({...})."
+    },
+    {
+      "id": "jquery-advanced-012",
+      "text": "Return to previous set in a chain:",
+      "options": [
+        "restore()",
+        "end()",
+        "undo()",
+        "back()"
+      ],
+      "correctAnswer": 1,
+      "topic": "Chaining",
+      "explanation": "end() pops last selection."
+    },
+    {
+      "id": "jquery-advanced-013",
+      "text": "Check whether the first element has a class:",
+      "options": [
+        "is('.x')",
+        "classList.contains('x')",
+        "hasClass('x')",
+        "filter('.x')"
+      ],
+      "correctAnswer": 2,
+      "topic": "DOM/CSS",
+      "explanation": "hasClass returns boolean."
+    },
+    {
+      "id": "jquery-advanced-014",
+      "text": "Toggle class based on a boolean:",
+      "options": [
+        "addClass('x', state)",
+        "toggleClass('x', state)",
+        "switchClass('x', state)",
+        "toggle('x', state)"
+      ],
+      "correctAnswer": 1,
+      "topic": "DOM/CSS",
+      "explanation": "Second parameter controls state."
+    },
+    {
+      "id": "jquery-advanced-015",
+      "text": "Efficiently handle clicks on many dynamic li inside #list:",
+      "options": [
+        "$('li').bind('click',handler)",
+        "$('#list').on('click','li',handler)",
+        "$('li').live('click',handler)",
+        "$('li').click(handler)"
+      ],
+      "correctAnswer": 1,
+      "topic": "Event Delegation",
+      "explanation": "Delegate to a stable ancestor."
+    },
+    {
+      "id": "jquery-advanced-016",
+      "text": "Event that fires when DOM is ready (before images):",
+      "options": [
+        "load",
+        "beforeload",
+        "ready",
+        "DOMContentLoaded only"
+      ],
+      "correctAnswer": 2,
+      "topic": "Events",
+      "explanation": "Use $(document).ready(...) or $(fn)."
+    },
+    {
+      "id": "jquery-advanced-017",
+      "text": "Serialize object to query string:",
+      "options": [
+        "$.qs()",
+        "$.serialize()",
+        "$.param()",
+        "$.encode()"
+      ],
+      "correctAnswer": 2,
+      "topic": "Utilities",
+      "explanation": "Builds key=value&... string."
+    },
+    {
+      "id": "jquery-advanced-018",
+      "text": "Global Ajax events on $(document):",
+      "options": [
+        "ajaxStart / ajaxStop etc.",
+        "hashchange / popstate",
+        "ready / load",
+        "focus / blur"
+      ],
+      "correctAnswer": 0,
+      "topic": "AJAX Events",
+      "explanation": "jQuery triggers global Ajax events."
+    },
+    {
+      "id": "jquery-advanced-019",
+      "text": "Remove all data added via .data():",
+      "options": [
+        "removeData()",
+        "deleteData()",
+        "data(null)",
+        "clearData()"
+      ],
+      "correctAnswer": 0,
+      "topic": "Data API",
+      "explanation": "Clears stored data."
+    },
+    {
+      "id": "jquery-advanced-020",
+      "text": "Check dynamic checkbox state correctly:",
+      "options": [
+        "attr('checked')",
+        "val('checked')",
+        "data('checked')",
+        "prop('checked')"
+      ],
+      "correctAnswer": 3,
+      "topic": "Attributes & Properties",
+      "explanation": "Use .prop for boolean properties."
+    },
+    {
+      "id": "jquery-advanced-021",
+      "text": "$.ajax option for whether request is asynchronous:",
+      "options": [
+        "processData",
+        "dataType",
+        "async",
+        "contentType"
+      ],
+      "correctAnswer": 2,
+      "topic": "AJAX",
+      "explanation": "Set async in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-022",
+      "text": "$.ajax option for request timeout (ms):",
+      "options": [
+        "dataType",
+        "timeout",
+        "contentType",
+        "processData"
+      ],
+      "correctAnswer": 1,
+      "topic": "AJAX",
+      "explanation": "Set timeout in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-023",
+      "text": "$.ajax option for request timeout (ms):",
+      "options": [
+        "contentType",
+        "dataType",
+        "timeout",
+        "processData"
+      ],
+      "correctAnswer": 2,
+      "topic": "AJAX",
+      "explanation": "Set timeout in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-024",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "dataType",
+        "headers",
+        "processData",
+        "contentType"
+      ],
+      "correctAnswer": 1,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-025",
+      "text": "$.ajax option for request timeout (ms):",
+      "options": [
+        "processData",
+        "contentType",
+        "timeout",
+        "dataType"
+      ],
+      "correctAnswer": 2,
+      "topic": "AJAX",
+      "explanation": "Set timeout in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-026",
+      "text": "$.ajax option for request timeout (ms):",
+      "options": [
+        "dataType",
+        "processData",
+        "timeout",
+        "contentType"
+      ],
+      "correctAnswer": 2,
+      "topic": "AJAX",
+      "explanation": "Set timeout in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-027",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "processData",
+        "dataType",
+        "contentType",
+        "headers"
+      ],
+      "correctAnswer": 3,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-028",
+      "text": "$.ajax option for request timeout (ms):",
+      "options": [
+        "contentType",
+        "timeout",
+        "processData",
+        "dataType"
+      ],
+      "correctAnswer": 1,
+      "topic": "AJAX",
+      "explanation": "Set timeout in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-029",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "processData",
+        "dataType",
+        "headers",
+        "contentType"
+      ],
+      "correctAnswer": 2,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-030",
+      "text": "$.ajax option for request timeout (ms):",
+      "options": [
+        "contentType",
+        "processData",
+        "timeout",
+        "dataType"
+      ],
+      "correctAnswer": 2,
+      "topic": "AJAX",
+      "explanation": "Set timeout in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-031",
+      "text": "$.ajax option for whether request is asynchronous:",
+      "options": [
+        "dataType",
+        "processData",
+        "async",
+        "contentType"
+      ],
+      "correctAnswer": 2,
+      "topic": "AJAX",
+      "explanation": "Set async in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-032",
+      "text": "$.ajax option for request timeout (ms):",
+      "options": [
+        "processData",
+        "dataType",
+        "contentType",
+        "timeout"
+      ],
+      "correctAnswer": 3,
+      "topic": "AJAX",
+      "explanation": "Set timeout in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-033",
+      "text": "$.ajax option for whether request is asynchronous:",
+      "options": [
+        "contentType",
+        "dataType",
+        "processData",
+        "async"
+      ],
+      "correctAnswer": 3,
+      "topic": "AJAX",
+      "explanation": "Set async in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-034",
+      "text": "$.ajax option for whether request is asynchronous:",
+      "options": [
+        "processData",
+        "async",
+        "contentType",
+        "dataType"
+      ],
+      "correctAnswer": 1,
+      "topic": "AJAX",
+      "explanation": "Set async in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-035",
+      "text": "$.ajax option for whether request is asynchronous:",
+      "options": [
+        "processData",
+        "contentType",
+        "async",
+        "dataType"
+      ],
+      "correctAnswer": 2,
+      "topic": "AJAX",
+      "explanation": "Set async in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-036",
+      "text": "$.ajax option for whether request is asynchronous:",
+      "options": [
+        "processData",
+        "contentType",
+        "async",
+        "dataType"
+      ],
+      "correctAnswer": 2,
+      "topic": "AJAX",
+      "explanation": "Set async in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-037",
+      "text": "$.ajax option for whether request is asynchronous:",
+      "options": [
+        "processData",
+        "contentType",
+        "async",
+        "dataType"
+      ],
+      "correctAnswer": 2,
+      "topic": "AJAX",
+      "explanation": "Set async in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-038",
+      "text": "$.ajax option for request timeout (ms):",
+      "options": [
+        "processData",
+        "dataType",
+        "timeout",
+        "contentType"
+      ],
+      "correctAnswer": 2,
+      "topic": "AJAX",
+      "explanation": "Set timeout in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-039",
+      "text": "$.ajax option for request timeout (ms):",
+      "options": [
+        "timeout",
+        "contentType",
+        "dataType",
+        "processData"
+      ],
+      "correctAnswer": 0,
+      "topic": "AJAX",
+      "explanation": "Set timeout in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-040",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "dataType",
+        "headers",
+        "processData",
+        "contentType"
+      ],
+      "correctAnswer": 1,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-041",
+      "text": "$.ajax option for request timeout (ms):",
+      "options": [
+        "timeout",
+        "dataType",
+        "contentType",
+        "processData"
+      ],
+      "correctAnswer": 0,
+      "topic": "AJAX",
+      "explanation": "Set timeout in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-042",
+      "text": "$.ajax option for request timeout (ms):",
+      "options": [
+        "timeout",
+        "dataType",
+        "contentType",
+        "processData"
+      ],
+      "correctAnswer": 0,
+      "topic": "AJAX",
+      "explanation": "Set timeout in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-043",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "contentType",
+        "headers",
+        "dataType",
+        "processData"
+      ],
+      "correctAnswer": 1,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-044",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "dataType",
+        "headers",
+        "contentType",
+        "processData"
+      ],
+      "correctAnswer": 1,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-045",
+      "text": "$.ajax option for request timeout (ms):",
+      "options": [
+        "timeout",
+        "contentType",
+        "dataType",
+        "processData"
+      ],
+      "correctAnswer": 0,
+      "topic": "AJAX",
+      "explanation": "Set timeout in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-046",
+      "text": "$.ajax option for whether request is asynchronous:",
+      "options": [
+        "dataType",
+        "contentType",
+        "processData",
+        "async"
+      ],
+      "correctAnswer": 3,
+      "topic": "AJAX",
+      "explanation": "Set async in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-047",
+      "text": "$.ajax option for request timeout (ms):",
+      "options": [
+        "processData",
+        "timeout",
+        "contentType",
+        "dataType"
+      ],
+      "correctAnswer": 1,
+      "topic": "AJAX",
+      "explanation": "Set timeout in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-048",
+      "text": "$.ajax option for request timeout (ms):",
+      "options": [
+        "contentType",
+        "timeout",
+        "processData",
+        "dataType"
+      ],
+      "correctAnswer": 1,
+      "topic": "AJAX",
+      "explanation": "Set timeout in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-049",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "dataType",
+        "processData",
+        "contentType",
+        "headers"
+      ],
+      "correctAnswer": 3,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-050",
+      "text": "$.ajax option for whether request is asynchronous:",
+      "options": [
+        "dataType",
+        "processData",
+        "async",
+        "contentType"
+      ],
+      "correctAnswer": 2,
+      "topic": "AJAX",
+      "explanation": "Set async in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-051",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "dataType",
+        "contentType",
+        "headers",
+        "processData"
+      ],
+      "correctAnswer": 2,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-052",
+      "text": "$.ajax option for request timeout (ms):",
+      "options": [
+        "processData",
+        "dataType",
+        "timeout",
+        "contentType"
+      ],
+      "correctAnswer": 2,
+      "topic": "AJAX",
+      "explanation": "Set timeout in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-053",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "headers",
+        "processData",
+        "dataType",
+        "contentType"
+      ],
+      "correctAnswer": 0,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-054",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "processData",
+        "headers",
+        "contentType",
+        "dataType"
+      ],
+      "correctAnswer": 1,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-055",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "dataType",
+        "headers",
+        "processData",
+        "contentType"
+      ],
+      "correctAnswer": 1,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-056",
+      "text": "$.ajax option for whether request is asynchronous:",
+      "options": [
+        "processData",
+        "dataType",
+        "contentType",
+        "async"
+      ],
+      "correctAnswer": 3,
+      "topic": "AJAX",
+      "explanation": "Set async in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-057",
+      "text": "$.ajax option for whether request is asynchronous:",
+      "options": [
+        "processData",
+        "contentType",
+        "async",
+        "dataType"
+      ],
+      "correctAnswer": 2,
+      "topic": "AJAX",
+      "explanation": "Set async in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-058",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "headers",
+        "contentType",
+        "processData",
+        "dataType"
+      ],
+      "correctAnswer": 0,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-059",
+      "text": "$.ajax option for whether request is asynchronous:",
+      "options": [
+        "contentType",
+        "async",
+        "dataType",
+        "processData"
+      ],
+      "correctAnswer": 1,
+      "topic": "AJAX",
+      "explanation": "Set async in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-060",
+      "text": "$.ajax option for request timeout (ms):",
+      "options": [
+        "timeout",
+        "dataType",
+        "processData",
+        "contentType"
+      ],
+      "correctAnswer": 0,
+      "topic": "AJAX",
+      "explanation": "Set timeout in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-061",
+      "text": "$.ajax option for request timeout (ms):",
+      "options": [
+        "contentType",
+        "processData",
+        "dataType",
+        "timeout"
+      ],
+      "correctAnswer": 3,
+      "topic": "AJAX",
+      "explanation": "Set timeout in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-062",
+      "text": "$.ajax option for request timeout (ms):",
+      "options": [
+        "processData",
+        "timeout",
+        "contentType",
+        "dataType"
+      ],
+      "correctAnswer": 1,
+      "topic": "AJAX",
+      "explanation": "Set timeout in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-063",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "processData",
+        "dataType",
+        "headers",
+        "contentType"
+      ],
+      "correctAnswer": 2,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-064",
+      "text": "$.ajax option for whether request is asynchronous:",
+      "options": [
+        "contentType",
+        "dataType",
+        "async",
+        "processData"
+      ],
+      "correctAnswer": 2,
+      "topic": "AJAX",
+      "explanation": "Set async in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-065",
+      "text": "$.ajax option for request timeout (ms):",
+      "options": [
+        "processData",
+        "dataType",
+        "contentType",
+        "timeout"
+      ],
+      "correctAnswer": 3,
+      "topic": "AJAX",
+      "explanation": "Set timeout in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-066",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "headers",
+        "contentType",
+        "dataType",
+        "processData"
+      ],
+      "correctAnswer": 0,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-067",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "dataType",
+        "contentType",
+        "headers",
+        "processData"
+      ],
+      "correctAnswer": 2,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-068",
+      "text": "$.ajax option for whether request is asynchronous:",
+      "options": [
+        "contentType",
+        "processData",
+        "async",
+        "dataType"
+      ],
+      "correctAnswer": 2,
+      "topic": "AJAX",
+      "explanation": "Set async in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-069",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "dataType",
+        "processData",
+        "headers",
+        "contentType"
+      ],
+      "correctAnswer": 2,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-070",
+      "text": "$.ajax option for whether request is asynchronous:",
+      "options": [
+        "dataType",
+        "contentType",
+        "processData",
+        "async"
+      ],
+      "correctAnswer": 3,
+      "topic": "AJAX",
+      "explanation": "Set async in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-071",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "headers",
+        "contentType",
+        "dataType",
+        "processData"
+      ],
+      "correctAnswer": 0,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-072",
+      "text": "$.ajax option for whether request is asynchronous:",
+      "options": [
+        "contentType",
+        "processData",
+        "async",
+        "dataType"
+      ],
+      "correctAnswer": 2,
+      "topic": "AJAX",
+      "explanation": "Set async in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-073",
+      "text": "$.ajax option for whether request is asynchronous:",
+      "options": [
+        "dataType",
+        "contentType",
+        "processData",
+        "async"
+      ],
+      "correctAnswer": 3,
+      "topic": "AJAX",
+      "explanation": "Set async in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-074",
+      "text": "$.ajax option for whether request is asynchronous:",
+      "options": [
+        "processData",
+        "contentType",
+        "async",
+        "dataType"
+      ],
+      "correctAnswer": 2,
+      "topic": "AJAX",
+      "explanation": "Set async in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-075",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "processData",
+        "headers",
+        "dataType",
+        "contentType"
+      ],
+      "correctAnswer": 1,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-076",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "dataType",
+        "headers",
+        "contentType",
+        "processData"
+      ],
+      "correctAnswer": 1,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-077",
+      "text": "$.ajax option for whether request is asynchronous:",
+      "options": [
+        "async",
+        "processData",
+        "contentType",
+        "dataType"
+      ],
+      "correctAnswer": 0,
+      "topic": "AJAX",
+      "explanation": "Set async in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-078",
+      "text": "$.ajax option for whether request is asynchronous:",
+      "options": [
+        "async",
+        "contentType",
+        "dataType",
+        "processData"
+      ],
+      "correctAnswer": 0,
+      "topic": "AJAX",
+      "explanation": "Set async in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-079",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "processData",
+        "headers",
+        "contentType",
+        "dataType"
+      ],
+      "correctAnswer": 1,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-080",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "dataType",
+        "headers",
+        "contentType",
+        "processData"
+      ],
+      "correctAnswer": 1,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-081",
+      "text": "$.ajax option for whether request is asynchronous:",
+      "options": [
+        "processData",
+        "async",
+        "dataType",
+        "contentType"
+      ],
+      "correctAnswer": 1,
+      "topic": "AJAX",
+      "explanation": "Set async in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-082",
+      "text": "$.ajax option for whether request is asynchronous:",
+      "options": [
+        "dataType",
+        "processData",
+        "contentType",
+        "async"
+      ],
+      "correctAnswer": 3,
+      "topic": "AJAX",
+      "explanation": "Set async in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-083",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "contentType",
+        "dataType",
+        "processData",
+        "headers"
+      ],
+      "correctAnswer": 3,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-084",
+      "text": "$.ajax option for whether request is asynchronous:",
+      "options": [
+        "contentType",
+        "processData",
+        "dataType",
+        "async"
+      ],
+      "correctAnswer": 3,
+      "topic": "AJAX",
+      "explanation": "Set async in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-085",
+      "text": "$.ajax option for request timeout (ms):",
+      "options": [
+        "timeout",
+        "dataType",
+        "processData",
+        "contentType"
+      ],
+      "correctAnswer": 0,
+      "topic": "AJAX",
+      "explanation": "Set timeout in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-086",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "contentType",
+        "headers",
+        "processData",
+        "dataType"
+      ],
+      "correctAnswer": 1,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-087",
+      "text": "$.ajax option for whether request is asynchronous:",
+      "options": [
+        "dataType",
+        "async",
+        "contentType",
+        "processData"
+      ],
+      "correctAnswer": 1,
+      "topic": "AJAX",
+      "explanation": "Set async in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-088",
+      "text": "$.ajax option for whether request is asynchronous:",
+      "options": [
+        "dataType",
+        "async",
+        "processData",
+        "contentType"
+      ],
+      "correctAnswer": 1,
+      "topic": "AJAX",
+      "explanation": "Set async in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-089",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "headers",
+        "processData",
+        "contentType",
+        "dataType"
+      ],
+      "correctAnswer": 0,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-090",
+      "text": "$.ajax option for whether request is asynchronous:",
+      "options": [
+        "contentType",
+        "processData",
+        "async",
+        "dataType"
+      ],
+      "correctAnswer": 2,
+      "topic": "AJAX",
+      "explanation": "Set async in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-091",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "processData",
+        "headers",
+        "dataType",
+        "contentType"
+      ],
+      "correctAnswer": 1,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-092",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "contentType",
+        "dataType",
+        "processData",
+        "headers"
+      ],
+      "correctAnswer": 3,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-093",
+      "text": "$.ajax option for request timeout (ms):",
+      "options": [
+        "contentType",
+        "dataType",
+        "processData",
+        "timeout"
+      ],
+      "correctAnswer": 3,
+      "topic": "AJAX",
+      "explanation": "Set timeout in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-094",
+      "text": "$.ajax option for request timeout (ms):",
+      "options": [
+        "contentType",
+        "timeout",
+        "dataType",
+        "processData"
+      ],
+      "correctAnswer": 1,
+      "topic": "AJAX",
+      "explanation": "Set timeout in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-095",
+      "text": "$.ajax option for request timeout (ms):",
+      "options": [
+        "timeout",
+        "contentType",
+        "processData",
+        "dataType"
+      ],
+      "correctAnswer": 0,
+      "topic": "AJAX",
+      "explanation": "Set timeout in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-096",
+      "text": "$.ajax option for request timeout (ms):",
+      "options": [
+        "processData",
+        "timeout",
+        "contentType",
+        "dataType"
+      ],
+      "correctAnswer": 1,
+      "topic": "AJAX",
+      "explanation": "Set timeout in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-097",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "processData",
+        "contentType",
+        "headers",
+        "dataType"
+      ],
+      "correctAnswer": 2,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-098",
+      "text": "$.ajax option for whether request is asynchronous:",
+      "options": [
+        "contentType",
+        "processData",
+        "dataType",
+        "async"
+      ],
+      "correctAnswer": 3,
+      "topic": "AJAX",
+      "explanation": "Set async in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-099",
+      "text": "$.ajax option for request timeout (ms):",
+      "options": [
+        "dataType",
+        "processData",
+        "contentType",
+        "timeout"
+      ],
+      "correctAnswer": 3,
+      "topic": "AJAX",
+      "explanation": "Set timeout in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-100",
+      "text": "$.ajax option for request timeout (ms):",
+      "options": [
+        "timeout",
+        "processData",
+        "dataType",
+        "contentType"
+      ],
+      "correctAnswer": 0,
+      "topic": "AJAX",
+      "explanation": "Set timeout in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-101",
+      "text": "$.ajax option for whether request is asynchronous:",
+      "options": [
+        "async",
+        "processData",
+        "contentType",
+        "dataType"
+      ],
+      "correctAnswer": 0,
+      "topic": "AJAX",
+      "explanation": "Set async in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-102",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "headers",
+        "dataType",
+        "processData",
+        "contentType"
+      ],
+      "correctAnswer": 0,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-103",
+      "text": "$.ajax option for whether request is asynchronous:",
+      "options": [
+        "processData",
+        "async",
+        "dataType",
+        "contentType"
+      ],
+      "correctAnswer": 1,
+      "topic": "AJAX",
+      "explanation": "Set async in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-104",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "headers",
+        "processData",
+        "dataType",
+        "contentType"
+      ],
+      "correctAnswer": 0,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-105",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "contentType",
+        "headers",
+        "processData",
+        "dataType"
+      ],
+      "correctAnswer": 1,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-106",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "contentType",
+        "dataType",
+        "headers",
+        "processData"
+      ],
+      "correctAnswer": 2,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-107",
+      "text": "$.ajax option for request timeout (ms):",
+      "options": [
+        "contentType",
+        "dataType",
+        "timeout",
+        "processData"
+      ],
+      "correctAnswer": 2,
+      "topic": "AJAX",
+      "explanation": "Set timeout in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-108",
+      "text": "$.ajax option for request timeout (ms):",
+      "options": [
+        "contentType",
+        "timeout",
+        "processData",
+        "dataType"
+      ],
+      "correctAnswer": 1,
+      "topic": "AJAX",
+      "explanation": "Set timeout in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-109",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "processData",
+        "dataType",
+        "headers",
+        "contentType"
+      ],
+      "correctAnswer": 2,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-110",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "processData",
+        "dataType",
+        "contentType",
+        "headers"
+      ],
+      "correctAnswer": 3,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-111",
+      "text": "$.ajax option for whether request is asynchronous:",
+      "options": [
+        "async",
+        "contentType",
+        "dataType",
+        "processData"
+      ],
+      "correctAnswer": 0,
+      "topic": "AJAX",
+      "explanation": "Set async in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-112",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "processData",
+        "dataType",
+        "headers",
+        "contentType"
+      ],
+      "correctAnswer": 2,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-113",
+      "text": "$.ajax option for request timeout (ms):",
+      "options": [
+        "processData",
+        "contentType",
+        "dataType",
+        "timeout"
+      ],
+      "correctAnswer": 3,
+      "topic": "AJAX",
+      "explanation": "Set timeout in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-114",
+      "text": "$.ajax option for whether request is asynchronous:",
+      "options": [
+        "async",
+        "contentType",
+        "processData",
+        "dataType"
+      ],
+      "correctAnswer": 0,
+      "topic": "AJAX",
+      "explanation": "Set async in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-115",
+      "text": "$.ajax option for whether request is asynchronous:",
+      "options": [
+        "contentType",
+        "async",
+        "processData",
+        "dataType"
+      ],
+      "correctAnswer": 1,
+      "topic": "AJAX",
+      "explanation": "Set async in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-116",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "dataType",
+        "contentType",
+        "headers",
+        "processData"
+      ],
+      "correctAnswer": 2,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-117",
+      "text": "$.ajax option for whether request is asynchronous:",
+      "options": [
+        "async",
+        "contentType",
+        "processData",
+        "dataType"
+      ],
+      "correctAnswer": 0,
+      "topic": "AJAX",
+      "explanation": "Set async in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-118",
+      "text": "$.ajax option for additional HTTP headers:",
+      "options": [
+        "headers",
+        "dataType",
+        "contentType",
+        "processData"
+      ],
+      "correctAnswer": 0,
+      "topic": "AJAX",
+      "explanation": "Set headers in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-119",
+      "text": "$.ajax option for whether request is asynchronous:",
+      "options": [
+        "processData",
+        "contentType",
+        "async",
+        "dataType"
+      ],
+      "correctAnswer": 2,
+      "topic": "AJAX",
+      "explanation": "Set async in $.ajax options."
+    },
+    {
+      "id": "jquery-advanced-120",
+      "text": "$.ajax option for whether request is asynchronous:",
+      "options": [
+        "dataType",
+        "async",
+        "processData",
+        "contentType"
+      ],
+      "correctAnswer": 1,
+      "topic": "AJAX",
+      "explanation": "Set async in $.ajax options."
+    }
+  ]
+}

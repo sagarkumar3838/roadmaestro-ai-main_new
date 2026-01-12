@@ -1,0 +1,21 @@
+[
+  {
+    "id": "cloud-seed-1",
+    "text": "What is serverless computing?",
+    "type": "multiple-choice",
+    "options": ["No servers exist", "Servers are abstracted by provider", "Local-only hosting", "Bare metal only"],
+    "correctAnswer": 1,
+    "category": "Cloud Computing",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "cloud-seed-2",
+    "text": "Which service is used to store objects in AWS?",
+    "type": "multiple-choice",
+    "options": ["EC2", "RDS", "S3", "ECS"],
+    "correctAnswer": 2,
+    "category": "Cloud Computing",
+    "difficulty": "beginner"
+  }
+]
+

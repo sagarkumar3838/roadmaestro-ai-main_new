@@ -1,0 +1,7030 @@
+[
+    {
+      "id": "ds-seed-1",
+      "text": "What is the primary purpose of pandas?",
+      "type": "multiple-choice",
+      "options": [
+        "Web scraping",
+        "Data manipulation",
+        "Model training",
+        "Visualization only"
+      ],
+      "correctAnswer": 1,
+      "category": "Data Science",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-2",
+      "text": "Which is a common method to prevent overfitting?",
+      "type": "multiple-choice",
+      "options": [
+        "Increase features",
+        "Dropout",
+        "Reduce data",
+        "Use no validation"
+      ],
+      "correctAnswer": 1,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-3",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-4",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-5",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-6",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-7",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-8",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-9",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-10",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-11",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-12",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-13",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-14",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-15",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-16",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-17",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-18",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-19",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-20",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-21",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-22",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-23",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-24",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-25",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-26",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-27",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-28",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-29",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-30",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-31",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-32",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-33",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-34",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-35",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-36",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-37",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-38",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-39",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-40",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-41",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-42",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-43",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-44",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-45",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-46",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-47",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-48",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-49",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-50",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-51",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-52",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-53",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-54",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-55",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-56",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-57",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-58",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-59",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-60",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-61",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-62",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-63",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-64",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-65",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-66",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-67",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-68",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-69",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-70",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-71",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-72",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-73",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-74",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-75",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-76",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-77",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-78",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-79",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-80",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-81",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-82",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-83",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-84",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-85",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-86",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-87",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-88",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-89",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-90",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-91",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-92",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-93",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-94",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-95",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-96",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-97",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-98",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-99",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-100",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-101",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-102",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-103",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-104",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-105",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-106",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-107",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-108",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-109",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-110",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-111",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-112",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-113",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-114",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-115",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-116",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-117",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-118",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-119",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-120",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-121",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-122",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-123",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-124",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-125",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-126",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-127",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-128",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-129",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-130",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-131",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-132",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-133",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-134",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-135",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-136",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-137",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-138",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-139",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-140",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-141",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-142",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-143",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-144",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-145",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-146",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-147",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-148",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-149",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-150",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-151",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-152",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-153",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-154",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-155",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-156",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-157",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-158",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-159",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-160",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-161",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-162",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-163",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-164",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-165",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-166",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-167",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-168",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-169",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-170",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-171",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-172",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-173",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-174",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-175",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-176",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-177",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-178",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-179",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-180",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-181",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-182",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-183",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-184",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-185",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-186",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-187",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-188",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-189",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-190",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-191",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-192",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-193",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-194",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-195",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-196",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-197",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-198",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-199",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-200",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-201",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-202",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-203",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-204",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-205",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-206",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-207",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-208",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-209",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-210",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-211",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-212",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-213",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-214",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-215",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-216",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-217",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-218",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-219",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-220",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-221",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-222",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-223",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-224",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-225",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-226",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-227",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-228",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-229",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-230",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-231",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-232",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-233",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-234",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-235",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-236",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-237",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-238",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-239",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-240",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-241",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-242",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-243",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-244",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-245",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-246",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-247",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-248",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-249",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-250",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-251",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-252",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-253",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-254",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-255",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-256",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-257",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-258",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-259",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-260",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-261",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-262",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-263",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-264",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-265",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-266",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-267",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-268",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-269",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-270",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-271",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-272",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-273",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-274",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-275",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-276",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-277",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-278",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-279",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-280",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-281",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-282",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-283",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-284",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-285",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-286",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-287",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-288",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-289",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-290",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-291",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-292",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-293",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-294",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-295",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-296",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-297",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-298",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-299",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-300",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-301",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-302",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-303",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-304",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-305",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-306",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-307",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-308",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-309",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-310",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-311",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-312",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-313",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-314",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-315",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-316",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-317",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-318",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-319",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-320",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-321",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-322",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-323",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-324",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-325",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-326",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-327",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-328",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-329",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-330",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-331",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-332",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-333",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-334",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-335",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-336",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-337",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-338",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-339",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-340",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-341",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-342",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-343",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-344",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-345",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-346",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-347",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-348",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-349",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-350",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-351",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-352",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-353",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-354",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-355",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-356",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-357",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-358",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-359",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-360",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-361",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-362",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-363",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-364",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-365",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-366",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-367",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-368",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-369",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-370",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-371",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-372",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-373",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-374",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-375",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-376",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-377",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-378",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-379",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-380",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-381",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-382",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-383",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-384",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-385",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-386",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-387",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-388",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-389",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-390",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-391",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-392",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-393",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-394",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-395",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-396",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-397",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-398",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-399",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-400",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-401",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-402",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-403",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-404",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-405",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-406",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-407",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-408",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-409",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-410",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-411",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-412",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-413",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-414",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-415",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-416",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-417",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-418",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-419",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-420",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-421",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-422",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-423",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-424",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-425",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-426",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-427",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-428",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-429",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-430",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-431",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-432",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-433",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-434",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-435",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-436",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-437",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-438",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-439",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-440",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-441",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-442",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-443",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-444",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-445",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-446",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-447",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-448",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-449",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-450",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-451",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-452",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-453",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-454",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-455",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-456",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-457",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-458",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-459",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-460",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-461",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-462",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-463",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-464",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-465",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-466",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-467",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-468",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-469",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-470",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-471",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-472",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-473",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-474",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-475",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-476",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-477",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-478",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-479",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-480",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-481",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-482",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-483",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-484",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-485",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-486",
+      "text": "Which technique is used to reduce dimensionality?",
+      "type": "multiple-choice",
+      "options": [
+        "PCA",
+        "Cross-validation",
+        "Ensemble methods",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-487",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-488",
+      "text": "Which library is widely used for data visualization in Python?",
+      "type": "multiple-choice",
+      "options": [
+        "matplotlib",
+        "NumPy",
+        "requests",
+        "scikit-learn"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-489",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Statistics",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-490",
+      "text": "What is the role of regularization?",
+      "type": "multiple-choice",
+      "options": [
+        "Prevent overfitting",
+        "Increase feature count",
+        "Speed up training",
+        "Visualize results"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-491",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-492",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-493",
+      "text": "What does 'NaN' represent in a dataset?",
+      "type": "multiple-choice",
+      "options": [
+        "Missing value",
+        "Negative value",
+        "Normalized data",
+        "Noise"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-494",
+      "text": "What is a hyperparameter?",
+      "type": "multiple-choice",
+      "options": [
+        "A setting chosen before training",
+        "A learned parameter during training",
+        "A function applied to data",
+        "A visualization tool"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-495",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-496",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-497",
+      "text": "Which data structure is used in pandas for tabular data?",
+      "type": "multiple-choice",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Dictionary",
+        "Array"
+      ],
+      "correctAnswer": 0,
+      "category": "Python Libraries",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-498",
+      "text": "What is a confusion matrix used for?",
+      "type": "multiple-choice",
+      "options": [
+        "Evaluating classification models",
+        "Data cleaning",
+        "Regression analysis",
+        "Feature scaling"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ds-seed-499",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Visualization",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ds-seed-500",
+      "text": "What is the purpose of the train-test split in machine learning?",
+      "type": "multiple-choice",
+      "options": [
+        "To measure model performance",
+        "To visualize data",
+        "To preprocess data",
+        "To clean data"
+      ],
+      "correctAnswer": 0,
+      "category": "Machine Learning",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-501",
+      "text": "Which algorithm is suitable for classification problems?",
+      "type": "multiple-choice",
+      "options": [
+        "Logistic Regression",
+        "K-means",
+        "PCA",
+        "Hierarchical clustering"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ds-seed-502",
+      "text": "What is the role of feature scaling?",
+      "type": "multiple-choice",
+      "options": [
+        "To normalize data ranges",
+        "To create new features",
+        "To encrypt data",
+        "To balance classes"
+      ],
+      "correctAnswer": 0,
+      "category": "Data Science",
+      "difficulty": "advanced"
+    }
+  ]

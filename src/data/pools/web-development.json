@@ -1,0 +1,1431 @@
+[
+    {
+      "id": "web-seed-1",
+      "text": "Which CSS layout is best for two-dimensional layouts?",
+      "type": "multiple-choice",
+      "options": [
+        "Flexbox",
+        "Grid",
+        "Float",
+        "Inline-block"
+      ],
+      "correctAnswer": 1,
+      "category": "Web Development",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "web-seed-2",
+      "text": "What is the main benefit of React's virtual DOM?",
+      "type": "multiple-choice",
+      "options": [
+        "Faster server rendering",
+        "Predictable URLs",
+        "Efficient UI updates",
+        "Automatic SEO"
+      ],
+      "correctAnswer": 2,
+      "category": "Web Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-3",
+      "text": "Which method is used to create a new array by transforming each element?",
+      "type": "multiple-choice",
+      "options": [
+        "map()",
+        "filter()",
+        "reduce()",
+        "forEach()"
+      ],
+      "correctAnswer": 0,
+      "category": "CSS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "web-seed-4",
+      "text": "What is a CSS pseudo-class?",
+      "type": "multiple-choice",
+      "options": [
+        "A keyword added to selectors to specify a special state",
+        "A way to write comments",
+        "A media query",
+        "A JavaScript event handler"
+      ],
+      "correctAnswer": 0,
+      "category": "HTML",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "web-seed-5",
+      "text": "What is the output of 'typeof null' in JavaScript?",
+      "type": "multiple-choice",
+      "options": [
+        "'object'",
+        "'null'",
+        "'undefined'",
+        "'number'"
+      ],
+      "correctAnswer": 0,
+      "category": "HTML",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-6",
+      "text": "What is a CSS pseudo-class?",
+      "type": "multiple-choice",
+      "options": [
+        "A keyword added to selectors to specify a special state",
+        "A way to write comments",
+        "A media query",
+        "A JavaScript event handler"
+      ],
+      "correctAnswer": 0,
+      "category": "Web Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-7",
+      "text": "What does CSS specificity determine?",
+      "type": "multiple-choice",
+      "options": [
+        "Which style rules apply when multiple match",
+        "The loading order of stylesheets",
+        "The size of elements",
+        "How animations are triggered"
+      ],
+      "correctAnswer": 0,
+      "category": "Node.js",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "web-seed-8",
+      "text": "What is the purpose of Express.js?",
+      "type": "multiple-choice",
+      "options": [
+        "Build web applications and APIs",
+        "Style components",
+        "Manage databases",
+        "Handle user authentication"
+      ],
+      "correctAnswer": 0,
+      "category": "React",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-9",
+      "text": "Which tag is used for the largest heading in HTML?",
+      "type": "multiple-choice",
+      "options": [
+        "<h1>",
+        "<head>",
+        "<header>",
+        "<h6>"
+      ],
+      "correctAnswer": 0,
+      "category": "HTML",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-10",
+      "text": "What command initializes a new Node.js project?",
+      "type": "multiple-choice",
+      "options": [
+        "npm init",
+        "node start",
+        "npm install",
+        "node new"
+      ],
+      "correctAnswer": 0,
+      "category": "Node.js",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-11",
+      "text": "How do you pass data from a parent to a child component in React?",
+      "type": "multiple-choice",
+      "options": [
+        "Using props",
+        "Using state",
+        "Using context",
+        "Using lifecycle methods"
+      ],
+      "correctAnswer": 0,
+      "category": "CSS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "web-seed-12",
+      "text": "How do you create a link in HTML?",
+      "type": "multiple-choice",
+      "options": [
+        "<a href='url'>",
+        "<link url='url'>",
+        "<href='url'>",
+        "<anchor url='url'>"
+      ],
+      "correctAnswer": 0,
+      "category": "JavaScript",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "web-seed-13",
+      "text": "Which method is used to create a new array by transforming each element?",
+      "type": "multiple-choice",
+      "options": [
+        "map()",
+        "filter()",
+        "reduce()",
+        "forEach()"
+      ],
+      "correctAnswer": 0,
+      "category": "Node.js",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-14",
+      "text": "How do you create a link in HTML?",
+      "type": "multiple-choice",
+      "options": [
+        "<a href='url'>",
+        "<link url='url'>",
+        "<href='url'>",
+        "<anchor url='url'>"
+      ],
+      "correctAnswer": 0,
+      "category": "React",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "web-seed-15",
+      "text": "What command initializes a new Node.js project?",
+      "type": "multiple-choice",
+      "options": [
+        "npm init",
+        "node start",
+        "npm install",
+        "node new"
+      ],
+      "correctAnswer": 0,
+      "category": "Node.js",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "web-seed-16",
+      "text": "What is the purpose of the 'defer' attribute in a script tag?",
+      "type": "multiple-choice",
+      "options": [
+        "Delays script execution until HTML parsing is complete",
+        "Preloads the script without execution",
+        "Executes the script immediately",
+        "None of the above"
+      ],
+      "correctAnswer": 0,
+      "category": "CSS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "web-seed-17",
+      "text": "What command initializes a new Node.js project?",
+      "type": "multiple-choice",
+      "options": [
+        "npm init",
+        "node start",
+        "npm install",
+        "node new"
+      ],
+      "correctAnswer": 0,
+      "category": "Node.js",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-18",
+      "text": "How do you pass data from a parent to a child component in React?",
+      "type": "multiple-choice",
+      "options": [
+        "Using props",
+        "Using state",
+        "Using context",
+        "Using lifecycle methods"
+      ],
+      "correctAnswer": 0,
+      "category": "HTML",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-19",
+      "text": "Which method is used to create a new array by transforming each element?",
+      "type": "multiple-choice",
+      "options": [
+        "map()",
+        "filter()",
+        "reduce()",
+        "forEach()"
+      ],
+      "correctAnswer": 0,
+      "category": "JavaScript",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "web-seed-20",
+      "text": "What is the output of 'typeof null' in JavaScript?",
+      "type": "multiple-choice",
+      "options": [
+        "'object'",
+        "'null'",
+        "'undefined'",
+        "'number'"
+      ],
+      "correctAnswer": 0,
+      "category": "Web Development",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "web-seed-21",
+      "text": "Which tag is used for the largest heading in HTML?",
+      "type": "multiple-choice",
+      "options": [
+        "<h1>",
+        "<head>",
+        "<header>",
+        "<h6>"
+      ],
+      "correctAnswer": 0,
+      "category": "HTML",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-22",
+      "text": "What is a CSS pseudo-class?",
+      "type": "multiple-choice",
+      "options": [
+        "A keyword added to selectors to specify a special state",
+        "A way to write comments",
+        "A media query",
+        "A JavaScript event handler"
+      ],
+      "correctAnswer": 0,
+      "category": "CSS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-23",
+      "text": "What is the purpose of Express.js?",
+      "type": "multiple-choice",
+      "options": [
+        "Build web applications and APIs",
+        "Style components",
+        "Manage databases",
+        "Handle user authentication"
+      ],
+      "correctAnswer": 0,
+      "category": "JavaScript",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "web-seed-24",
+      "text": "What is the purpose of the 'defer' attribute in a script tag?",
+      "type": "multiple-choice",
+      "options": [
+        "Delays script execution until HTML parsing is complete",
+        "Preloads the script without execution",
+        "Executes the script immediately",
+        "None of the above"
+      ],
+      "correctAnswer": 0,
+      "category": "CSS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "web-seed-25",
+      "text": "What command initializes a new Node.js project?",
+      "type": "multiple-choice",
+      "options": [
+        "npm init",
+        "node start",
+        "npm install",
+        "node new"
+      ],
+      "correctAnswer": 0,
+      "category": "JavaScript",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "web-seed-26",
+      "text": "How do you pass data from a parent to a child component in React?",
+      "type": "multiple-choice",
+      "options": [
+        "Using props",
+        "Using state",
+        "Using context",
+        "Using lifecycle methods"
+      ],
+      "correctAnswer": 0,
+      "category": "Node.js",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "web-seed-27",
+      "text": "What is the purpose of Express.js?",
+      "type": "multiple-choice",
+      "options": [
+        "Build web applications and APIs",
+        "Style components",
+        "Manage databases",
+        "Handle user authentication"
+      ],
+      "correctAnswer": 0,
+      "category": "HTML",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-28",
+      "text": "What is a CSS pseudo-class?",
+      "type": "multiple-choice",
+      "options": [
+        "A keyword added to selectors to specify a special state",
+        "A way to write comments",
+        "A media query",
+        "A JavaScript event handler"
+      ],
+      "correctAnswer": 0,
+      "category": "JavaScript",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "web-seed-29",
+      "text": "What is the purpose of Express.js?",
+      "type": "multiple-choice",
+      "options": [
+        "Build web applications and APIs",
+        "Style components",
+        "Manage databases",
+        "Handle user authentication"
+      ],
+      "correctAnswer": 0,
+      "category": "HTML",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-30",
+      "text": "What does CSS specificity determine?",
+      "type": "multiple-choice",
+      "options": [
+        "Which style rules apply when multiple match",
+        "The loading order of stylesheets",
+        "The size of elements",
+        "How animations are triggered"
+      ],
+      "correctAnswer": 0,
+      "category": "React",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "web-seed-31",
+      "text": "How do you pass data from a parent to a child component in React?",
+      "type": "multiple-choice",
+      "options": [
+        "Using props",
+        "Using state",
+        "Using context",
+        "Using lifecycle methods"
+      ],
+      "correctAnswer": 0,
+      "category": "CSS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-32",
+      "text": "Which tag is used for the largest heading in HTML?",
+      "type": "multiple-choice",
+      "options": [
+        "<h1>",
+        "<head>",
+        "<header>",
+        "<h6>"
+      ],
+      "correctAnswer": 0,
+      "category": "React",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "web-seed-33",
+      "text": "What is the purpose of Express.js?",
+      "type": "multiple-choice",
+      "options": [
+        "Build web applications and APIs",
+        "Style components",
+        "Manage databases",
+        "Handle user authentication"
+      ],
+      "correctAnswer": 0,
+      "category": "Node.js",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "web-seed-34",
+      "text": "What is a CSS pseudo-class?",
+      "type": "multiple-choice",
+      "options": [
+        "A keyword added to selectors to specify a special state",
+        "A way to write comments",
+        "A media query",
+        "A JavaScript event handler"
+      ],
+      "correctAnswer": 0,
+      "category": "React",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-35",
+      "text": "How do you create a link in HTML?",
+      "type": "multiple-choice",
+      "options": [
+        "<a href='url'>",
+        "<link url='url'>",
+        "<href='url'>",
+        "<anchor url='url'>"
+      ],
+      "correctAnswer": 0,
+      "category": "JavaScript",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-36",
+      "text": "What command initializes a new Node.js project?",
+      "type": "multiple-choice",
+      "options": [
+        "npm init",
+        "node start",
+        "npm install",
+        "node new"
+      ],
+      "correctAnswer": 0,
+      "category": "HTML",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "web-seed-37",
+      "text": "Which method is used to create a new array by transforming each element?",
+      "type": "multiple-choice",
+      "options": [
+        "map()",
+        "filter()",
+        "reduce()",
+        "forEach()"
+      ],
+      "correctAnswer": 0,
+      "category": "HTML",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "web-seed-38",
+      "text": "What is a CSS pseudo-class?",
+      "type": "multiple-choice",
+      "options": [
+        "A keyword added to selectors to specify a special state",
+        "A way to write comments",
+        "A media query",
+        "A JavaScript event handler"
+      ],
+      "correctAnswer": 0,
+      "category": "CSS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "web-seed-39",
+      "text": "Which method is used to create a new array by transforming each element?",
+      "type": "multiple-choice",
+      "options": [
+        "map()",
+        "filter()",
+        "reduce()",
+        "forEach()"
+      ],
+      "correctAnswer": 0,
+      "category": "HTML",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-40",
+      "text": "What is a CSS pseudo-class?",
+      "type": "multiple-choice",
+      "options": [
+        "A keyword added to selectors to specify a special state",
+        "A way to write comments",
+        "A media query",
+        "A JavaScript event handler"
+      ],
+      "correctAnswer": 0,
+      "category": "Node.js",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "web-seed-41",
+      "text": "Which method is used to create a new array by transforming each element?",
+      "type": "multiple-choice",
+      "options": [
+        "map()",
+        "filter()",
+        "reduce()",
+        "forEach()"
+      ],
+      "correctAnswer": 0,
+      "category": "Web Development",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "web-seed-42",
+      "text": "How do you pass data from a parent to a child component in React?",
+      "type": "multiple-choice",
+      "options": [
+        "Using props",
+        "Using state",
+        "Using context",
+        "Using lifecycle methods"
+      ],
+      "correctAnswer": 0,
+      "category": "JavaScript",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "web-seed-43",
+      "text": "What command initializes a new Node.js project?",
+      "type": "multiple-choice",
+      "options": [
+        "npm init",
+        "node start",
+        "npm install",
+        "node new"
+      ],
+      "correctAnswer": 0,
+      "category": "React",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "web-seed-44",
+      "text": "What is the output of 'typeof null' in JavaScript?",
+      "type": "multiple-choice",
+      "options": [
+        "'object'",
+        "'null'",
+        "'undefined'",
+        "'number'"
+      ],
+      "correctAnswer": 0,
+      "category": "React",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "web-seed-45",
+      "text": "What is the purpose of Express.js?",
+      "type": "multiple-choice",
+      "options": [
+        "Build web applications and APIs",
+        "Style components",
+        "Manage databases",
+        "Handle user authentication"
+      ],
+      "correctAnswer": 0,
+      "category": "Node.js",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "web-seed-46",
+      "text": "What is a CSS pseudo-class?",
+      "type": "multiple-choice",
+      "options": [
+        "A keyword added to selectors to specify a special state",
+        "A way to write comments",
+        "A media query",
+        "A JavaScript event handler"
+      ],
+      "correctAnswer": 0,
+      "category": "React",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-47",
+      "text": "What command initializes a new Node.js project?",
+      "type": "multiple-choice",
+      "options": [
+        "npm init",
+        "node start",
+        "npm install",
+        "node new"
+      ],
+      "correctAnswer": 0,
+      "category": "CSS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "web-seed-48",
+      "text": "What is the purpose of the 'defer' attribute in a script tag?",
+      "type": "multiple-choice",
+      "options": [
+        "Delays script execution until HTML parsing is complete",
+        "Preloads the script without execution",
+        "Executes the script immediately",
+        "None of the above"
+      ],
+      "correctAnswer": 0,
+      "category": "Web Development",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "web-seed-49",
+      "text": "Which method is used to create a new array by transforming each element?",
+      "type": "multiple-choice",
+      "options": [
+        "map()",
+        "filter()",
+        "reduce()",
+        "forEach()"
+      ],
+      "correctAnswer": 0,
+      "category": "React",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "web-seed-50",
+      "text": "Which tag is used for the largest heading in HTML?",
+      "type": "multiple-choice",
+      "options": [
+        "<h1>",
+        "<head>",
+        "<header>",
+        "<h6>"
+      ],
+      "correctAnswer": 0,
+      "category": "HTML",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-51",
+      "text": "How do you create a link in HTML?",
+      "type": "multiple-choice",
+      "options": [
+        "<a href='url'>",
+        "<link url='url'>",
+        "<href='url'>",
+        "<anchor url='url'>"
+      ],
+      "correctAnswer": 0,
+      "category": "Web Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-52",
+      "text": "Which tag is used for the largest heading in HTML?",
+      "type": "multiple-choice",
+      "options": [
+        "<h1>",
+        "<head>",
+        "<header>",
+        "<h6>"
+      ],
+      "correctAnswer": 0,
+      "category": "CSS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "web-seed-53",
+      "text": "What is the purpose of Express.js?",
+      "type": "multiple-choice",
+      "options": [
+        "Build web applications and APIs",
+        "Style components",
+        "Manage databases",
+        "Handle user authentication"
+      ],
+      "correctAnswer": 0,
+      "category": "Web Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-54",
+      "text": "Which method is used to create a new array by transforming each element?",
+      "type": "multiple-choice",
+      "options": [
+        "map()",
+        "filter()",
+        "reduce()",
+        "forEach()"
+      ],
+      "correctAnswer": 0,
+      "category": "Node.js",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-55",
+      "text": "How do you pass data from a parent to a child component in React?",
+      "type": "multiple-choice",
+      "options": [
+        "Using props",
+        "Using state",
+        "Using context",
+        "Using lifecycle methods"
+      ],
+      "correctAnswer": 0,
+      "category": "React",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "web-seed-56",
+      "text": "Which tag is used for the largest heading in HTML?",
+      "type": "multiple-choice",
+      "options": [
+        "<h1>",
+        "<head>",
+        "<header>",
+        "<h6>"
+      ],
+      "correctAnswer": 0,
+      "category": "Web Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-57",
+      "text": "How do you pass data from a parent to a child component in React?",
+      "type": "multiple-choice",
+      "options": [
+        "Using props",
+        "Using state",
+        "Using context",
+        "Using lifecycle methods"
+      ],
+      "correctAnswer": 0,
+      "category": "Node.js",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "web-seed-58",
+      "text": "What is the purpose of Express.js?",
+      "type": "multiple-choice",
+      "options": [
+        "Build web applications and APIs",
+        "Style components",
+        "Manage databases",
+        "Handle user authentication"
+      ],
+      "correctAnswer": 0,
+      "category": "HTML",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-59",
+      "text": "What does CSS specificity determine?",
+      "type": "multiple-choice",
+      "options": [
+        "Which style rules apply when multiple match",
+        "The loading order of stylesheets",
+        "The size of elements",
+        "How animations are triggered"
+      ],
+      "correctAnswer": 0,
+      "category": "Node.js",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "web-seed-60",
+      "text": "What is a CSS pseudo-class?",
+      "type": "multiple-choice",
+      "options": [
+        "A keyword added to selectors to specify a special state",
+        "A way to write comments",
+        "A media query",
+        "A JavaScript event handler"
+      ],
+      "correctAnswer": 0,
+      "category": "Node.js",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-61",
+      "text": "What is the purpose of the 'defer' attribute in a script tag?",
+      "type": "multiple-choice",
+      "options": [
+        "Delays script execution until HTML parsing is complete",
+        "Preloads the script without execution",
+        "Executes the script immediately",
+        "None of the above"
+      ],
+      "correctAnswer": 0,
+      "category": "React",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "web-seed-62",
+      "text": "How do you pass data from a parent to a child component in React?",
+      "type": "multiple-choice",
+      "options": [
+        "Using props",
+        "Using state",
+        "Using context",
+        "Using lifecycle methods"
+      ],
+      "correctAnswer": 0,
+      "category": "JavaScript",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "web-seed-63",
+      "text": "How do you create a link in HTML?",
+      "type": "multiple-choice",
+      "options": [
+        "<a href='url'>",
+        "<link url='url'>",
+        "<href='url'>",
+        "<anchor url='url'>"
+      ],
+      "correctAnswer": 0,
+      "category": "HTML",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "web-seed-64",
+      "text": "What is the output of 'typeof null' in JavaScript?",
+      "type": "multiple-choice",
+      "options": [
+        "'object'",
+        "'null'",
+        "'undefined'",
+        "'number'"
+      ],
+      "correctAnswer": 0,
+      "category": "CSS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "web-seed-65",
+      "text": "What does CSS specificity determine?",
+      "type": "multiple-choice",
+      "options": [
+        "Which style rules apply when multiple match",
+        "The loading order of stylesheets",
+        "The size of elements",
+        "How animations are triggered"
+      ],
+      "correctAnswer": 0,
+      "category": "Web Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-66",
+      "text": "What does CSS specificity determine?",
+      "type": "multiple-choice",
+      "options": [
+        "Which style rules apply when multiple match",
+        "The loading order of stylesheets",
+        "The size of elements",
+        "How animations are triggered"
+      ],
+      "correctAnswer": 0,
+      "category": "JavaScript",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-67",
+      "text": "Which tag is used for the largest heading in HTML?",
+      "type": "multiple-choice",
+      "options": [
+        "<h1>",
+        "<head>",
+        "<header>",
+        "<h6>"
+      ],
+      "correctAnswer": 0,
+      "category": "JavaScript",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-68",
+      "text": "How do you pass data from a parent to a child component in React?",
+      "type": "multiple-choice",
+      "options": [
+        "Using props",
+        "Using state",
+        "Using context",
+        "Using lifecycle methods"
+      ],
+      "correctAnswer": 0,
+      "category": "JavaScript",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "web-seed-69",
+      "text": "How do you create a link in HTML?",
+      "type": "multiple-choice",
+      "options": [
+        "<a href='url'>",
+        "<link url='url'>",
+        "<href='url'>",
+        "<anchor url='url'>"
+      ],
+      "correctAnswer": 0,
+      "category": "CSS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "web-seed-70",
+      "text": "How do you pass data from a parent to a child component in React?",
+      "type": "multiple-choice",
+      "options": [
+        "Using props",
+        "Using state",
+        "Using context",
+        "Using lifecycle methods"
+      ],
+      "correctAnswer": 0,
+      "category": "JavaScript",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "web-seed-71",
+      "text": "Which tag is used for the largest heading in HTML?",
+      "type": "multiple-choice",
+      "options": [
+        "<h1>",
+        "<head>",
+        "<header>",
+        "<h6>"
+      ],
+      "correctAnswer": 0,
+      "category": "React",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "web-seed-72",
+      "text": "Which tag is used for the largest heading in HTML?",
+      "type": "multiple-choice",
+      "options": [
+        "<h1>",
+        "<head>",
+        "<header>",
+        "<h6>"
+      ],
+      "correctAnswer": 0,
+      "category": "Web Development",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "web-seed-73",
+      "text": "What does CSS specificity determine?",
+      "type": "multiple-choice",
+      "options": [
+        "Which style rules apply when multiple match",
+        "The loading order of stylesheets",
+        "The size of elements",
+        "How animations are triggered"
+      ],
+      "correctAnswer": 0,
+      "category": "CSS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-74",
+      "text": "What does CSS specificity determine?",
+      "type": "multiple-choice",
+      "options": [
+        "Which style rules apply when multiple match",
+        "The loading order of stylesheets",
+        "The size of elements",
+        "How animations are triggered"
+      ],
+      "correctAnswer": 0,
+      "category": "HTML",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "web-seed-75",
+      "text": "What is the purpose of Express.js?",
+      "type": "multiple-choice",
+      "options": [
+        "Build web applications and APIs",
+        "Style components",
+        "Manage databases",
+        "Handle user authentication"
+      ],
+      "correctAnswer": 0,
+      "category": "HTML",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "web-seed-76",
+      "text": "How do you create a link in HTML?",
+      "type": "multiple-choice",
+      "options": [
+        "<a href='url'>",
+        "<link url='url'>",
+        "<href='url'>",
+        "<anchor url='url'>"
+      ],
+      "correctAnswer": 0,
+      "category": "Web Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-77",
+      "text": "What is the output of 'typeof null' in JavaScript?",
+      "type": "multiple-choice",
+      "options": [
+        "'object'",
+        "'null'",
+        "'undefined'",
+        "'number'"
+      ],
+      "correctAnswer": 0,
+      "category": "Node.js",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "web-seed-78",
+      "text": "What command initializes a new Node.js project?",
+      "type": "multiple-choice",
+      "options": [
+        "npm init",
+        "node start",
+        "npm install",
+        "node new"
+      ],
+      "correctAnswer": 0,
+      "category": "Node.js",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "web-seed-79",
+      "text": "What is a CSS pseudo-class?",
+      "type": "multiple-choice",
+      "options": [
+        "A keyword added to selectors to specify a special state",
+        "A way to write comments",
+        "A media query",
+        "A JavaScript event handler"
+      ],
+      "correctAnswer": 0,
+      "category": "Web Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-80",
+      "text": "Which tag is used for the largest heading in HTML?",
+      "type": "multiple-choice",
+      "options": [
+        "<h1>",
+        "<head>",
+        "<header>",
+        "<h6>"
+      ],
+      "correctAnswer": 0,
+      "category": "Web Development",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-81",
+      "text": "What is a CSS pseudo-class?",
+      "type": "multiple-choice",
+      "options": [
+        "A keyword added to selectors to specify a special state",
+        "A way to write comments",
+        "A media query",
+        "A JavaScript event handler"
+      ],
+      "correctAnswer": 0,
+      "category": "JavaScript",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "web-seed-82",
+      "text": "What is the output of 'typeof null' in JavaScript?",
+      "type": "multiple-choice",
+      "options": [
+        "'object'",
+        "'null'",
+        "'undefined'",
+        "'number'"
+      ],
+      "correctAnswer": 0,
+      "category": "JavaScript",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "web-seed-83",
+      "text": "What is the purpose of the 'defer' attribute in a script tag?",
+      "type": "multiple-choice",
+      "options": [
+        "Delays script execution until HTML parsing is complete",
+        "Preloads the script without execution",
+        "Executes the script immediately",
+        "None of the above"
+      ],
+      "correctAnswer": 0,
+      "category": "HTML",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "web-seed-84",
+      "text": "What does CSS specificity determine?",
+      "type": "multiple-choice",
+      "options": [
+        "Which style rules apply when multiple match",
+        "The loading order of stylesheets",
+        "The size of elements",
+        "How animations are triggered"
+      ],
+      "correctAnswer": 0,
+      "category": "JavaScript",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "web-seed-85",
+      "text": "How do you pass data from a parent to a child component in React?",
+      "type": "multiple-choice",
+      "options": [
+        "Using props",
+        "Using state",
+        "Using context",
+        "Using lifecycle methods"
+      ],
+      "correctAnswer": 0,
+      "category": "React",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-86",
+      "text": "What is a CSS pseudo-class?",
+      "type": "multiple-choice",
+      "options": [
+        "A keyword added to selectors to specify a special state",
+        "A way to write comments",
+        "A media query",
+        "A JavaScript event handler"
+      ],
+      "correctAnswer": 0,
+      "category": "HTML",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-87",
+      "text": "What is a CSS pseudo-class?",
+      "type": "multiple-choice",
+      "options": [
+        "A keyword added to selectors to specify a special state",
+        "A way to write comments",
+        "A media query",
+        "A JavaScript event handler"
+      ],
+      "correctAnswer": 0,
+      "category": "React",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "web-seed-88",
+      "text": "What does CSS specificity determine?",
+      "type": "multiple-choice",
+      "options": [
+        "Which style rules apply when multiple match",
+        "The loading order of stylesheets",
+        "The size of elements",
+        "How animations are triggered"
+      ],
+      "correctAnswer": 0,
+      "category": "CSS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "web-seed-89",
+      "text": "How do you create a link in HTML?",
+      "type": "multiple-choice",
+      "options": [
+        "<a href='url'>",
+        "<link url='url'>",
+        "<href='url'>",
+        "<anchor url='url'>"
+      ],
+      "correctAnswer": 0,
+      "category": "JavaScript",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-90",
+      "text": "How do you create a link in HTML?",
+      "type": "multiple-choice",
+      "options": [
+        "<a href='url'>",
+        "<link url='url'>",
+        "<href='url'>",
+        "<anchor url='url'>"
+      ],
+      "correctAnswer": 0,
+      "category": "CSS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "web-seed-91",
+      "text": "How do you create a link in HTML?",
+      "type": "multiple-choice",
+      "options": [
+        "<a href='url'>",
+        "<link url='url'>",
+        "<href='url'>",
+        "<anchor url='url'>"
+      ],
+      "correctAnswer": 0,
+      "category": "HTML",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "web-seed-92",
+      "text": "Which tag is used for the largest heading in HTML?",
+      "type": "multiple-choice",
+      "options": [
+        "<h1>",
+        "<head>",
+        "<header>",
+        "<h6>"
+      ],
+      "correctAnswer": 0,
+      "category": "Web Development",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "web-seed-93",
+      "text": "How do you create a link in HTML?",
+      "type": "multiple-choice",
+      "options": [
+        "<a href='url'>",
+        "<link url='url'>",
+        "<href='url'>",
+        "<anchor url='url'>"
+      ],
+      "correctAnswer": 0,
+      "category": "JavaScript",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "web-seed-94",
+      "text": "What is the purpose of the 'defer' attribute in a script tag?",
+      "type": "multiple-choice",
+      "options": [
+        "Delays script execution until HTML parsing is complete",
+        "Preloads the script without execution",
+        "Executes the script immediately",
+        "None of the above"
+      ],
+      "correctAnswer": 0,
+      "category": "CSS",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-95",
+      "text": "What is the purpose of the 'defer' attribute in a script tag?",
+      "type": "multiple-choice",
+      "options": [
+        "Delays script execution until HTML parsing is complete",
+        "Preloads the script without execution",
+        "Executes the script immediately",
+        "None of the above"
+      ],
+      "correctAnswer": 0,
+      "category": "Node.js",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "web-seed-96",
+      "text": "Which tag is used for the largest heading in HTML?",
+      "type": "multiple-choice",
+      "options": [
+        "<h1>",
+        "<head>",
+        "<header>",
+        "<h6>"
+      ],
+      "correctAnswer": 0,
+      "category": "CSS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "web-seed-97",
+      "text": "Which method is used to create a new array by transforming each element?",
+      "type": "multiple-choice",
+      "options": [
+        "map()",
+        "filter()",
+        "reduce()",
+        "forEach()"
+      ],
+      "correctAnswer": 0,
+      "category": "CSS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "web-seed-98",
+      "text": "What does CSS specificity determine?",
+      "type": "multiple-choice",
+      "options": [
+        "Which style rules apply when multiple match",
+        "The loading order of stylesheets",
+        "The size of elements",
+        "How animations are triggered"
+      ],
+      "correctAnswer": 0,
+      "category": "HTML",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "web-seed-99",
+      "text": "Which tag is used for the largest heading in HTML?",
+      "type": "multiple-choice",
+      "options": [
+        "<h1>",
+        "<head>",
+        "<header>",
+        "<h6>"
+      ],
+      "correctAnswer": 0,
+      "category": "CSS",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "web-seed-100",
+      "text": "How do you create a link in HTML?",
+      "type": "multiple-choice",
+      "options": [
+        "<a href='url'>",
+        "<link url='url'>",
+        "<href='url'>",
+        "<anchor url='url'>"
+      ],
+      "correctAnswer": 0,
+      "category": "React",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "web-seed-101",
+      "text": "What is the purpose of Express.js?",
+      "type": "multiple-choice",
+      "options": [
+        "Build web applications and APIs",
+        "Style components",
+        "Manage databases",
+        "Handle user authentication"
+      ],
+      "correctAnswer": 0,
+      "category": "CSS",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "web-seed-102",
+      "text": "Which tag is used for the largest heading in HTML?",
+      "type": "multiple-choice",
+      "options": [
+        "<h1>",
+        "<head>",
+        "<header>",
+        "<h6>"
+      ],
+      "correctAnswer": 0,
+      "category": "HTML",
+      "difficulty": "intermediate"
+    }
+  ]
+
