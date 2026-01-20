@@ -16,7 +16,10 @@ const firebaseConfig = {
 
 // Only log in development mode, without exposing sensitive data
 if (import.meta.env.DEV) {
-  console.log("Firebase initialized successfully");
+  console.log("🔥 Firebase initialized successfully");
+  console.log("📋 Project ID:", firebaseConfig.projectId);
+  console.log("🌐 Auth Domain:", firebaseConfig.authDomain);
+  console.log("✅ Firebase is ready for authentication");
 }
 
 // Initialize Firebase

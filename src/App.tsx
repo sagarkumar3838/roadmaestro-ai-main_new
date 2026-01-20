@@ -53,6 +53,7 @@ import JavaFullStack from "./pages/careers/JavaFullStack";
 import LearnHome from "./pages/LearnHome";
 import HTMLTutorial from "./pages/learn/HTMLTutorial";
 import JavaModulePage from "./pages/java/JavaModulePage";
+import AuthTest from "./pages/AuthTest";
 
 const queryClient = new QueryClient();
 
@@ -71,6 +72,7 @@ const App = () => (
               <Route path="/login" element={<Login />} />
               <Route path="/signup" element={<Signup />} />
               <Route path="/auth" element={<AuthPage />} />
+              <Route path="/auth-test" element={<AuthTest />} />
               
               {/* Protected Routes - Require Authentication */}
               <Route path="/home" element={<ProtectedRoute><LandingPage /></ProtectedRoute>} />

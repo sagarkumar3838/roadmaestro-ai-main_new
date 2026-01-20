@@ -1,15 +1,8 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useToast } from '@/hooks/use-toast';
 import { useNavigate, Link } from 'react-router-dom';
-import { auth, db } from '@/integrations/firebase/client';
-import {
-  signInWithEmailAndPassword,
-  createUserWithEmailAndPassword,
-  signInWithPopup,
-  GoogleAuthProvider,
-} from 'firebase/auth';
-import { doc, setDoc } from 'firebase/firestore';
-import { Brain, Sparkles, Mail, Lock, LogIn, Eye, EyeOff, Shield, CheckCircle, Star, Users, Award, Zap, Play, BookOpen, TrendingUp } from 'lucide-react';
+import { signInWithEmail, signInWithGoogle, checkFirebaseConnection } from '@/services/authService';
+import { Brain, Sparkles, Mail, Lock, LogIn, Eye, EyeOff, Shield, CheckCircle, Star, Users, Award, Zap, Play, BookOpen, TrendingUp, AlertCircle } from 'lucide-react';
 import { FloatingInput } from '@/components/ui/floating-input';
 import { AnimatedButton } from '@/components/ui/animated-button';
 import { ParticlesBackground } from '@/components/ui/particles-background';
@@ -23,15 +16,44 @@ export function LoginForm() {
   const [showPassword, setShowPassword] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [rememberMe, setRememberMe] = useState(false);
+  const [connectionStatus, setConnectionStatus] = useState<'checking' | 'connected' | 'error'>('checking');
   const { toast } = useToast();
   const navigate = useNavigate();
+
+  // Check Firebase connection on mount
+  useEffect(() => {
+    const checkConnection = async () => {
+      const isConnected = await checkFirebaseConnection();
+      setConnectionStatus(isConnected ? 'connected' : 'error');
+      
+      if (!isConnected) {
+        toast({
+          title: 'Connection Issue',
+          description: 'Unable to connect to authentication service. Please check your internet connection.',
+          variant: 'destructive',
+        });
+      }
+    };
+    
+    checkConnection();
+  }, [toast]);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
+    // Validation
+    if (!email || !email.includes('@')) {
+      toast({
+        title: 'Invalid Email',
+        description: 'Please enter a valid email address.',
+        variant: 'destructive',
+      });
+      return;
+    }
+
     if (password.length < 6) {
       toast({
-        title: 'Invalid password',
+        title: 'Invalid Password',
         description: 'Password must be at least 6 characters.',
         variant: 'destructive',
       });
@@ -41,43 +63,23 @@ export function LoginForm() {
     setIsLoading(true);
 
     try {
-      await signInWithEmailAndPassword(auth, email, password);
+      console.log('[LoginForm] Attempting sign-in with email:', email);
+      await signInWithEmail(email, password);
+      
       toast({
         title: 'Welcome back!',
         description: 'You are now signed in.',
       });
+      
       navigate('/profile');
     } catch (error: any) {
-      if (error.code === 'auth/user-not-found') {
-        try {
-          const userCredential = await createUserWithEmailAndPassword(auth, email, password);
-          const user = userCredential.user;
-
-          await setDoc(doc(db, 'profiles', user.uid), {
-            display_name: email.split('@')[0],
-            email: user.email,
-            created_at: new Date(),
-          });
-
-          toast({
-            title: 'Account created!',
-            description: 'Welcome! You can now explore the platform.',
-          });
-          navigate('/profile');
-        } catch (signupError: any) {
-          toast({
-            title: 'Authentication failed',
-            description: signupError.message,
-            variant: 'destructive',
-          });
-        }
-      } else {
-        toast({
-          title: 'Sign in failed',
-          description: error.message,
-          variant: 'destructive',
-        });
-      }
+      console.error('[LoginForm] Sign-in error:', error);
+      
+      toast({
+        title: 'Sign In Failed',
+        description: error.message || 'Unable to sign in. Please check your credentials.',
+        variant: 'destructive',
+      });
     } finally {
       setIsLoading(false);
     }
@@ -85,32 +87,23 @@ export function LoginForm() {
 
   const handleGoogleSignIn = async () => {
     setIsLoading(true);
-    const provider = new GoogleAuthProvider();
 
     try {
-      const result = await signInWithPopup(auth, provider);
-      const user = result.user;
-
-      await setDoc(
-        doc(db, 'profiles', user.uid),
-        {
-          display_name: user.displayName || user.email?.split('@')[0],
-          email: user.email,
-          photo_url: user.photoURL,
-          created_at: new Date(),
-        },
-        { merge: true }
-      );
-
+      console.log('[LoginForm] Attempting Google sign-in...');
+      await signInWithGoogle();
+      
       toast({
         title: 'Welcome!',
         description: 'You are now signed in with Google.',
       });
+      
       navigate('/profile');
     } catch (error: any) {
+      console.error('[LoginForm] Google sign-in error:', error);
+      
       toast({
-        title: 'Google sign in failed',
-        description: error.message,
+        title: 'Google Sign In Failed',
+        description: error.message || 'Unable to sign in with Google. Please try again.',
         variant: 'destructive',
       });
     } finally {
@@ -145,6 +138,14 @@ export function LoginForm() {
               
               {/* Header with Enhanced Animation */}
               <div className="text-center mb-8 relative z-10">
+                {/* Connection Status Indicator */}
+                {connectionStatus === 'error' && (
+                  <div className="mb-4 p-3 bg-red-500/10 border border-red-500/20 rounded-lg flex items-center gap-2 text-red-400">
+                    <AlertCircle className="w-5 h-5" />
+                    <span className="text-sm">Connection issue detected. Please check your internet.</span>
+                  </div>
+                )}
+                
                 <div className="flex justify-center mb-6">
                   <div className="relative group">
                     <div className="absolute -inset-2 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-pulse"></div>

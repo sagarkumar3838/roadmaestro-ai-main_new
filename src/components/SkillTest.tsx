@@ -10,6 +10,7 @@ import { updateUserProgression, didPassLevel, canTakeTestLevel } from '@/service
 import { useToast } from '@/hooks/use-toast';
 import { CheckCircle, XCircle, Clock, ArrowLeft, ArrowRight, Target } from 'lucide-react';
 import { useNavigate, useParams } from 'react-router-dom';
+import AITestEnhancer from '@/components/AITestEnhancer';
 
 interface SkillTestProps {
   skill?: Skill;
@@ -390,237 +391,33 @@ const SkillTest: React.FC<SkillTestProps> = ({ skill: propSkill, level: propLeve
 
   if (showResults) {
     return (
-      <div className="h-screen w-screen bg-gray-900 p-4 md:p-8 overflow-auto">
-        <div className="max-w-4xl mx-auto space-y-6">
-          {/* Results Header */}
-          <div className="text-center mb-8">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded-full text-sm font-medium mb-4">
-              <Target className="h-4 w-4" />
-              Test Complete
-            </div>
-            <h1 className="text-3xl font-bold text-white mb-2">
-              {getSkillName(skill)} Results
-            </h1>
-            <p className="text-gray-400">
-              {level.charAt(0).toUpperCase() + level.slice(1)} Level Assessment
-            </p>
-          </div>
-          {/* Results Card */}
-          <Card className="bg-gray-800 border-gray-700">
-            <CardHeader>
-              <CardTitle className="text-white text-2xl flex items-center gap-2">
-                <Target className="h-6 w-6" />
-                {getSkillName(skill)} - {level.charAt(0).toUpperCase() + level.slice(1)} Level
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="text-white space-y-4">
-              <div className="text-center">
-                <div className="text-6xl font-bold mb-2">
-                  {passed ? (
-                    <CheckCircle className="text-green-500 inline-block" />
-                  ) : (
-                    <XCircle className="text-red-500 inline-block" />
-                  )}
-                </div>
-                <div className="text-3xl font-bold mb-2">{score}/{questions.length}</div>
-                <div className="text-xl mb-4">{percentage}%</div>
-                <Badge className={passed ? 'bg-green-500' : 'bg-red-500'}>
-                  {passed ? 'PASSED' : 'NEEDS PRACTICE'}
-                </Badge>
-              </div>
-
-              {passed ? (
-                <div className="text-center text-green-400">
-                  <p className="text-lg">Congratulations! You've mastered this level.</p>
-                  <p className="text-sm opacity-75">Next level unlocked!</p>
-                </div>
-              ) : (
-                <div className="text-center text-yellow-400">
-                  <p className="text-lg">Keep practicing to unlock the next level.</p>
-                  {(() => {
-                    const isOGLContext = window.opener?.location.pathname.includes('/ogl-developer') || 
-                                        window.opener?.location.pathname.includes('/careers/ogl-developer') ||
-                                        document.referrer.includes('/ogl-developer') ||
-                                        document.referrer.includes('/careers/ogl-developer');
-                    return isOGLContext ? (
-                      <p className="text-sm opacity-75 mt-2">Review OGL courses and try again when ready.</p>
-                    ) : (
-                      <p className="text-sm opacity-75 mt-2">Study the course materials and try again when ready.</p>
-                    );
-                  })()}
-                </div>
-              )}
-
-              <div className="flex gap-4">
-                <Button 
-                  onClick={() => {
-                    if (onComplete) {
-                      onComplete();
-                    } else if (window.history.length <= 1) {
-                      // If opened in new tab, close it
-                      window.close();
-                    } else {
-                      // If navigated within same tab, go back
-                      navigate(-1);
-                    }
-                  }} 
-                  className="flex-1"
-                >
-                  {window.history.length <= 1 ? 'Close Tab' : 'Back to Overview'}
-                </Button>
-                {!passed && (
-                  <>
-                    <Button 
-                      onClick={() => {
-                        // Check if we're in OGL Developer context by looking at the referrer or opener
-                        const isOGLContext = window.opener?.location.pathname.includes('/ogl-developer') || 
-                                            window.opener?.location.pathname.includes('/careers/ogl-developer') ||
-                                            document.referrer.includes('/ogl-developer') ||
-                                            document.referrer.includes('/careers/ogl-developer');
-                        
-                        let courseUrl;
-                        if (isOGLContext) {
-                          // For OGL context, go back to OGL courses or evaluations
-                          courseUrl = '/careers/ogl-developer/courses';
-                        } else {
-                          // For general context, go to specific skill learning path
-                          courseUrl = `/learn/${skill}`;
-                        }
-                        
-                        if (window.history.length <= 1) {
-                          // If opened in new tab, open course in the original tab
-                          window.opener?.location.assign(courseUrl);
-                          window.close();
-                        } else {
-                          // If navigated within same tab, go to course
-                          navigate(courseUrl);
-                        }
-                      }} 
-                      variant="outline" 
-                      className="flex-1 bg-blue-600 hover:bg-blue-700 text-white border-blue-600"
-                    >
-                      {(() => {
-                        const isOGLContext = window.opener?.location.pathname.includes('/ogl-developer') || 
-                                            window.opener?.location.pathname.includes('/careers/ogl-developer') ||
-                                            document.referrer.includes('/ogl-developer') ||
-                                            document.referrer.includes('/careers/ogl-developer');
-                        return isOGLContext ? 'Go Back to OGL Courses' : `Go Back to ${getSkillName(skill)} Course`;
-                      })()}
-                    </Button>
-                    {(() => {
-                      const isOGLContext = window.opener?.location.pathname.includes('/ogl-developer') || 
-                                          window.opener?.location.pathname.includes('/careers/ogl-developer') ||
-                                          document.referrer.includes('/ogl-developer') ||
-                                          document.referrer.includes('/careers/ogl-developer');
-                      return isOGLContext ? (
-                        <Button 
-                          onClick={() => {
-                            const practiceUrl = '/careers/ogl-developer/evaluations';
-                            if (window.history.length <= 1) {
-                              window.opener?.location.assign(practiceUrl);
-                              window.close();
-                            } else {
-                              navigate(practiceUrl);
-                            }
-                          }} 
-                          variant="outline" 
-                          className="flex-1 bg-green-600 hover:bg-green-700 text-white border-green-600"
-                        >
-                          Practice More Skills
-                        </Button>
-                      ) : null;
-                    })()}
-                  </>
-                )}
-                <Button 
-                  onClick={() => {
-                    // Open dashboard in the original tab if this is a new tab
-                    if (window.history.length <= 1) {
-                      window.opener?.location.assign('/dashboard');
-                      window.close();
-                    } else {
-                      navigate('/dashboard');
-                    }
-                  }} 
-                  variant="outline" 
-                  className="flex-1"
-                >
-                  Dashboard
-                </Button>
-              </div>
-            </CardContent>
-          </Card>
-
-          {/* Question Review */}
-          <Card className="bg-gray-800 border-gray-700">
-            <CardHeader>
-              <CardTitle className="text-white">Question Review</CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-4">
-              {questions.map((question, index) => {
-                const userAnswer = selectedAnswers[index];
-                const isCorrect = userAnswer === question.correctAnswer;
-                const learningResources = getQuestionLearningResources(skill, question.text, question.topic);
-
-                return (
-                  <div key={question.id} className="p-4 rounded-lg bg-gray-700">
-                    <div className="flex items-start gap-3">
-                      {isCorrect ? (
-                        <CheckCircle className="h-5 w-5 text-green-500 mt-1" />
-                      ) : (
-                        <XCircle className="h-5 w-5 text-red-500 mt-1" />
-                      )}
-                      <div className="flex-1">
-                        <p className="text-white font-medium mb-2">
-                          {index + 1}. {question.text}
-                        </p>
-                        <p className="text-sm text-gray-300 mb-1">
-                          Your answer: {userAnswer !== undefined ? question.options?.[userAnswer as number] : 'Not answered'}
-                        </p>
-
-                        {/* Correct Answer */}
-                        {!isCorrect && (
-                          <p className="text-sm text-green-400 font-medium mt-2">
-                            ⭐ Correct answer: {question.options?.[question.correctAnswer as number]}
-                          </p>
-                        )}
-
-                        {/* Learning Resources */}
-                        {!isCorrect && learningResources && (
-                          <div className="mt-3 p-3 rounded bg-blue-900/30 border border-blue-700">
-                            <p className="text-sm text-blue-300 font-medium mb-2">🚀 Learn More:</p>
-                            <div className="flex flex-wrap gap-2">
-                              <a
-                                href={learningResources.mdnLink}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="inline-flex items-center gap-1 px-3 py-1 rounded-md bg-blue-600 text-white text-sm hover:bg-blue-700 transition-colors"
-                              >
-                                📖 MDN docs
-                              </a>
-                              <a
-                                href={learningResources.youtubeLink}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="inline-flex items-center gap-1 px-3 py-1 rounded-md bg-red-600 text-white text-sm hover:bg-red-700 transition-colors"
-                              >
-                                ▶️ Watch Video
-                              </a>
-                            </div>
-                            <p className="text-xs text-gray-400 mt-2">
-                              Topic: {learningResources.topic}
-                            </p>
-                          </div>
-                        )}
-                      </div>
-                    </div>
-                  </div>
-                );
-              })}
-            </CardContent>
-          </Card>
-        </div>
-      </div>
+      <AITestEnhancer
+        skill={skill}
+        difficulty={level as Difficulty}
+        score={score}
+        totalQuestions={questions.length}
+        questions={questions}
+        selectedAnswers={selectedAnswers}
+        onClose={() => {
+          if (onComplete) {
+            onComplete();
+          } else if (window.history.length <= 1) {
+            window.close();
+          } else {
+            navigate(-1);
+          }
+        }}
+        onRetakeTest={() => {
+          setShowResults(false);
+          setCurrentQuestion(0);
+          setSelectedAnswers({});
+          setScore(0);
+          setPassed(false);
+          setTestStarted(false);
+          setTimeLeft(600);
+        }}
+        showBasicResults={true}
+      />
     );
   }
 
